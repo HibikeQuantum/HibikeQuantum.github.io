@@ -77,80 +77,86 @@ google_site_verification : WM4Cf4MWn2rcvu8R_6g6K8oaU8diHxXJ4Pe7WYdHF2k
 bing_site_verification   : E658DBCD8D984F418C4EC21860420C04
 naver_site_verification  : 7c7fefe61fbbd784cae5b0ebc3f546eac6f29c39
 yandex_site_verification : e854726ef12f9165
-baidu_site_verification  :
-#<meta name="msvalidate.01" content="E658DBCD8D984F418C4EC21860420C04" />
+baidu_site_verification  : 
+
 # Social Sharing
 twitter:
-  username               :
+  username               : Hibike_Quantum
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+# https://www.facebook.com/taehoon.kang.1276
+  username               : taehoon.kang.1276
+  app_id                 : 569451237983821
+  publisher              : taehoon.kang.1276
+og_image                 : "assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg" # Open Graph/Twitter default site image # this is fallthrough
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : Person # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-W47VNYE9PH
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Hibike Quantum"
+  avatar           : "/Users/kth/Code/HibikeQuantum.github.io/assets/images/HibikeQuantum_selfie_500x500.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "강태훈. Devops, backend Dev"
+  location         : "Seoul, South Korea"
+  email            : "jadetypehoon@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "mailto:jadetypehoon@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/Hibike_Quantum"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/taehoon.kang.1276"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/HibikeQuantum/HibikeQuantum"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/kangtaehun_1213/"
+    - label: "Brunch"
+      icon: "fa fa-pencil-square-o"
+      url: "https://brunch.co.kr/@jadetypehoon/"
+    - label: "LinkedIn  "
+      icon: "fa fa-pencil-square-o"
+      url: "https://www.linkedin.com/in/kang-taehoon-35248884/"
 
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jadetypehoon@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/Hibike_Quantum"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://www.facebook.com/taehoon.kang.1276"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://github.com/HibikeQuantum/HibikeQuantum"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
-
+      url: "https://www.instagram.com/kangtaehun_1213/"
+    - label: "Brunch"
+      icon: "fa fa-pencil-square-o"
+      url: "https://brunch.co.kr/@jadetypehoon/"
+    - label: "LinkedIn  "
+      icon: "fa fa-pencil-square-o"
+      url: "https://www.linkedin.com/in/kang-taehoon-35248884/"
 
 # Reading Files
 include:
