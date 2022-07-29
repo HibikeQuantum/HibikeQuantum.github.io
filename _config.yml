@@ -18,19 +18,19 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-US"
 title                    : "Hibike! Quantum tech blog"
 title_separator          : "|"
-subtitle                 : "³ª´Â ¾çÀÚÃ³·³ »ì±â·Î Çß´Ù." # site tagline that appears below site title in masthead
+subtitle                 : "ë‚˜ëŠ” ì–‘ìì²˜ëŸ¼ ì‚´ê¸°ë¡œ í–ˆë‹¤." # site tagline that appears below site title in masthead
 name                     : "Your Name"
-description              : "¹é¿£µå °³¹ßÀÚ¿´´Ù°¡ Áö±İÀº µ¥ºê¿É½º. ÀåÀÎÀÇ »îÀ» Èñ¸Á. ¿£Áö´Ï¾î¸µÀÌµç »ç¾÷ÀÌµç »ç¹°ÀÇ °¡Ä¡¸¦ ¾Ë¾Æº¸´Â ¸ÚÁø »ç¶÷ÀÌ µÇ°í ½Í¾î¿ä."
+description              : "ë°±ì—”ë“œ ê°œë°œìì˜€ë‹¤ê°€ ì§€ê¸ˆì€ ë°ë¸Œì˜µìŠ¤. ì¥ì¸ì˜ ì‚¶ì„ í¬ë§. ì—”ì§€ë‹ˆì–´ë§ì´ë“  ì‚¬ì—…ì´ë“  ì‚¬ë¬¼ì˜ ê°€ì¹˜ë¥¼ ì•Œì•„ë³´ëŠ” ë©‹ì§„ ì‚¬ëŒì´ ë˜ê³  ì‹¶ì–´ìš”."
 url                      : https://hibikequantum.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hibikequantum.github.io"
 teaser                   : "assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/HibikeQauntumSymbol_88x88_version_waifu.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Hibike! Quantum tech blog _ masthead" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Hibike! Quantum tech blog" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus", "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : "hibikequantum-tech-blog" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -73,7 +73,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : WM4Cf4MWn2rcvu8R_6g6K8oaU8diHxXJ4Pe7WYdHF2k
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
