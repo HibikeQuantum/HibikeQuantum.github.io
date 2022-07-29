@@ -7,32 +7,32 @@
 
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "constrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minimal Mistakes"
-title_separator          : "-"
-subtitle                 : "A Jekyll theme"
-name                     : &name "Michael Rose" # &name is a YAML anchor which can be *referenced later
-description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
-url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
-repository               : "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+title                    : "Hibike! Quantum tech blog"
+title_separator          : "|"
+subtitle                 : "나는 양자처럼 살기로 했다."
+name                     : &name "Hibike Quantum" # &name is a YAML anchor which can be *referenced later
+description              : &description "백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요."
+url                      : https://hibikequantum.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "hibikequantum.github.io"
+teaser                   : "assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "assets/images/HibikeQauntumSymbol_88x88_version_waifu.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "masthead_title이 모야" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "false" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
+  provider               : "disqus", "facebook" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
   disqus:
-    shortname            :
+    shortname            : hibikequantum-tech-blog
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
+    appid                : 569451237983821
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
