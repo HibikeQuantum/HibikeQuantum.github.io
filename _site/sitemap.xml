@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/jekyll/update/welcome-to-jekyll/</loc>
+<loc>https://hibikequantum.github.io/jekyll/update/welcome-to-jekyll/</loc>
 <lastmod>2022-07-29T12:24:57+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
+<loc>https://hibikequantum.github.io/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://hibikequantum.github.io/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://hibikequantum.github.io/</loc>
 </url>
 </urlset>
