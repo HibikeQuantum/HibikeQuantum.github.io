@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: single
 title:  "about me"
-date:   2022-05-01 12:00:00 +0900
+date: 2022-05-01 12:00:00 +0900
 categories: about
 ---
 
