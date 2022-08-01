@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Hibike! Quantum tech blog"
 title_separator          : "|"
 subtitle                 : "나는 양자처럼 살기로 했다." # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Kang Taehun"
 description              : "백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요."
 url                      : https://hibikequantum.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -68,7 +68,7 @@ algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  powered_by             : false # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
@@ -106,10 +106,10 @@ analytics:
 # Site Author
 author:
   name             : "Hibike Quantum"
-  avatar           : "/Users/kth/Code/HibikeQuantum.github.io/assets/images/HibikeQuantum_selfie_500x500.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "강태훈. Devops, backend Dev"
+  avatar           : "/assets/images/HibikeQuantum_selfie_500x500.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "강태훈. Devops. Backend."
   location         : "Seoul, South Korea"
-  email            : "jadetypehoon@gmail.com"
+  # email            : "jadetypehoon@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -127,10 +127,10 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/kangtaehun_1213/"
     - label: "Brunch"
-      icon: "fa fa-pencil-square-o"
+      icon: "fa fa-pencil-square"
       url: "https://brunch.co.kr/@jadetypehoon/"
     - label: "LinkedIn  "
-      icon: "fa fa-pencil-square-o"
+      icon: "fa fa-pencil-square"
       url: "https://www.linkedin.com/in/kang-taehoon-35248884/"
 
 # Site Footer
@@ -152,10 +152,10 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/kangtaehun_1213/"
     - label: "Brunch"
-      icon: "fa fa-pencil-square-o"
+      icon: "fa fa-pencil-square"
       url: "https://brunch.co.kr/@jadetypehoon/"
     - label: "LinkedIn  "
-      icon: "fa fa-pencil-square-o"
+      icon: "fa fa-pencil-square"
       url: "https://www.linkedin.com/in/kang-taehoon-35248884/"
 
 # Reading Files
@@ -282,7 +282,7 @@ compress_html:
   ignore:
     envs: development
 
-
+# _posts와 _pages 불러오는 셋팅
 # Defaults
 defaults:
   # _posts

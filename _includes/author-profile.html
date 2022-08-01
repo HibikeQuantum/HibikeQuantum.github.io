@@ -119,6 +119,14 @@
           </a>
         </li>
       {% endif %}
+      
+      {% if author.brunch %}
+        <li>
+          <a href="https://brunch.co.kr/{{ author.brunch }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fa fa-pencil-square" aria-hidden="true"></i><span class="label">Brunch</span>
+          </a>
+        </li>
+      {% endif %}
 
       {% if author.github %}
         <li>
