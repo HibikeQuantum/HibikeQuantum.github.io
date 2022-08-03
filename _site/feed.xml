@@ -1,23 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2022-08-03T15:17:59+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>Hibike Quantum</name></author><entry><title type="html">2022.08.03 TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/2022.08.03-TIL-&-Diary/" rel="alternate" type="text/html" title="2022.08.03 TIL &amp;amp; Diary" /><published>2022-08-03T08:31:32+09:00</published><updated>2022-08-03T13:31:47+09:00</updated><id>https://hibikequantum.github.io/til/2022.08.03%20TIL%20&amp;%20Diary</id><content type="html" xml:base="https://hibikequantum.github.io/til/2022.08.03-TIL-&amp;-Diary/"><![CDATA[<h1 id="제목1">제목1</h1>
-<h2 id="제목2">제목2</h2>
-<h3 id="language">Language</h3>
-<h3 id="devops">Devops</h3>
-<h3 id="shell">Shell</h3>
-<h3 id="philosophy">Philosophy</h3>
-<h3 id="finance">Finance</h3>
-<h3 id="english">ENGLISH</h3>
-<h3 id="diary">Diary</h3>
-<h3 id="life">Life</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2022-08-04T00:40:24+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>Hibike Quantum</name></author><entry><title type="html">2022.08.03 TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/2022.08.03-TIL-&-Diary/" rel="alternate" type="text/html" title="2022.08.03 TIL &amp;amp; Diary" /><published>2022-08-03T23:55:31+09:00</published><updated>2022-08-03T23:55:35+09:00</updated><id>https://hibikequantum.github.io/til/2022.08.03%20TIL%20&amp;%20Diary</id><content type="html" xml:base="https://hibikequantum.github.io/til/2022.08.03-TIL-&amp;-Diary/"><![CDATA[<!-- <figure class="">
+  <img src="/assets/images/banner_template.jpg"
+       alt="this is a placeholder image"><figcaption>
+      This is a figure caption.
+
+    </figcaption></figure>
+
+![image-right](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png){:.align-center}
+저렇게 됩니다. 이렇게 됩니다. 저렇게 됩니다.
+{: .caption}
+
+[![styled-image](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png  "This is some hover text"){: .align-center style="width: 10%;"}](/assets/images/pixel_tracker_logo_80px.png "Title shown in gallery view")
+Some custom styled caption.
+{: .caption}
+
+짜라투스트라는 이렇게 말했다.[^1]
+
+Definition term 1
+: 저렇게 말했다.
+
+집중! 어텐션 플리즈
+{: .notice}
+그렇게 하면
+{: .notice--primary}
+안되요
+{: .notice--info}
+!!
+{: .notice--warning}
+@@
+{: .notice--danger}
+흑
+{: .notice--success}
+
+
+
+<div class="notice">
+<p><strong>Extended notice box</strong>:</p>
+<ul>
+  <li>맥락을 분리시키는 TIP, 또는 결론을 내릴때 쓰기좋은 패턴 <strong>야호!</strong></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;body&gt;</span>Some body. help me!<span class="nt">&lt;body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+</div>
+
+[Text](#link){: .btn .btn--primary} -->
+<h1 id="today-i-learned--diary">Today I learned &amp; Diary</h1>
+<h2 id="language">Language</h2>
+<p>jerky 셋팅하면서 이것저것 건들여봤다. 리액트 없이 자바스크립트와 마크다운을 이렇게 혼합해서 동적인 컨텐츠를 만들 수 있다는게 신기하다. 일단 빌드가 되고 나면 DOM은 순수한 상태이므로 CSS커스터마이징이나 자바스크립트로 컨트롤 할 수 있는 자유도도 높다. 요즘은 서버사이드 렌더링이 유행한다던데. 역시 정적 서비스가 짱이지</p>
+<h2 id="shell">Shell</h2>
+<p>표준출력으로 연결해도 되는 것과 xargs로 해야하는것 점차 편하게 구분되는것 같다. 예전에 비교할 수 없이 자신있게 명령어를 쓰고 있다. 표준입출력에 대한 이해는 일반 언어 배울때는 매번 똑같은 걸음이었던거 같은데. 맨날 수학책 1장만 공부하는 느낌. 배시로 하니까 맥이 뚫리는 기분이다.</p>
+<h2 id="english">ENGLISH</h2>
+<p>무직전생 24화 까지 다 봤다. 여성 주인공이 남자에 대한 존중심을 이렇게 적극적으로 보여주면서도 낮간지럽지 않은 작품은 처음인것 같다. 스스로를 검열하고 무시당하는 판국에도 존중받기를 갈망하는 요즘 남자들에게 위로를 주는 영리한 캐릭터 구조의 이야기라고 생각한다.</p>
+
+<p>왜 영리하냐? 심야애니의 pathetic한 냄새가 이 작품엔 없기 떄문이다. 루디스는 이기적인 두 파트너를 조율하는 리더로서의 역할을 묵묵히 해냈고 끝없이 자신을 발전시키며 에리스의 상황을 컨트롤 할 수 있음을 증명해낸다. 이것이 에리스가 루디스에게 보내는 존중과 사랑의 근거다.</p>
+
+<p>동시에 에리스는 남자를 존중하며 무능력하게 보호를 기대하는 애처로운 전통적 히로인(ex. 클라나드)이 아니라 남주인공를 돕기위해 스스로 발전하고자하며 자신의 비교적 단순한 머리로 남자에게 할 일을 많이 만들어준다.(너무 다능하면 나눌 일이 없다) 보통의 모에 애니메이션엔 이런게 없기 때문에 심야애니메이션은 pathetic한 오타쿠들의 문화라는 느낌을 언받는데 (그런 코드가 없으면 보통 오버그라운드 작품 즉 인싸픽이 된다.) 이 작품은 그런 느낌이 들지 않도록 캐릭터들의 권력역학을 잘 설정한것 같다. 다만 혐오스러운 캐릭터 설정 때문에 그렇게까지 유행을 할것 같진 않다. 그런 측면에서 보면 정말 건강한 맛의 에반게리온 같은 작품이었다.</p>
+<h2 id="life">Life</h2>
 <ul>
   <li>움직인 시간: 2hours</li>
   <li>습관 일기
     <ul>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
+      <li><a href="https://www.youtube.com/watch?v=qVmfzi7mtJE">해결돼야만 하는 둔촌 주공아파트 재건축 사태</a> 그놈의 소유권. 그냥 일괄적으로 소유권과 토지를 건설사에 전매한 다음 증권을 가지고 입주권과 추가수익을 나눠가지는 모델로 사업을 하면 안되나? 왜 자본주의를 민주주의와 결합해놓고 이런 말도 안되는게 작동될때까지 스스로 셀프 고문을 하는걸 생산방법이라고 주장하는걸까.</li>
+      <li><a href="https://www.youtube.com/watch?v=qLXJlHoSz8w"> 지구 온난화의 주범은 ‘인간’일까 ‘태양’일까? 과학적 팩트로 알아보는 기후 위기의 핵심</a> 나는 옛날부터 원자력 발전을 지지했는데 세상은 피를 봐야 정신을 차리나보다. 그런 점에서 누군가가 사람들이 올바른 패러다임을 예측하고 주장하더라도 다음 페이즈로 가기 위해선 다수가 기존의 틀린 패러다임을 끝까지 밀어붙여 버블을 붕괴시킬떄까지 잘못된 실행이 누적되어야 한다는 이야기가 떠오른다.</li>
     </ul>
   </li>
-  <li>생체배터리: % -&gt; 0%</li>
-</ul>]]></content><author><name>Hibike Quantum</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[리스트에서 보는 요약]]></summary></entry><entry><title type="html">2022.08.02 TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/2022.08.02-TIL-&-Diary/" rel="alternate" type="text/html" title="2022.08.02 TIL &amp;amp; Diary" /><published>2022-08-02T23:32:00+09:00</published><updated>2022-08-02T23:32:00+09:00</updated><id>https://hibikequantum.github.io/til/2022.08.02%20TIL%20&amp;%20Diary</id><content type="html" xml:base="https://hibikequantum.github.io/til/2022.08.02-TIL-&amp;-Diary/"><![CDATA[<h2 id="기술서적의-roi-리눅스-쉘-사전-완독-무직전생">기술서적의 ROI, 리눅스 쉘 사전 완독, 무직전생</h2>
+  <li>생체배터리: 40% -&gt; 30%</li>
+</ul>
+
+<!-- [^1]: Test 1의 내용입니다. -->]]></content><author><name>Hibike Quantum</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[jekyll, 정적사이트, xargs, 무직전생, 패러다임 시프트]]></summary></entry><entry><title type="html">2022.08.02 TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/2022.08.02-TIL-&-Diary/" rel="alternate" type="text/html" title="2022.08.02 TIL &amp;amp; Diary" /><published>2022-08-02T23:32:00+09:00</published><updated>2022-08-02T23:32:00+09:00</updated><id>https://hibikequantum.github.io/til/2022.08.02%20TIL%20&amp;%20Diary</id><content type="html" xml:base="https://hibikequantum.github.io/til/2022.08.02-TIL-&amp;-Diary/"><![CDATA[<h2 id="기술서적의-roi-리눅스-쉘-사전-완독-무직전생">기술서적의 ROI, 리눅스 쉘 사전 완독, 무직전생</h2>
 <h3 id="shell">Shell</h3>
 <p>조금씩 읽었던 『리눅스 쉘 스크립트 예제 사전』 오늘 끝까지 다 읽었다. 처음엔 너무 모른다고 생각하고 꼼꼼하게 읽었는데 실제로 어느정도 쓰고 다시 메모를 읽어볼 일을 만들고 하다보니 ROI가 나오려면 너무 자세히 읽는것은 도움이 안된다는 결론에 이르렀다. 그래서 핵심이 되는 부분만 읽고 그걸 말로 풀어서 기록해서 메모를 읽었을때 그렇게 있었지! 정도로만 상기할 수 있을 정도만 메모를 남겼다. 자세한 메모는 <img src="https://github.com/HibikeQuantum/PlayGround/commit/be2c3c56e141604874b9f6cf44e53e44726c3847" alt="오늘 메모장 커밋 링크" /> 앞으로 기술서적 읽을때 이 원칙을 모두 적용할 필요가 있을것 같다. <strong>대충 읽고 어디에 그 지식이 있는지만 적던가, 모두가 읽을 수 있는 정돈된 포맷으로 포스트를 쓰던가.</strong>
  주요 키워드: seq, id -nu, loop with read, time, vmstat, declare

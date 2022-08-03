@@ -249,7 +249,7 @@ last-modified-at:
   - date_format: '%F %a %H:%m 에 수정되었습니다.'
   # date_format: '%c'
   # date-format: '%Y. %B. %A. %d. %S. %R'
-date_format: '%F %a %H:%m default format'
+date_format: '%F %a %H:%m' # 기본값으로 쓰인다. single 밑에 데이트
 
 # Archives
 #  Type
