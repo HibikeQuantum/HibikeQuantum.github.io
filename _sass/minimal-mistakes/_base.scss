@@ -126,6 +126,9 @@ blockquote {
 /* links */
 
 a {
+  // HQ added 2022-08-03T14:36:36+09
+  text-decoration: none;
+
   &:focus {
     @extend %tab-focus;
   }

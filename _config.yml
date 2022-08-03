@@ -245,6 +245,11 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
+last-modified-at:
+  - date_format: '%F %a %H:%m 에 수정되었습니다.'
+  # date_format: '%c'
+  # date-format: '%Y. %B. %A. %d. %S. %R'
+date_format: '%F %a %H:%m default format'
 
 # Archives
 #  Type
@@ -263,16 +268,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
