@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "Hibike! Quantum tech blog"
 title_separator          : "|"
-subtitle                 : "나는 양자처럼 살기로 했다." # site tagline that appears below site title in masthead
+subtitle                 : # "나는 양자처럼 살기로 했다." # site tagline that appears below site title in masthead
 name                     : "Kang Taehun"
 description              : "백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요."
 url                      : https://hibikequantum.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "강태훈"
   avatar           : "/assets/images/HibikeQuantum_selfie_500x500.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "[@HibikeQuantum](https://twitter.com/Hibike_Quantum). **Devops-Backend ENG**  *장인의 삶을 희망.* *엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어서 삽니다.2*"
+  bio              : "[@HibikeQuantum](https://twitter.com/Hibike_Quantum). **Devops-Backend ENG**  *장인의 삶을 희망.* *엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어서 삽니다.*"
   location         : "Seoul, Republic of Korea"
   # email            : "jadetypehoon@gmail.com"
   useOnlyIcon: true
@@ -317,6 +317,6 @@ defaults:
       comments: # true
       share: true
       related: true
-      sticky: true
+      author_profile: true
       sidebar_main: true
       comments: true

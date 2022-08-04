@@ -1,19 +1,25 @@
 /* ==========================================================================
-   Dark skin
+   Dark skin. - customized by kth
    ========================================================================== */
 
 /* Colors */
-$background-color: #252a34 !default;
+// $background-color: #252a34 !default; // 기본
+// $background-color: #272a36 !default; // 드라큐라
+$background-color: #101D2A !default; // 패닉 배경
+
+// $primary-color: #00adb5 !default; 디폴트
+// $primary-color: #ff79c6 !default; 분홍
+$primary-color: #F9B537 !default; // 패닉 강조색
+
 $text-color: #eaeaea !default;
-$primary-color: #00adb5 !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
 $form-background-color: mix(#000, $background-color, 15%) !default;
 $footer-background-color: mix(#000, $background-color, 30%) !default;
-$link-color: mix($primary-color, $text-color, 40%) !default;
-$link-color-hover: mix(#fff, $link-color, 25%) !default;
-$link-color-visited: mix(#000, $link-color, 25%) !default;
+$link-color: mix($primary-color, $text-color, 90%) !default;
+$link-color-hover: mix(#fff, $link-color, 50%) !default;
+$link-color-visited: mix(rgb(187, 0, 255), $link-color, 15%) !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
@@ -28,3 +34,12 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 .ais-search-box .ais-search-box--input {
   background-color: $form-background-color;
 }
+
+// <!-- 스크롤바 커스터마이징 -->
+::-webkit-scrollbar{width: 16px;}
+::-webkit-scrollbar-track {background-color:#4b4f52; border-radius: 16px;}
+::-webkit-scrollbar-thumb {background-color:#5e6265; border-radius: 16px;}
+::-webkit-scrollbar-thumb:hover {background: #ffd24c;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment 
+{width:12px;height:12px;background:transparent;}  
+

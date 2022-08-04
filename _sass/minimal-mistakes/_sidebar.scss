@@ -28,7 +28,9 @@
     }
 
     &.sticky {
-      overflow-y: auto;
+      // 좌측 사이드바 고정시키기 (중요) 2022.08.04
+      position: relative;
+      // overflow-y: auto;
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */

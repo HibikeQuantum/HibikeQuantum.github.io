@@ -28,6 +28,9 @@ $times: Times, serif !default;
 $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
+$N2coding:"Nanum Gothic Coding", sans-serif !default;
+$cute: "Cafe24Oneprettynight" !default;
+$IBMserif: "IBM Plex Serif", serif !default;
 
 $global-font-family: $sans-serif !default;
 $header-font-family: $sans-serif !default;
@@ -111,6 +114,15 @@ $youtube-color: #bb0000 !default;
 $xing-color: #006567 !default;
 $brunch-color: #bebebe !default;
 
+/* my favorite colors */
+// $background-color: #252a34 !default; // 기본
+// $background-color: #272a36 !default; // 드라큐라
+$panic-bg-color: #101D2A !default; // 패닉 배경
+
+// $primary-color: #00adb5 !default; 디폴트
+// $primary-color: #ff79c6 !default; 분홍
+$panic-orange-color: #F9B537 !default; // 패닉 강조색
+
 /* links */
 $link-color: mix(#000, $info-color, 20%) !default;
 $link-color-hover: mix(#000, $link-color, 25%) !default;
@@ -156,9 +168,14 @@ $max-width: $x-large !default;
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+// $right-sidebar-width-narrow: 200px !default;
+// $right-sidebar-width: 300px !default;
+// $right-sidebar-width-wide: 400px !default;
+
+$right-sidebar-width-narrow: 100px !default;
+$right-sidebar-width: 200px !default;
+$right-sidebar-width-wide: 250px !default;
+
 
 /*
    Other

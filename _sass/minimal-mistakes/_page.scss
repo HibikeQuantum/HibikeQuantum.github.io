@@ -526,9 +526,9 @@ body {
 .page__related {
   @include clearfix();
   float: left;
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 1px solid $border-color;
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  // border-top: 1px solid $border-color;
 
   @include breakpoint($large) {
     float: right;
