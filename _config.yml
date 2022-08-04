@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -105,32 +105,33 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hibike Quantum"
+  name             : "강태훈"
   avatar           : "/assets/images/HibikeQuantum_selfie_500x500.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "강태훈. Devops. Backend."
-  location         : "Seoul, South Korea"
+  bio              : "[@HibikeQuantum](https://twitter.com/Hibike_Quantum). **Devops-Backend ENG**  *장인의 삶을 희망.* *엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어서 삽니다.2*"
+  location         : "Seoul, Republic of Korea"
   # email            : "jadetypehoon@gmail.com"
+  useOnlyIcon: true
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-envelope-square"
       url: "mailto:jadetypehoon@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github" 
+      url: "https://github.com/HibikeQuantum/HibikeQuantum"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/Hibike_Quantum"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/taehoon.kang.1276"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/HibikeQuantum/HibikeQuantum"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/kangtaehun_1213/"
     - label: "Brunch"
-      icon: "fa fa-pencil-square"
+      icon: "fas fa-solid fa-blog"
       url: "https://brunch.co.kr/@jadetypehoon/"
     - label: "LinkedIn"
-      icon: "fa fa-pencil-square"
+      icon: "fab fa-fw fa-linkedin  "
       url: "https://www.linkedin.com/in/kang-taehoon-35248884/"
 
 # Site Footer
@@ -151,12 +152,13 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/kangtaehun_1213/"
-    - label: "Brunch"
-      icon: "fa fa-pencil-square"
-      url: "https://brunch.co.kr/@jadetypehoon/"
-    - label: "LinkedIn  "
-      icon: "fa fa-pencil-square"
-      url: "https://www.linkedin.com/in/kang-taehoon-35248884/"
+
+    # - label: "Brunch"
+    #   icon: "fas fa-solid fa-blog"
+    #   url: "https://brunch.co.kr/@jadetypehoon/"
+    # - label: "LinkedIn"
+    #   icon: "fa-brands fa-linkedin"
+    #   url: "https://www.linkedin.com/in/kang-taehoon-35248884/"
 
 # Reading Files
 include:
@@ -261,6 +263,9 @@ date_format: '%F %a %H:%m' # 기본값으로 쓰인다. single 밑에 데이트
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
 category_archive:
   type: liquid
   path: /categories/

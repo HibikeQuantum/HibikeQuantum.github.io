@@ -10,6 +10,9 @@
           <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
         {% endif %}
       {% endfor %}
+      <!-- 버그가 있음. i class를 정확히 불러오지를 못함 직접 호출함. -->
+      <li><a href="https://brunch.co.kr/@jadetypehoon/" rel="nofollow noopener noreferrer"><i class="fas fa-solid fa-blog" aria-hidden="true"></i> Brunch</a></li>
+      <li><a href="https://www.linkedin.com/in/kang-taehoon-35248884/" rel="nofollow noopener noreferrer"><i class="fab brands fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
     {% endif %}
 
     {% unless site.atom_feed.hide %}

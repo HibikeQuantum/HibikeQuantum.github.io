@@ -22,6 +22,17 @@
     {% endif %}
   </div>
 
+  <div class="author__icon-wrapper">
+  <!-- bio 밑에 아이콘만 다는 부문 -->
+  {% if author.links and author.useOnlyIcon %}
+    {% for link in author.links %}
+      {% if link.label and link.url %}
+        <span class="profile-icon"><a href="{{ link.url }}" rel="noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a></span>
+      {% endif %}
+   {% endfor %}
+  {% endif %}
+  </div>
+
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
@@ -30,16 +41,18 @@
           <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">{{ author.location }}</span>
         </li>
       {% endif %}
-
-      {% if author.links %}
+      {% if author.links and author.useOnlyIcon == "false" %}
         {% for link in author.links %}
-          {% if link.label and link.url %}
-            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
+          {% if link.label and link.url and link.label != "Brunch"%}
+            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }} defailt-icon" aria-hidden="true"></i></a></li>
+          {% elsif link.label == "Brunch" %}
+            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %} class="brunch-icon"><i class="{{ link.icon }}" aria-hidden="true"></i></a></li>
           {% endif %}
         {% endfor %}
       {% endif %}
-
-      {% if author.uri %}
+      
+      
+      <!-- {% if author.uri %}
         <li>
           <a href="{{ author.uri }}" itemprop="url" rel="me">
             <i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</span>
@@ -247,7 +260,7 @@
             <i class="fab fa-fw fa-vine" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
           </a>
         </li>
-      {% endif %}
+      {% endif %} -->
 
       {% include author-profile-custom-links.html %}
     </ul>
