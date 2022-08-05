@@ -1,7 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2022-08-05T00:12:05+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/TIL-&-Diary7/" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-04T23:43:23+09:00</published><updated>2022-08-04T23:43:27+09:00</updated><id>https://hibikequantum.github.io/til/TIL%20&amp;%20Diary7</id><content type="html" xml:base="https://hibikequantum.github.io/til/TIL-&amp;-Diary7/"><![CDATA[<h1 id="today-i-learned--diary">Today I learned &amp; Diary</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2022-08-05T23:12:08+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/TIL-&-Diary8/" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-05T22:29:10+09:00</published><updated>2022-08-05T22:29:29+09:00</updated><id>https://hibikequantum.github.io/til/TIL%20&amp;%20Diary8</id><content type="html" xml:base="https://hibikequantum.github.io/til/TIL-&amp;-Diary8/"><![CDATA[<h1 id="today-i-learned--diary">Today I learned &amp; Diary</h1>
 <h2 id="language">Language</h2>
-<p>오늘도 Liquid Doc 보면서 블로그에 사용할 템플릿들 정리하고 지금 쓰는 테마를 정말 잘쓰시는 깃허브 블로그 참조해서 볼만하게 고쳐놨다. 색감은 Bear app - ‘Panic’과 Iterm app - ‘Dracula’를 참조했다. 오랜만에 CSS 고치는게 재밌어서 밥먹고 하루종일 책상에 앉아서 이것만했다. 살짝 후회되네. 이젠 그만하고 내일부턴 골고루 해야지
- 그것 말고도 오늘 ‘DALLE’ 서비스 사용허가? 나와서 사진을 찍어냈는데. 언어를 통해서 창조를 해내는 경험이 재미있었다. 하루만에 크레딧이 바닥이 났다. 😢</p>
+<p>Python 사이드 프로젝트 2단계 돌입. 사용성을 높힐 수 있는 옵션과 추가 될 기능들의 엔드포인트를 작성해서 머지. 메모에 있는 문자열 데이터를 분석할 오픈소스 한글 분석 패키지, 데이터의 변화를 인터렉티브한 SVG로 출력할 라이브러리로 bokeh를 채택했다.</p>
+<h3 id="shell">Shell</h3>
+<p>프로그램을 bash로 하느냐 파이선으로 짜느냐 고민이 많다. bash로 하는게 더 재밌긴한데 개인적으론 시간이 오래걸리니</p>
+<h3 id="philosophy">Philosophy</h3>
+<p>칼 폴라니. 거대한 전환 1일차 진행. 100년이 다 되어 가는 책이 생명력을 가지고 있다는걸 보면 세상의 이치는 시간이 흘러도 변하지 않는 다는점을 보여주는것 같아서 마음 한편으로 안심된다. 우리가 그 원리를 파악 할 수만 있다면, 영원히 파악할 수 없을 것만 같은 시장의 진화 속에서도 인간 존재를 유지하기 위한 조건들을 충족시킬 수 있을 것이기 때문이다. 한편으론 이 발문을 쓰는 사람들이 시장의 자기 조정에 대해 너무 비판적인게 뭔가 옛날에 좌파들을 생각나게 해서 조금은 반감이 들기도 한다.</p>
+<h3 id="finance">Finance</h3>
+<p>주말은 좀 공부를 해서 월요일에 리밸런스 해야지. 사실 벌써 퀀트를 해서 기계적으로 하겠다는 규칙은 스스로 깨트려버린지 오래다. 깬덕에 다행히 벌어서 다행이지만.. 앞으로 계속 이렇게 할 수 있을까. 내가 보는 시장은 너무 빠르게 변하는데 10년 단위로 지속되는 사이클에 맞춰 최적화된 퀀트의 규칙은 마음에 안든다. (그래서 퀀트들이 지난 7개월 동안 다 박살났다. 새로 보는 패턴이라) 무제한 양적완화 완화 같은 이상한 짓이나 그걸 또 긴축하겠다고 떠벌이는 이벤트, 대규모 정책경제 등의 이벤트에 대해 전혀 퀀트는 적응할 준비가 되어 있지 않다. 역사가 짧은 근본없는 ETF의 최적화란 느낌을 지울 수가 없다. 다만 그들이 만들어놓은 매매의 규칙은 시장이 예측 가능한 사이클로 돌아왔을땐 적용할만하다고 본다.</p>
+<h3 id="english">ENGLISH</h3>
+<p>to 전치사의 활용 방법에 대한 부분 진행 중</p>
+<h2 id="life">Life</h2>
+<ul>
+  <li>움직인 시간: 2 hours</li>
+  <li>습관일기
+    <ul>
+      <li><a href="임용한 박사가 알려주는 투자와 투기의 차이점">https://www.youtube.com/watch?v=zle48JlzQvs</a> ➡️ 전쟁사에서 보는 훌륭한 행동양식을 발굴하고 그걸 투자로 연결시켜보는 컨텐츠. 가장 치열한 인간 역사의 정점에 있는 전쟁에서 빗어지는 지혜를 보면 평소에 지혜를 발굴하려면 어떤 환경에 나를 놓는게 좋을까. 고민하게 된다.</li>
+      <li><a href="대부분의 남자들이 모르는 여자들의 역설">https://www.youtube.com/watch?v=6LkCXHHk_R0&amp;t=371s</a> ➡️ 성전략의 전제 때문에 스스로 자빠지는건 특정 성에 국한된 이야기가 아니란 이야기. <strong>확장하면 우리가 어떤 프레임으로 세상을 바라보고 그것이 동작할때 그것이 동작하는 이유로 인해 무너질때가 온다는 이야기다. 그래서 유연하게 가장 이해하기 쉬운 전략인 좌랑 우를 왔다갔다하고 더 나아가 균형을 설명할 수 있는 현상의 원리를 찾아내야하는 이유.</strong></li>
+    </ul>
+  </li>
+  <li>생체배터리: 50% -&gt; 25%: 직접 코딩을 하고 커밋 할때 너무 뿌듯하다. 하루가 활기찬 기분. 책 읽은 내용이나 메모를 정리한다거나 Glue작업 할 때와는 차원이 다르다.</li>
+</ul>
+
+<!-- [^1]: Test 1의 내용입니다. -->
+<!-- # header:
+#   overlay_image: "assets/images/banner_template.jpg" # 얘를 예쁘게 쓸일이 있으려나  
+#   overlay_filter: 0.3 # 투명도
+#   overlay_filter: rgba(205, 239, 154, 0.30) -->
+<!-- <figure class="">
+  <img src="/assets/images/banner_template.jpg"
+       alt="this is a placeholder image"><figcaption>
+      This is a figure caption.
+
+    </figcaption></figure>
+
+![image-right](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png){:.align-center}
+저렇게 됩니다. 이렇게 됩니다. 저렇게 됩니다.
+{: .caption}
+
+[![styled-image](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png  "This is some hover text"){: .align-center style="width: 10%;"}](/assets/images/pixel_tracker_logo_80px.png "Title shown in gallery view")
+Some custom styled caption.
+{: .caption}
+
+짜라투스트라는 이렇게 말했다.[^1]
+
+Definition term 1
+: 저렇게 말했다.
+
+집중! 어텐션 플리즈
+{: .notice}
+그렇게 하면
+{: .notice--primary}
+안되요
+{: .notice--info}
+!!
+{: .notice--warning}
+@@
+{: .notice--danger}
+흑
+{: .notice--success}
+
+
+
+<div class="notice">
+<p><strong>Extended notice box</strong>:</p>
+<ul>
+  <li>맥락을 분리시키는 TIP, 또는 결론을 내릴때 쓰기좋은 패턴 <strong>야호!</strong></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;body&gt;</span>Some body. help me!<span class="nt">&lt;body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+</div>
+
+[Text](#link){: .btn .btn--primary} -->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[사이드 프로젝트, 칼 폴라니, 원리, 퀀트, 전쟁사, 프레임]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/TIL-&-Diary7/" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-04T23:43:23+09:00</published><updated>2022-08-04T23:43:27+09:00</updated><id>https://hibikequantum.github.io/til/TIL%20&amp;%20Diary7</id><content type="html" xml:base="https://hibikequantum.github.io/til/TIL-&amp;-Diary7/"><![CDATA[<h1 id="today-i-learned--diary">Today I learned &amp; Diary</h1>
+<h2 id="language">Language</h2>
+<p>오늘도 Liquid 공식 DOC 보면서 블로그에 사용할 템플릿들 정리했다. 그리고 지금 테마를 정말 잘쓰시는 깃허브 블로그 참조해서 볼만하게 고쳐놨다. 색감은 Bear app - ‘Panic’과 Iterm app - ‘Dracula’를 참조했다. 오랜만에 CSS 고치는게 재밌어서 밥먹고 하루종일 책상에 앉아서 이것만했다. (살짝 후회되네)</p>
+
+<p>그것 말고도 오늘 ‘DALLE’ 서비스 사용허가? 나와서 사진을 찍어냈는데. 언어를 통해서 창조를 해내는 경험이 재미있었다. 그런데 하루만에 크레딧이 바닥이 났다. 😢</p>
 
 <blockquote class="twitter-tweet"><p lang="ko" dir="ltr">DALLE 한테 처음으로 짤을 선물받았다. 예쁘다.. <a href="https://t.co/5UXzbnrVnt">pic.twitter.com/5UXzbnrVnt</a></p>&mdash; Hibike_Quantum (@Hibike_Quantum) <a href="https://twitter.com/Hibike_Quantum/status/1555198494285402112?ref_src=twsrc%5Etfw">August 4, 2022</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -12,10 +88,13 @@
   <li>습관일기
     <ul>
       <li><a href="https://www.youtube.com/watch?v=qSJMwlSrV7U">인생의 주도권을 상실한 경우</a></li>
-      <li><a href="https://www.youtube.com/watch?v=yE9L3bYA36s">카산드라 신드롬과 에코이스트에 대하여.</a> 
-두 영상다 인생을 살면서 공격을 할때와 방어를 하는 방법에 대한 이야기다. 영리하게 이걸 해내지 못하면 아무리 뛰어나도 인정받지도 스스로 만족할 수도 없다.</li>
+      <li><a href="https://www.youtube.com/watch?v=yE9L3bYA36s">카산드라 신드롬과 에코이스트에 대하여.</a></li>
     </ul>
   </li>
+</ul>
+
+<p>두 영상다 인생을 살면서 공격을 할때와 방어를 하는 방법에 대한 이야기다. 영리하게 이걸 해내지 못하면 아무리 뛰어나도 인정받지도 스스로 만족할 수도 없다. be smart~!</p>
+<ul>
   <li>생체배터리: 40% -&gt; 10%</li>
 </ul>
 
@@ -71,7 +150,7 @@ Definition term 1
 </code></pre></div></div>
 </div>
 
-[Text](#link){: .btn .btn--primary} -->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[Today I learned &amp; Diary Language 오늘도 Liquid Doc 보면서 블로그에 사용할 템플릿들 정리하고 지금 쓰는 테마를 정말 잘쓰시는 깃허브 블로그 참조해서 볼만하게 고쳐놨다. 색감은 Bear app - ‘Panic’과 Iterm app - ‘Dracula’를 참조했다. 오랜만에 CSS 고치는게 재밌어서 밥먹고 하루종일 책상에 앉아서 이것만했다. 살짝 후회되네. 이젠 그만하고 내일부턴 골고루 해야지 그것 말고도 오늘 ‘DALLE’ 서비스 사용허가? 나와서 사진을 찍어냈는데. 언어를 통해서 창조를 해내는 경험이 재미있었다. 하루만에 크레딧이 바닥이 났다. 😢]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/TIL-&-Diary6/" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-03T23:55:31+09:00</published><updated>2022-08-03T23:55:35+09:00</updated><id>https://hibikequantum.github.io/til/TIL%20&amp;%20Diary6</id><content type="html" xml:base="https://hibikequantum.github.io/til/TIL-&amp;-Diary6/"><![CDATA[<!-- <figure class="">
+[Text](#link){: .btn .btn--primary} -->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[Today I learned &amp; Diary Language 오늘도 Liquid 공식 DOC 보면서 블로그에 사용할 템플릿들 정리했다. 그리고 지금 테마를 정말 잘쓰시는 깃허브 블로그 참조해서 볼만하게 고쳐놨다. 색감은 Bear app - ‘Panic’과 Iterm app - ‘Dracula’를 참조했다. 오랜만에 CSS 고치는게 재밌어서 밥먹고 하루종일 책상에 앉아서 이것만했다. (살짝 후회되네)]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/TIL-&-Diary6/" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-03T23:55:31+09:00</published><updated>2022-08-03T23:55:35+09:00</updated><id>https://hibikequantum.github.io/til/TIL%20&amp;%20Diary6</id><content type="html" xml:base="https://hibikequantum.github.io/til/TIL-&amp;-Diary6/"><![CDATA[<!-- <figure class="">
   <img src="/assets/images/banner_template.jpg"
        alt="this is a placeholder image"><figcaption>
       This is a figure caption.
