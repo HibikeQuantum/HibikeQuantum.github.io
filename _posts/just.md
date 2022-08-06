@@ -4,11 +4,6 @@ category: TIL
 tags: [TIL,DAIRY]
 author_profile: true
 
-# header:
-#   overlay_image: "assets/images/banner_template.jpg" # 얘를 예쁘게 쓸일이 있으려나  
-#   overlay_filter: 0.3 # 투명도
-#   overlay_filter: rgba(205, 239, 154, 0.30)
-
 # toc: true
 toc_label: "table of content" # toc 이름 설정 없으면 자동설정
 toc_icon: "bars" # 아이콘 설정
@@ -38,7 +33,17 @@ summary: !!!
 - 생체배터리: % -> 0%
 - [일일메모장 커밋]()
 
-<!-- {% include figure image_path="assets/images/banner_template.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
+
+
+# header:
+#   overlay_image: "assets/images/banner_template.jpg" # 얘를 예쁘게 쓸일이 있으려나  
+#   overlay_filter: 0.3 # 투명도
+#   overlay_filter: rgba(205, 239, 154, 0.30)
+
+
+<!-- 
+
+{% include figure image_path="assets/images/banner_template.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
 ![image-right](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png){:.align-center}
 저렇게 됩니다. 이렇게 됩니다. 저렇게 됩니다.
 {: .caption}
@@ -78,5 +83,7 @@ Definition term 1
 
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
-[Text](#link){: .btn .btn--primary} -->
-<!-- [^1]: Test 1의 내용입니다. -->
+[Text](#link){: .btn .btn--primary}
+ -->
+ 
+<!-- [^1]: Test 1의 내용입니다. 푸터라인 주석-->
