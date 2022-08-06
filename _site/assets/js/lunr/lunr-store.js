@@ -52,4 +52,10 @@ var store = [{
         "tags": ["TIL","DAIRY"],
         "url": "/til/TIL-&-Diary8/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
+        "title": "TIL & Diary",
+        "excerpt":"Today I learned &amp; Diary  Philosophy  거대한 전환, 서문이 도대체 몇 개나 되는건지 오늘도 서문만 읽다가 끝났다. 저자의 경제를 민주주의에 복속시키려는 원대한 플랜을 스웨덴이 실현시켰다는 이야기를 보고 스웨덴 경제에 대해 찾아봤는데 나름 잘해나가고 있는 국가처럼 보인다. 경제신문에서 스웨덴을 자원이 풍부한 나라로 포함시켜서 뭔가 있는줄 알았는데 원유생산량도 별 의미 없어보이고 불모지가 넓어 경작지가 넓은 나라도 아니었다. 임업과 철광에서 기반한 제조업이 자원에 기댄 산업들이었다. 폴라니가 꿈꿨던 모델이 정말 잘 동작할 수 있는지 책을 읽어보면 대충 알 수 있을것 같다. 지금 시점에서 추정하건데 그의 논지는 아마도 세계를 단 하나의 경제적 프레임에 복속시키려는 세계화에 반대하고 각 사회 제도에 있는 특수성을 잘 녹여내는 의사결정 체계를 만들어 내는것인듯하다. 다행인지 불행인지 세계화는 벌써 하루가 다르게 후퇴중이다.  Finance  리튬 선물 투자가 어떨까 알아보는 중. 공급과 소비, 가격을 둘러싼 요인들에 대한 장기적 이해를 충분히 한다면 선물도 괜찮을것 같다. 주식은 정부의 조정이나 이벤트 등 너무 공부할게 많다.  ENGLISH  원형부정사 진행. 외국어 학습에 대한 이론들도 책 중간에 있는데 재밌다. 모든 학습에 적용시킬만한 이론들임. Comprehensible Input, Interactional modification  Diary  여의도의사당, 더현대, IFC몰 여행을 다녀왔다. 원래는 저녁까지 계속 돌아다닐려고 했는데 생각보다 너무 지루해서 금방 집에 왔다. 진짜 여행 재미없다. 빨리 집에와서 독서나 코딩이나 하는게 더 재밌을것 같다는 생각이 불쑥불쑥드는게. 난 정말 자본주의가 제시하는 물질적 환상에 너무 관심이 없는것 같다. 이래서 투자를 어떻게 관찰력있게 할 수 있을런지.. 아무래도 상품을 다루는 회사는 하면 안될것같다. 그나마 관심을 가지고 지켜보는건 데이터, 농업 산업일까.  Life     움직인 시간: 6hr   습관 일기            770. 나라면 이런거 사겠다 - 동적자산배분(2022.8)       일본 와 문화가 만들어낸 일본의 노포들           생체배터리: 60% -&gt; 20%        일일 메모장 커밋 &lt;!–  &lt;figcaption&gt;     This is a figure caption.       &lt;/figcaption&gt;&lt;/figure&gt;        저렇게 됩니다. 이렇게 됩니다. 저렇게 됩니다.    Some custom styled caption.   짜라투스트라는 이렇게 말했다.[^1]      Definition term 1   저렇게 말했다.   집중! 어텐션 플리즈  그렇게 하면  안되요  !!  @@  흑    Extended notice box:     맥락을 분리시키는 TIP, 또는 결론을 내릴때 쓰기좋은 패턴 야호!   &lt;html&gt;   &lt;body&gt;Some body. help me!&lt;body&gt; &lt;/html&gt;    Text –&gt;   ","categories": ["TIL"],
+        "tags": ["TIL","DAIRY"],
+        "url": "/til/TIL-&-Diary9/",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       }]
