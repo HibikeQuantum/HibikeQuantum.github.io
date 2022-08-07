@@ -2,6 +2,9 @@
 layout:	single
 title:	"2019년 8월 28일 TIL"
 date:	2019-08-28
+category: TIL
+tags: [TIL, Diary]
+excerpt: 
 ---
 
   #Code

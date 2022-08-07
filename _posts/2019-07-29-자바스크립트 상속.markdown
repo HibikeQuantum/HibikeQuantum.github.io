@@ -2,10 +2,10 @@
 layout:	single
 title:	"자바스크립트 상속"
 date:	2019-07-29
-last_modified_at: 2022-08-07T22:01:46+09
+last_modified_at: 2019-07-29
 category: javascript
 tags: [javascript, language, inheritance]
-excerpt: 
+excerpt: ES5 style inheritance 자바스크립트가 원래 OOP가 아닌만큼 상속을 구현하는게 상당히 상스럽다.
 ---
   
 ![](/img/1*EtN-yZX5QHA7auFWRwKzLw.jpeg)

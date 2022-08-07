@@ -2,7 +2,7 @@
 layout:	single
 title:	"Stack, Queue, Linked List"
 date:	2019-07-24
-last_modified_at: 2022-08-07T21:56:13+09
+last_modified_at: 2019-07-24
 category: DataStructure
 tags: [data,Algorithm]
 excerpt: Stack, Quque, LinkedList

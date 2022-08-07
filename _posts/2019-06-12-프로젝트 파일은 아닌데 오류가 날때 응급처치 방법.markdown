@@ -8,7 +8,7 @@ category: React
 tags: [React, Debug, javascript]
 
 date: 2019-06-12
-last_modified_at: 2022-08-07T16:25:35+09
+last_modified_at: 2019-06-12
 excerpt: 코드에 문제가 없다고 생각되면 yarn upgradenpm, npm update --save로 해결
 ---
 React 프로젝트 클론하고 실행만 했는데 오류가 발생했다.

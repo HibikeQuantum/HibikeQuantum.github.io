@@ -20,7 +20,8 @@
         "_sass/minimal-mistakes/skins/_dirt.scss": true,
         "_sass/minimal-mistakes/skins/_mint.scss": true,
         "_sass/minimal-mistakes/skins/_plum.scss": true,
-        "_sass/minimal-mistakes/skins/_sunrise.scss": true
+        "_sass/minimal-mistakes/skins/_sunrise.scss": true,
+        "_site": true
     },
     "files.include": {
 
@@ -33,6 +34,7 @@
         "_sass/minimal-mistakes/skins/_dirt.scss",
         "_sass/minimal-mistakes/skins/_mint.scss",
         "_sass/minimal-mistakes/skins/_plum.scss",
-        "_sass/minimal-mistakes/skins/_sunrise.scss"
+        "_sass/minimal-mistakes/skins/_sunrise.scss",
+        "_site"
     ]
 }
