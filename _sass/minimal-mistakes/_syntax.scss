@@ -5,6 +5,7 @@
 div.highlighter-rouge,
 figure.highlight {
   position: relative;
+  margin-top: 1em;
   margin-bottom: 1em;
   background: $base00;
   color: $base05;
@@ -54,6 +55,12 @@ figure.highlight {
 
 .highlight pre {
   width: 100%;
+}
+
+// 코드 바깥 테두리 꾸미기
+.highlighter-rouge {
+  border: 2px solid $brightPink;
+  margin: 0em 2em 0em 2em;
 }
 
 .highlight .hll {

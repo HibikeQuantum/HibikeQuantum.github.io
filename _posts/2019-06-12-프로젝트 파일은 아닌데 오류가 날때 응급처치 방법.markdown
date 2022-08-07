@@ -1,0 +1,36 @@
+---
+layout:	single
+title:	"프로젝트 파일은 아닌데 오류가 날때 응급처치 방법"
+
+# toc: true
+# toc_label:
+category: React
+tags: [React, Debug]
+
+date: 2019-05-22
+last_modified_at: 2019-05-22
+excerpt: 
+---
+
+## React의 프로젝트 파일은 아닌데 오류가 날때 응급처치 방법
+
+```ruby
+TypeError: Cannot read property 'bool' of undefinedevalnode\_modules/babel-loader/lib/index.js??ref--6-oneOf-2!/Users/mac/WebstormProjects/Twit/client/node\_modules/react-inlinesvg/lib/index.js:371 368 | }(\_react2.default.Component); 369 | 370 | InlineSVG.propTypes = {> 371 | cacheGetRequests: \_react2.default.PropTypes.bool, 372 | children: \_react2.default.PropTypes.node, 373 | className: \_react2.default.PropTypes.string, 374 | onError: \_react2.default.PropTypes.func
+```
+
+React 프로젝트 클론하고 그냥 실행만 했는데 오류가 발생. 기본적인 오류도 안잡은 상태에서 커밋을 했을리는 없다고 가정. 실행시 컴파일 에러는 없는데 페이지 요청을 했을땐 오류가 나고 있다. 디버깅 모드에서 봐도 별게 없다. ROOT 엘리먼트에 렌더를 요청하고 패키지를 읽다가 callpsed
+
+ReactDOM.render(<*App */>, document.getElementById('root'));
+
+
+![](/img/1*QxbimjGplkXk2aMl3s6vtg.png){:.align-center}
+{: .caption}
+
+그럼 패키지에 문제가 있겠거니 싶어서 뒤져보다가 패키지를 한번 다 최신버전으로 해볼까? 하는 마음에
+
+> yarn upgradenpm 은 아래의 방법으로 패키지를 최신 버전 갱신
+
+
+> npm update — save이걸로 해결됬다. 아마 파일이 업로드된 당시의 json.package 와 현재 개발환경의 react 16.8.0 이 호환상태가 좋지는 않았던 모양이다.
+
+  

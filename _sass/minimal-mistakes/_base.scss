@@ -166,6 +166,7 @@ kbd,
 samp,
 pre {
   font-family: $monospace;
+  white-space : pre-wrap !important;
 }
 
 pre {
@@ -279,6 +280,15 @@ figcaption {
   padding: 1.5em;
 }
 
+p {
+  img {
+    // color: $base03; // default
+    color: $base0g;
+    text-align: center; 
+    font-size:0.3em;
+    padding: 3.5em;
+  }  
+}
 /* Fix IE9 SVG bug */
 
 svg:not(:root) {

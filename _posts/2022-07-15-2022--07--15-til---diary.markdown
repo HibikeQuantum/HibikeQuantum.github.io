@@ -1,0 +1,30 @@
+---
+layout:	single
+title:	"2022. 07. 15 TIL & Diary"
+date:	2022-07-15
+---
+
+  #### AWS IAM Best Practice, Network Security, 내부질서 5단계
+
+#### **Devops**
+
+첫째, AWS IAM 보안 관련하여 베스트 프랙티스 내용을 진행하였다. 주요키워드는 root, inline policy, IMDSv2, ttl token, 보안 로직 자동화(with lambda), IRSA (k8s에서 파드가 노드의 권한을 통째로 assume 하지 않도록 처리), EC2를 둘러싼 네트워크 설계, ec2-user 외 원하는 계정의 생성, System Manager(Session Manager), ssh 할때 pem을 호출 하지 않고 aws-cli가 세션매니저를 호출하여 접속하는 방법을 통해 사용자의 경험 개선, EC2 백업 방법 (EBS를 통해, AMI를 만드는 방법을 통해 ), AWS backup, AWS Golden Iamge라는 컨셉과 pakcer로 이를 만드는 절차, Codebuild 임지를 만드는 절차, EC2 inspector v2의 스캔과 작동 수준차이  
+ 둘째, 네트워크 관련 서비스들을 보안의 관점에서 다시 복습하고 활용방법을 진행하였다. 주요키워드는 Routing Table의 subnet Association 기능, NAT, Middlebx routing을 활용해 firewall로 플로우를 흘렸다가 dest로 보내기 (반대로 security appliance 노드를 통해서 인터넷으로 내보내기), VPC IPEM, Security Group의 특성 (soft-limit, ENI단위로 설정, chaning-prefixList), SG와는 다른 NACL의 동작특성 그리고 이를 활용한 3TIER Architect, 엔드포인트를 굳이 쓰는 이유, 프라이빗링크 엔드포인트, 컨슈머 엔드포인트(Private Link endpoint, GW endpoint, GWLB endpoint), 프로듀서 엔드포인트, GWLB 엔드포인트가 하는일 (방화벽으로 가는 패킷을 중간에 컨트롤하여 부하 분산, VPC Endpoint service 등록기능)  
+ 오늘 별로 한게 없는거 같은데 생각보다 내용을 많이 진행했다. 안토해내고 잘 소화가 될런지. 결국 아침부터 밤까지 이것만 한건가
+
+#### **Philosophy**
+
+내부 질서 5단계 부분만 다 읽었다. 영원할것 같은 질서도 결국은 끝나는 순간이 온다니 놀라운 일이다. 우리 모두는 멈춰버린것 같은 역사의 산증인이다.
+
+#### **Life**
+
+* 움직인 시간: 2.5 hr. 격일로 운동을 하고 있는데 1시간은 무산소, 30분은 자전거 인터벌을하는 중. 무아지경에 빠질정도로 열심히 하는거 오랜만에 하니까 재밌다. 무릎에 통증만 없기를 기도하면서 사는 중. 기계가 이상한건지 조금만(?) 열심히 하니까 최대 심박수(182)에 도달한다. 실제 자전거 타면서는 그렇게까지 올리기가 쉽지가 않던데 아무래도 의자에 등을 대고 쥐어짜듯이 움직이기가 용이해서 그런걸까
+* 습관 일기: Youtube
+[앤드류 테이트라는 전 킥복싱 선수 및 사업가의 영상](https://www.youtube.com/watch?v=4wHGEOaGwKM)
+
+[환율방어선이 무너졌습니다](https://www.youtube.com/watch?v=Xny1FnMjH3g "환율방어선이 무너졌습니다")
+
+[드릴헤드 비트 고정방법](https://www.youtube.com/watch?v=YYnC6G8g-p4)
+
+* 생체배터리: 50% → 10%
+  

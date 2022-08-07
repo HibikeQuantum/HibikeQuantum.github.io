@@ -1,0 +1,28 @@
+---
+layout:	single
+title:	"CRA .env 지정해서 쓰는법(env-cmd)"
+date:	2019-10-23
+---
+
+  ![](/img/1*fKvhRwG9jPeZNvemJNjIqw.png)* .env 파일은 버전별로 다른 환경변수를 지원하기 위해서 Create React App(이하CRA)가 읽어오는 파일이다.
+* npm start 명령어 시행시 시스템 변수를 읽어와서 프로젝트 내의 .env.[$NODE\_ENV]을 적용한다.   
+(현재 내 개발환경에선 $NODE\_ENV 에 development가 설정되어 있다.)
+* 그리고 build를 할때는 그것 대신 .env.production 파일을 읽어 빌드를 진행한다.
+* 이걸 임의로 컨트롤할 필요가 있을때를 위한 방법을 이글에서 소개하고자 한다. 나의 경우엔 test 버전을 빌드하기 위함이다.
+1. Install ‘env-cmd’ for set several environment in ‘Create React App’
+yarn add env-cmd2. Add root DIR ‘.test.env’
+
+// .test.env  
+REACT\_APP\_MODE="test"3. Set build option at ‘package.json’, This way NODE\_ENV should assigned ‘.test.env’
+
+// package.json  
+scripts: {  
+ "start": "react-scripts start",  
+ "build": "react-scripts build",  
+ "build:test": "env-cmd -f .env.test react-scripts build",  
+}4. Build and verify the way you set
+
+yarn build:test  
+yarn run v1.16.0  
+$ env-cmd -f .env.test react-scripts build  
+Creating an optimized production build...![](/img/1*KqaTMMMgYZJHlVi9QNs1mA.png)hosting client console.log  
