@@ -13,7 +13,8 @@ body {
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: calc(1ex / 0.32);
+  // line-height: 1.5;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -27,8 +28,9 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 2em 0 0.5em;
-  line-height: 1.2;
+  margin: 1em 0 0.25em;
+  // line-height: 1.2;
+  line-height: calc(1ex / 0.32);
   font-family: $header-font-family;
   font-weight: bold;
 }
@@ -64,7 +66,7 @@ small,
 }
 
 p {
-  margin-bottom: 1.8em;
+  margin-bottom: 1.5em;
 }
 
 u,
@@ -75,6 +77,12 @@ ins {
   a {
     color: inherit;
   }
+}
+
+ul {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 40px;
 }
 
 del a {
@@ -261,6 +269,14 @@ figcaption {
       color: $link-color-hover;
     }
   }
+}
+
+.caption {
+  // color: $base03; // default
+  color: $base0g;
+  text-align: center; 
+  font-size:0.3em;
+  padding: 1.5em;
 }
 
 /* Fix IE9 SVG bug */

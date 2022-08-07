@@ -120,6 +120,8 @@ body {
   p {
     margin: 0 0 $indent-var;
     text-indent: $indent-var;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {

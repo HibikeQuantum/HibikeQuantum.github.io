@@ -295,6 +295,10 @@ compress_html:
 # _posts와 _pages 불러오는 셋팅
 # Defaults
 defaults:
+  toc: false
+  toc_label: "table of content" # toc 이름 설정 없으면 자동설정
+  toc_icon: "bars" # 아이콘 설정
+  toc_sticky: true # 마우스 스크롤과 함께 내려갈 것인지 설정
   # _pages
   - scope:
       path: "_pages"
@@ -320,3 +324,5 @@ defaults:
       author_profile: true
       sidebar_main: true
       comments: true
+
+
