@@ -2,28 +2,126 @@
 layout:	single
 title:	"자바스크립트 상속"
 date:	2019-07-29
+last_modified_at: 2022-08-07T22:01:46+09
+category: javascript
+tags: [javascript, language, inheritance]
+excerpt: 
 ---
-
   
 ![](/img/1*EtN-yZX5QHA7auFWRwKzLw.jpeg)
-### **ES5 스타일**
 
-ES5 style inheritance자바스크립트가 원래 OOP가 아닌만큼 상속을 구현하는게 상당히 상스러운 모습이다.
+## ES5 스타일
 
-* 부모의 생성자함수 call(this, name)로 실행
-* Object.create() 카피
-* constructor 교체
-위 3가지가 핵심 포인트
+```js
+// 상속할 Human
+var Human = function (name) {
+  this.name = name;
+};
+Human.prototype.eat = function (food) {
+  console.log(this.name + " eat ", food);
+};
+var kim = new Human('kim');
+kim.eat("lamen");
 
-### **ES6 스타일**
+// 상속받을 Worker
+var Worker = function (name) {
+  Human.call(this, name);
+}
+// Object.create로 프로토타입을 copy
+Worker.prototype = Object.create(Human.prototype);
+// 생성자는 달라야하니 Woker 함수로 교체
+Worker.prototype.constructor = Worker;
 
+Worker.prototype.working = function () {
+  console.log(this.name + " is working");
+};
+
+var lee = new Worker('lee');
+lee.eat('pizza');
+lee.working();
+```
+{:.align-center}
+ES5 style inheritance 자바스크립트가 원래 OOP가 아닌만큼 상속을 구현하는게 상당히 상스럽다.
+{: .captionC}
+
+상속 방법 3가지
+1. 부모의 생성자함수 `call(this, name)`로 실행
+2. `Object.create()` 를 통해 copy
+3. `constructor` 교체
+
+---
+
+## ES6 스타일
+
+```js
+class Human {
+  constructor(name) {
+    this.name = name;
+  }
+
+  eat(food) {
+    console.log(this.name + " is eat " + food)
+  }
+}
+
+var kim = new Human("kim");
+kim.eat("lamen");
+
+class Worker extends Human {
+  /*
+  constructor(name) {
+    super(name);
+  }
+ */
+  work() {
+    console.log(this.name + " is working");
+  }
+}
+
+var lee = new Worker('lee');
+lee.eat('pizza');
+lee.work();
+```
+{:.align-center}
 ES6 style inheritance‘class’로 상속을 구현한 코드다.
+{: .captionC}
+
 
 * ‘extends’ 때문에 상속을 표현하는게 짧아졌다.
 * 생성자를 자동으로 받아서 실행한다. (주석부분)
 * ‘super’ 키워드로 부모에 접근할 수 있다. (아래에서 소개)
-super exampleSuper의 사용예제다.
 
+```js
+class Parent {
+  constructor(age) {
+    this.dayOflived = age * 365;
+  }
+
+  ping() {
+    return 'ping!';
+  }
+}
+
+class Child extends Parent {
+  constructor(age) {
+    super(age * 2);
+  }
+  
+  pingpong() {
+    return super.ping() + ' pong!'; // super없이는 부모에 접근할 수 없다.
+  } 
+}
+
+var papa = new Child(20);
+console.log(papa.dayOflived);  // 14600
+var kth = new Child(10);
+console.log(kth.ping());      //ping!
+console.log(kth.pingpong());  //ping! pong!
+console.log(kth.dayOflived);   //7300
+```
+{:.align-center}
+super exampleSuper의 사용예제
+{: .captionC}
 * 원래 7300일로 나와야할 papa의 dayOflived가 14600이 된것을 볼 수 있다. 자녀의 위치에서 age 변수를 2배로 바꿨다. 별로 좋은 예제는 아닌것 같지만 이상한 만큼. 이상한 동작의 원인이 될 수는 있다.
 * super.ping()을 통해서 부모의 함수를 호출한 모습을 볼 수 있다. 저 위치에서 super 없이는 부모객체에 접근할 수 없다. pingpong위치에선 this가 child를 보고 있다. super를 통해 부모에 접근하는 것이다.
 * super()를 constructor에 넣어주면 부모의 생성자를 그대로 실행한다는것을 명시할 수 있다.

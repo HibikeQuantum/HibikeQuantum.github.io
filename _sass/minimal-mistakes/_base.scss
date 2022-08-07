@@ -159,6 +159,14 @@ button:focus {
 }
 
 /* code */
+pre {
+  // border: 2px solid;
+  // border-color: $brightPink;
+  // padding: 0em 1em 0em 1em;
+  // margin: 0em 2em 0em 2em;
+  // background: $base00;
+  // color: $base05;
+}
 
 tt,
 code,
@@ -168,6 +176,7 @@ pre {
   font-family: $monospace;
   white-space : pre-wrap !important;
 }
+
 
 pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
@@ -286,7 +295,7 @@ p {
     color: $base0g;
     text-align: center; 
     font-size:0.3em;
-    padding: 3.5em;
+    padding: 5px 2.5em 5px 2.5em;
   }  
 }
 /* Fix IE9 SVG bug */
