@@ -18,3 +18,4 @@ gem "jekyll-seo-tag", "~> 2.8"
 
 gem "gem", "~> 0.0.1.alpha"
 gem "jekyll-tagging", "~> 1.1"
+gem 'jekyll-admin', group: :jekyll_plugins

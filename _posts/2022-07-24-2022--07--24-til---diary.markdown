@@ -6,18 +6,18 @@ date:	2022-07-24
 
   #### External Secret, Fargate, Best Practice in Data Plane, 미국근대화폐
 
-#### Devops
+## Devops  
 
 EKS 클러스터 활용에 있어 IRSA, Metric Server 구성, External Secret controller를 이용하여 정보매핑, AWS ALB controller 구성.   
  EKS 구성시 EC2외에도 또 지원하는 Managed Data Plane Fargate 를 이용한 EKS 구성. Fargate profile을 이용한 파드 스케쥴. Fargate를 왜 EC2대신 이용해야하는지 단점은 무엇인지. 베스트프랙티스는?
 
 이걸로 커리큘럼 완주 Devops 마지막까지 완주했다. 구체적인 이야기는 별도의 글에서
 
-#### Philosophy
+## Philosophy  
 
 미국의 도금시대부터 전쟁 후 자산팽창의 시기. 브레튼우드 체제의 종말. 70년 스태그플레이션에 사태에 대한 화폐관점에서의 해석. 인플레와 고금리가 끝난 이후 80년대의 호황.
 
-#### Life
+## Life  
 
 * 움직인 시간: 0.5 hr
 * 습관 일기  

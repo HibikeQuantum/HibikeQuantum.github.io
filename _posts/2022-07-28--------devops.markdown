@@ -4,7 +4,7 @@ title:	"패스트캠퍼스 Devops 패키지 완강 후기"
 date:	2022-07-28
 ---
 
-  #### devops는 어떤 미래를 꿈을 꿀 수 있을까?
+  ## Devops  는 어떤 미래를 꿈을 꿀 수 있을까?
 
 커리큘럼과 중반까지에 대한 내 감상은 다른 포스트에서 다루었다.   
 → [Devops 교육을 들으며 중간 정리](https://medium.com/kangtaehun-io-devtory/devops-교육을-들으며-중간-정리-ae414001fe0e)

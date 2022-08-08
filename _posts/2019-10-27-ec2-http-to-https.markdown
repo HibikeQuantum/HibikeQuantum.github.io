@@ -1,11 +1,10 @@
 ---
-layout:	single
-title: "EC2 HTTP 웹서버를 HTTPS로 바꾸기"
-date: 2019-10-27
+title: EC2 HTTP 웹서버를 HTTPS로 바꾸기
+layout: single
+date: '2019-10-27'
 toc: true
 category: WEB
-tags: [AWS, EC2, HTTP, PaaS]
-excerpt: 
+tags: AWS EC2 HTTP PaaS
 ---
 
 ![](/assets/img/https.jpeg){:.mimg}
@@ -27,7 +26,7 @@ EC2(linux AMI), EIP, Route53, 정식도메인, cert-bot, S3 호스팅, Cloud Fro
 
 ## Route53 설정
 ![](/assets/img/route53config.jpg)
-{:.align-center}
+{: .sing}
 route53 console
 {: .captionC}
 
@@ -97,7 +96,8 @@ File “/usr/lib64/python3.6/ssl.py”, line 750, in __init__self._context.load_
 
 버킷이름을 `test.duckhoo.site` 로 설정해두었는데 SSL 프로토콜에 위배된것같다. 버킷이름을 바꿀 방법은 없을까. 찾아봤는데 `AWS CLI`로 버킷을 복사하고 동기화하는 방법만 보이길래 새로 만들었다.
 
-![](/assets/img/1*1oF0AcTYc_j0tdwjlZxiFQ.jpg){:.simg}
+![](/assets/img/1*1oF0AcTYc_j0tdwjlZxiFQ.jpg)
+{:.mimg}
 다시 CloudFront 설정을했다.
 {: .caption}..
 

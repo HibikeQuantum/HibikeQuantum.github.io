@@ -13,7 +13,7 @@
         "/.vscode": true,
         "/.site": true,
         "**/.md": true,
-        "**/.markdown": true,
+        // "**/.markdown": true,
         "_sass/minimal-mistakes/vendor": true,
         "_sass/minimal-mistakes/skins/_neon.scss": true,
         "_sass/minimal-mistakes/skins/_contrast.scss": true,

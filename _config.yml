@@ -226,7 +226,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 20 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -340,3 +340,8 @@ tag_permalink_style: pretty
 # ignored_tags: 
 # tag_page_data:
 #   sitemap: false
+
+collections:
+  posts:
+    output: true
+    sidebar_label: News
