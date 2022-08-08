@@ -2,19 +2,14 @@
 layout: single
 category: TIL
 tags: [TIL,DAIRY]
-author_profile: true
-
 toc: true
 
 date: !!!
 last_modified_at: !!!
 
-title: "TIL & Diary" # 제목을 안적으면 파일 이름을 lower()해서 보여준다.
+title: "TIL & Diary"
 excerpt: !!!
-summary: !!!
 ---
-
-# Today I learned & Diary
 ## Language
 ## Devops
 ## Shell
@@ -28,7 +23,7 @@ summary: !!!
   - []()
   - []() 
 - 생체배터리: % -> 0%
-- [일일메모장 커밋]()
+- [🔗일일메모장 커밋]()
 
 
 
