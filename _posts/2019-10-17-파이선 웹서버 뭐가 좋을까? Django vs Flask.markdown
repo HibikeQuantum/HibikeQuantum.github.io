@@ -1,7 +1,7 @@
 ---
 layout:	single
 title:	"파이선 웹서버 뭐가 좋을까? Django vs Flask"
-date:	2022-01-01
+date:	2019-10-17
 toc: true
 category: Python
 tags: [Language, Framework, Web, Flask, Django]
@@ -9,7 +9,9 @@ excerpt:
 ---
  
 ## 배경
-![](/assets/img/TheKOO.png){:.align-center}
+
+![](/assets/img/TheKOO.png)
+
 지난주 데모데이를 마쳤던 퀴즈플랫폼  [Duckhoogosa🔗](http://duckhoo.site/) 프로젝트는 누구나 쉽게 자신이 좋아하는 분야에 대한 퀴즈를 만들고 풀고 그 결과를 공유할 수 있는 플랫폼이다.
 컴포넌트는 레트로한 분위기의 [nes.css](https://nostalgic-css.github.io/NES.css/)를 사용했고 레이아웃은 flex로 직접 작성했다. 클라이언트와 서버 양쪽에서 AWS S3에 접근하여 유저들의 업로드를 처리했다. 또 어뷰징을 막고 유저를 구분하기 위한 인증은 OAuth 토큰과 AWS Cognito를 활용했다.
 
@@ -44,7 +46,7 @@ Django는 이런 기능을 내장하고 있고 API 리소스 별로 테스트할
 Python에서 MongoDB를 쓴다고 하면 Djongo, Mongo-engine,  [django-rest-framework-mongoengine](https://github.com/umutbozkurt/django-rest-framework-mongoengine) , pymongo 등의 옵션이 있는데 Djongo를 빼면 (적확하게 말하자면 Django가 지정한 방식대로 쓰지 않으면) 이런 어드민기능을 지원하지 않는다. 즉 까다롭게 설정하는대신 덕은 못본다는 것이다. 그래서 Django는 딱딱하다. 자기기능을 다 쓸게 아니라면 사용자를 답답하게 만든다.
 
 ### **Flask는?**
-```
+```python
 from pymongo import MongoClient
 
 connection = MongoClient(host,
@@ -114,7 +116,7 @@ setting.py
 
 setting.py에서 미들웨어를 등록해놓으면 request할때는 위에서부터 밑으로 적용시키고 response 할때는 아래부터 밑으로 적용해나간다.
 
-![FlaskMiddlewareFlow](/assets/image/FlaskMiddlewareFlow.png)
+![FlaskMiddlewareFlow](/assets/img/FlaskMiddlewareFlow.png)
 
 다음은 Django에서 미들웨어를 구현한 모습이다. 위에 있는
 `MIDDLEWARE = [… my_middleware_directory.MyCheckTokenClass]`

@@ -24,7 +24,7 @@ TypeError: Cannot read property 'bool' of undefinedevalnode\_modules/babel-loade
 ReactDOM.render(<*App */>, document.getElementById('root'));
 ```
 
-![](/img/1*QxbimjGplkXk2aMl3s6vtg.png){:.align-center}
+![](/assets/img/1*QxbimjGplkXk2aMl3s6vtg.png){:.align-center}
 전체 메시지
 {: .caption}
 

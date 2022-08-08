@@ -238,6 +238,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll/tagging
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -246,6 +248,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  
 
 last-modified-at:
   - date_format: '%F %a %H:%m 에 수정되었습니다.'
@@ -325,4 +328,15 @@ defaults:
       toc_icon: "bars" # 아이콘 설정
       toc_sticky: true # 마우스 스크롤과 함께 내려갈 것인지 설정
 
+# 2022.08.08
+tag_page_layout: tag_page
+tag_page_dir: tag
 
+# Jekyll-tagging plugin 
+# https://github.com/pattex/jekyll-tagging
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
+# ignored_tags: 
+# tag_page_data:
+#   sitemap: false

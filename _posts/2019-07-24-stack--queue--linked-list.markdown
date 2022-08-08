@@ -12,7 +12,7 @@ excerpt: Stack, Quque, LinkedList
 
 ## Stack
 
-![](/img/1*6MYEv9Rpy6xRYR0WNY5alA.png)
+![](/assets/img/1*6MYEv9Rpy6xRYR0WNY5alA.png)
 
 * LIFO(Last In First Out) 자료구조이다.
 * 가장 최근에 일어난 일을 신경쓰고 빨리 처리하는 점에서 인간의 의식과도 닮아있다. 이때 처리되지 못하고 못한 오래된 ‘A’같은 일은 의식 바닥에 깔려있게 된다.
@@ -45,7 +45,7 @@ stack.peek(); // 2
 
 ## Queue
 
-![](/img/1*DokiKLEV62NEg_8QDSXXdg.png)
+![](/assets/img/1*DokiKLEV62NEg_8QDSXXdg.png)
 
 * FIFO (First In First Out)의 원칙으로 처리하는 자료구조이다. 은행의 대기열과 비슷하다. 대기열이 짧으면 바로 일을 처리하는 기적도 있을 수 있지만 대개는 줄을 서야한다.
 * 그런 단점이 있지만 모든 작업이 공평하게 처리된다는 점에서 극단적인 대기시간을 가지는 문제는 없다는 장점을 가진다.
@@ -78,7 +78,7 @@ console.log(myQueue.qLength());  // 1;
 
 ## Linked List
 
-![](/img/1*UatDF7EqPcMULUuriYwZlw.png)
+![](/assets/img/1*UatDF7EqPcMULUuriYwZlw.png)
 
 * Linked List는 Array같은 단일구조체와 대비되는 자료구조이다.
 * Data, Next Adress로 구성되고 next가 다음 데이터를 가르킨다. 각 정보가 분리되어 있지만 정보를 찾아낼 연락망은 다 갖추어진 구조이다.

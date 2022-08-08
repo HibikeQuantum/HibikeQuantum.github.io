@@ -65,10 +65,16 @@ var store = [{
         "url": "/aws/aws-s3,-ec2/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
-        "title": "2019년 8월 27일 TIL",
+        "title": "2019년 8월 26일 TIL",
         "excerpt":" 손그림      프로젝트에 바로 참여할 수 있을지 평가하는 날이었다. 재밌어서 ‘이런거 매주에 한번 하면 좋겠는데?’란 생각도 들었지만 정성적 평가를 못하는 경쟁을 하게되면 대외적으로 보이는것만 신경쓰는 문제가 생긴다. 좋은 설계나 데이터의 확보 보단 요구되는 스펙만 맞추는것이나 뭔가를 복사하는데 끌리게 된다.   js의 exports 를 잘 활용하지 못했다. module.exports.*의 패턴으로 사용하라고 권장이 되어있길래 그것만 쓰다가 대응을 바로 못했다. 어떻게 돌아가는지는 아는데 거기로 집어넣는 과정에서 헤매니 환장.   Http에서 클라이언트로 파일 내려주는 작업을 하는데 40분 정도 소모했다. JSON만 쓰다가 적응을 못했다. Buffer를 쓰는걸로 해결은 했지만 그게 뭔지 아직도 정확히 모르겠다. 그리고 다시 확인해보니 Buffer를 안써고 response에 바로 담아도 된다. 환장. 파일을 반환시켜주면 Content-Lenth 헤더를 Http가 당연히 써주겠지라고 생각한게 오착.   file-system 을 활용하는데 Path를 지정하는데서 환경변화에 대응을 잘 못해서 20분 정도 낭비를 했다. 경로의존적인 것엔 \\_\\_dirname 쓰면 된다.   CORS 처리를 서버에서 해도 브라우저단에서 막는 문제가 있다. 확장앱을 안켜고 크롬 Security 모드도 안끄고 처리해보려고 fetch에 mode:no-cors 옵션을 활용하려다가 이렇게 쓸 경우 다른 종류의 응답이 오고 프로미스단에서 에러가 난다. 다르게 처리를 해야한다는 사실을 좀 늦게 깨달았다.   React-Router를 처음 썼는데 설계의 패러다임이 또 바뀌는것 같다.   이미 써본것도 깔끔하게 한 큐에 안되고 한 두번 정도 버벅거리는게 전체적으로 작업진행속도를 늦췄다. 빠르게 제대로 하는 방법이 어디에 있지 않을까 고민은 해보지만 왕도는 없는것 같다.   ","categories": ["TIL"],
         "tags": ["TIL","Diary"],
-        "url": "/til/2019-8-26-til/",
+        "url": "/til/P1-TIL25/",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
+        "title": "2019년 8월 27일 TIL",
+        "excerpt":"Dev     메일 서비스로 서버를 구성하는 방법에 대한 글을 읽었다. SES라는 이름으로 AWS에서도 사용할 수 있다. 메일 서버를 운영하는 곳에 메일 포맷의 데이터를 전송하는 nodemailer로 토큰을 발행하고 토큰이 인증 URL로 요청되면 값을 검증해서 사용자의 가입을 승인하는 구조다.   Atom 에디터를 마크다운 전용 에디터로 쓰기로 했다. 기존 Notes에 있던 내용을 전부 .md파일로 옮기고 커밋도 해가면서 .md로 리팩토링하면서 쉬었다. 내용도 읽으면서 다시 복습도 했다. 필요없는 내용이 추려지면 md파일을 퍼블릭한 github에 올리려고 한다.   개발자로서 삶과 사이드프로젝트, 창업 이런 키워드로 세션을 하나 들었는데 중요하다. 지금당장보다는 지금 부트캠프가 끝나면 훨씬 더 중요한 정보다. 여기서 기억에 남는 문장 ‘크고 부실한 프로젝트보다는 작고 단단한 프로젝트가 더 의미있다’   Culture      ‘청춘돼지는 꿈꾸는 소녀의 꿈을 꾸지 않는다’ 영화를 봤다. 이 픽션은 스케일이 굉장히 크다. 상대성이론을 운운하면서 시간여행도 하고 양자역학적인 아이디어를 거시세계에 적용한 걸 소재로 한다. 예를 들면 인간을 양자처럼 취급해서 관측하는 시점에 존재가 확정된다. 한마디로 이해하기가 힘든 ‘큰’ 이야기다. 그래서 잘 소화시키기가 힘든 이야기였는데 실패한 영화였다. (자세히 설명할 공간이 있는 소설은 훨씬 좋으리라고 생각한다)   그렇게 보고 집에 오면서 오늘 들은 세션이 떠올라서 다짐했다. “단단하고 작은 프로젝트를 해야겠다. 쓰레기를 만들면 안되겠다”  ","categories": ["TIL"],
+        "tags": ["TIL","Diary"],
+        "url": "/til/P1-TIL24/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
         "title": "자바스크립트 오해풀기 — Object",
@@ -79,12 +85,6 @@ var store = [{
       },{
         "title": "2019년 8월 28일 TIL",
         "excerpt":"#Code      redux 입문  전역에서 사용가능한 state를 얻었다는 기분이 드는데 이 state는 업데이트를 해도 리액트의 렌더는 일어나지 않는것 같다. Mount, State도 관련이 없는 독자적인 일이니까 당연한 일이다. (그런데 이건 react 기준이고 또 react-redux를 쓰는 지금은 자동으로 뭘 하고 있을지도 모르겠다. 구독같은 기능으로 독자적으로 처리를 하고 있다.) 그래서 나름 뭔가 바꿨는데도 업데이트가 되지 않는 문제가 발생했다. 강제 렌더링 명령이 있다는데 ‘강제’라고 하니 쓰기 싫고 자바스크립트로 수동으로 DOM을 조작하지 않고 바꿔보려고 하다가 오늘은 일단 작업끝.   React router, redux를 함께 쓴다면 어떤 설계를 해볼 수 있을까. 그렇게 될 경우의 수가 복잡해지는것 같다. 이전에 그냥 데이터를 흘려보낼것만 생각해서 컴포넌트를 짤 때는 코드는 복잡해도 설계는 단순했던것 같은데. 그렇다면 router가 최우선이 되어야 할것같다. URL로 사용자가 원하는 데이터가 보이는게 보장이 되어야 하니까 말이다.   redux는 DOM을 한번에 render하는 한다고 하는데 그러면 리액트의 장점. 최대한 DOM렌더를 억제하는 기능과 대치하는것 아닐까? 검색해보니 리듀서에서 퓨어함수를 강조하는 이유가 바로 render 이슈 때문이다. 그리고 그렇게 성능에 영향을 미치지도 않고 디버깅이나 구조개선에는 너무나 압도적 이득을 주기 때문에 안쓸이유가 없는듯하다. 하나의 기능을 위해 몇 단계의 추상화를 거치는게 번거로울뿐.        직접 수정을 하면 안되는 객체들을 다루는 방법으로 object.assign를 시도 했는데 뭔가 익숙하지 않아서 한시간 정도 헤매다가 결국 비구조할당으로 돌아왔다. 내일은 immutable.js를 시도해볼 예정이다. Nested 한 구조에선 쓸 수 밖에 없을 것같다. #Life       한달넘게 엄청 푸시하면서 공부하다보니 요즘 낮에 체력이 바닥이 되어가는 기분이 점점든다. 오늘부터 7시간 잘거고 질펀하게 운동도 한번   ","categories": ["TIL"],
-        "tags": ["TIL","Diary"],
-        "url": "/til/2019-8-28-til/",
-        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
-      },{
-        "title": "2019년 8월 27일 TIL",
-        "excerpt":"Dev     메일 서비스로 서버를 구성하는 방법에 대한 글을 읽었다. SES라는 이름으로 AWS에서도 사용할 수 있다. 메일 서버를 운영하는 곳에 메일 포맷의 데이터를 전송하는 nodemailer로 토큰을 발행하고 토큰이 인증 URL로 요청되면 값을 검증해서 사용자의 가입을 승인하는 구조다.   Atom 에디터를 마크다운 전용 에디터로 쓰기로 했다. 기존 Notes에 있던 내용을 전부 .md파일로 옮기고 커밋도 해가면서 .md로 리팩토링하면서 쉬었다. 내용도 읽으면서 다시 복습도 했다. 필요없는 내용이 추려지면 md파일을 퍼블릭한 github에 올리려고 한다.   개발자로서 삶과 사이드프로젝트, 창업 이런 키워드로 세션을 하나 들었는데 중요하다. 지금당장보다는 지금 부트캠프가 끝나면 훨씬 더 중요한 정보다. 여기서 기억에 남는 문장 ‘크고 부실한 프로젝트보다는 작고 단단한 프로젝트가 더 의미있다’   Culture      ‘청춘돼지는 꿈꾸는 소녀의 꿈을 꾸지 않는다’ 영화를 봤다. 이 픽션은 스케일이 굉장히 크다. 상대성이론을 운운하면서 시간여행도 하고 양자역학적인 아이디어를 거시세계에 적용한 걸 소재로 한다. 예를 들면 인간을 양자처럼 취급해서 관측하는 시점에 존재가 확정된다. 한마디로 이해하기가 힘든 ‘큰’ 이야기다. 그래서 잘 소화시키기가 힘든 이야기였는데 실패한 영화였다. (자세히 설명할 공간이 있는 소설은 훨씬 좋으리라고 생각한다)   그렇게 보고 집에 오면서 오늘 들은 세션이 떠올라서 다짐했다. “단단하고 작은 프로젝트를 해야겠다. 쓰레기를 만들면 안되겠다”  ","categories": ["TIL"],
         "tags": ["TIL","Diary"],
         "url": "/til/P1-TIL1/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
@@ -239,16 +239,28 @@ var store = [{
         "url": "/diary/%EB%82%98%EB%8A%94-%EC%99%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%90%90%EB%82%98/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
-        "title": "CloudFront 배포 후 Access-Denied 증상",
-        "excerpt":"객체에 대한 권한은 어떻게 설정하나요?  이 단원에서는 Amazon Simple Storage Service(Amazon S3) 콘솔에서 ACL(액세스 제어 목록)을 사용하여 Amazon S3 객체에 대한 액세스 권한을 관리하는 방법을 설명합니다…docs.aws.amazon.com확인해볼 체크리스트를 만들었다.      S3 버킷 정책, get-object 항목   S3 액세스리스트   AWS 계정 레벨의 S3 권한 체크 (개별 버킷보다 우선한다)   버킷에 담긴 오브젝트 권한 체크   Cloud-Front General → Default Root Object → Add ‘index.html’   ","categories": [],
-        "tags": [],
-        "url": "/cloudfront-access-denied/",
+        "title": "파이선 웹서버 뭐가 좋을까? Django vs Flask",
+        "excerpt":"배경      지난주 데모데이를 마쳤던 퀴즈플랫폼  Duckhoogosa🔗 프로젝트는 누구나 쉽게 자신이 좋아하는 분야에 대한 퀴즈를 만들고 풀고 그 결과를 공유할 수 있는 플랫폼이다. 컴포넌트는 레트로한 분위기의 nes.css를 사용했고 레이아웃은 flex로 직접 작성했다. 클라이언트와 서버 양쪽에서 AWS S3에 접근하여 유저들의 업로드를 처리했다. 또 어뷰징을 막고 유저를 구분하기 위한 인증은 OAuth 토큰과 AWS Cognito를 활용했다.      이 프로젝트 설계에서 첨예했던 주제는 API와 AWS 인프라를 컨트롤할 파이선 웹서버의 스택선택이었다. Flask와 Django 둘중에 하난데 뭘 결정해야할지에 대한 정보가 많이 부족했다. 인터넷에 검색하면 막연히 이런 정보는 많이 나온다.      Django는 딱딱하다. Flask는 가볍다    그런데 아직 경험이 없는 나로서는 이 문장이 도대체 어떤 맥락인지 이해가 안됐다. 나는 먼저 Django를 선택해서 부딪쳐보기로 했고 적응할만한 즈음 Django-rest-framework-mongoengine에 버그가 있어 뒤집어서 최종적으로 Flask와 pymongo를 사용하기로 했다. 그 과정을 이번 글에서 정리하고자 한다.   데이터베이스 설정  Django는?  Django 를 설치하고 튜토리얼을 따라가다보면 장고의 특징이 드러나기 시작한다. Skeleton 프로젝트를 생성하면 덩달아 따라오는 빽빽한 setting.py가 바로 그것이다. 그리고 데이터베이스 파트는 이렇게 생겼다.   DATABASES = {     'default': {         'ENGINE': 'django.db.backends.mysql',         'NAME': 'name',         'USER': 'user',         'PASSWORD': 'password'     }  이 부분에 장고에서 지원하는 DB Engine과 접속정보를 기입하면 장고는 로드할 때 여기있는 정보를 기반으로 자체적인 백엔드 로직을 구성하여 돌려준다. 여기서 백엔드로직이라 함은 대표적으로 admin 페이지나 회원가입, 읽고 쓰는 기능이다.    Django Admin Page   Django는 이런 기능을 내장하고 있고 API 리소스 별로 테스트할 수있는 html-UI도 제공한다. 다만 이것들을 사용하기 위해선 위의 Database 항목을 잘 관리해야한다. 이걸 공백으로 두면 에러가 떠서 서버가 켜지지 않는다. 그리고 이걸 지원하는 않는 모듈을 별도로 쓴다면 더미모듈을 설정해줘야한다. Python에서 MongoDB를 쓴다고 하면 Djongo, Mongo-engine,  django-rest-framework-mongoengine , pymongo 등의 옵션이 있는데 Djongo를 빼면 (적확하게 말하자면 Django가 지정한 방식대로 쓰지 않으면) 이런 어드민기능을 지원하지 않는다. 즉 까다롭게 설정하는대신 덕은 못본다는 것이다. 그래서 Django는 딱딱하다. 자기기능을 다 쓸게 아니라면 사용자를 답답하게 만든다.   Flask는?  from pymongo import MongoClient  connection = MongoClient(host,                          username=user,                          password=password)  db = connection[Database_name] commentsCollections = db.comments  위 코드는 pymongo를 사용해서 컬렉션을 준비시킨 모습이다.   플라스크엔 setting.py가 없다. 그냥 텅텅비어있다. app.py를 읽을때 명시적으로 디비를 지정해놓고 필요할때 유저가 명시적으로 지정해서 사용한다. 유저가 지정할 수 있기 때문에 어디서 무엇이 이루어지는지 확실하게 알 수 있다. 그 대신 Flask가 임의로 만들어주는 로직은 없다고 봐도된다.   서버 사이드 데이터 플로우  Django는?     Django  created the skeleton project을 실행했을 때 생성되는 서버사이드 MVC(MTC) 모델인데 이미 쓰여진 파일명대로 따라서 Django가 읽어서 플로우를 진행한다.  urls.py → views.py ← template.html 의 구조로 진행한다.     urls.py : 어떤 view로 보낼지 결정 (라우팅)   views.py : 최종 Return ( 컨트롤러)   template : html 문서 껍데기   from .models import Book # models에서 들고오는 데이터베이스 ORM객체    def index(request):     Books = Book.objects.all()     # 쿼리가 된 결과가 담긴다.     context = {'Books':Books}     # template에 넘겨주기위해 딕셔너리형태로 바꾼다.     return render(request, 'store/index.html', context)     # index.html에 딕셔너리 데이터가 들어가고 그걸 기반으로 렌더된 문서가 클라이언트로 반환된다.  views.py   이 코드를 이해하기 위해선 index 함수가 urls.py에 등록되어 있기 때문에 라우팅 흐름을 타고 작동하는 관계를 알아야한다. 이런건 코드에 안쓰여져 있다. 고생해서 익혀야 한다.   Flask는?   @app.route('/', methods=['GET', 'POST']) def home():   return flask.render_template('filename.html')   플라스크를 어떤 기능을 어떤 파일명에서 어떤 이름으로 구현하라는 약속이 없다. 필요에 따라 구현하고 구현한 만큼 기능한다. 플라스크는 @view_decorator로 처리하는 로직이 많다. 덕분에 명시적인 성향이 강해서 한눈에 어떤 로직이 관계되는지 파악할 수 있다. 위는 app 객체에 route를 등록하고 바로 아래에 Response를 반환하는 예제다.   미들웨어  Django는?   MIDDLEWARE = [     'django.middleware.security.SecurityMiddleware',     'django.contrib.sessions.middleware.SessionMiddleware'     'my_middleware_directory.MyCheckTokenClass', ]  setting.py   setting.py에서 미들웨어를 등록해놓으면 request할때는 위에서부터 밑으로 적용시키고 response 할때는 아래부터 밑으로 적용해나간다.      다음은 Django에서 미들웨어를 구현한 모습이다. 위에 있는 MIDDLEWARE = [… my_middleware_directory.MyCheckTokenClass] 의 연장으로 보면 이해하기 쉽다. 쓰겠다고 했으니 구현한거다.   class MyCheckTokenClass:     METHOD = ('GET', 'POST', 'PUT', 'DELETE')      def __init__(self, get_response):         self.get_response = get_response         self.API_URLS = [             re.compile(r'^(.*)/api'),             re.compile(r'^api'),         ]         # 메인 로직에서 사용할 미들웨어의 프로퍼티를 지정하는 생성자 __init__       def __call__(self, request):         response = None         if not response:             response = self.get_response(request)         if hasattr(self, 'process_response'):             response = self.process_response(request, response)         return response                  # 클래스가 호출되면 함수처럼 실행되는 __call__         # 여기서는 REQ객체로부터 RES객체를 생성하고 한다.         # process_response 함수를 통해 전처리가 된 response를 다음 미들웨어로 보낸다.       def process_response(self, request, response):         path = request.path_info.lstrip('/')         valid_urls = (url.match(path) for url in self.API_URLS)                  # url과 메서드를 검사해서 적용 케이스를 분기한다.         if request.method in self.METHOD and any(valid_urls):             response.isCheck = True         else:             response.isCheck = False          return response   어떤 요청에 대해 위의 미들웨어 로직을 적용 할지에 대해서는 객체를 직접검사하고 리턴을 돌려주는 방식으로 구현된다.   Flask는?   다음 코드에서 보여주면서 설명  from flask import Flask from flask_cors import CORS  # 방법 1 미들웨어를 import하고 감싸주면 적용. app = Flask(__name__) cors = CORS(app, resources={r\"/api/*\": {\"origins\": \"*\"}})  # 방법 2 전통적인 방법으로 미들웨어 만들기 from werkzeug.wrappers import Request  class Middleware:     def __init__(self, app):         self.app = app      def __call__(self, environ, start_response):         request = Request(environ)         print('path: %s, url: %s' % (request.path, request.url))         return self.app(environ, start_response)  app.wsgi_app = Middleware(app.wsgi_app)  # 방법 3 데코레이터 사용 from functools import wraps  def login_required():     def _decorated_function(f):         @wraps(f)         def __decorated_function(*args, **kwargs):             if 'logged_in' in session:                 print(session['email'], \"session pass\")                 return f(*args, **kwargs)             else:                 print(\"️ ___no session___\")                 return \"NO SESSION ERROR\"          return __decorated_function      return _decorated_function   @app.route('/home') @login_required() def home():     return 'Hello'   이것 말고도 다양한 방법이 지원되지만 세가지를 예로 들었다.     app을 래핑하는 미들웨어   전통적 (명시적) 미들웨어   decorator를 통해 미리 명시적으로 보여주는 방법. 이때 @app.route 가 상단에 있어야한다. Flask의 방법은 Node — express 와 비슷하다는걸 알 수 있다.   정리  이렇게 보면 Flask는 @decorator로 상당히 많은것을 하는것처럼 보이지만  flask_restful 을 활용하면 Django처럼 별도의 장소에서 라우팅을 정리하고 적용할 함수형 리소스, 클래스형 리소스을 지정하여서 코드를 깔끔하게 관리할 수도 있다.   from flask_restful import Api, Resource  app = Flask(__name__) api = Api(app)  class AccountImg(Resource):     def post(self):         pic = request.get_json()         img = pic['img']         usersCollections.update_one({'email': session['email']},                                     {'$set': {\"img\": img}})         return 'ok'          api.add_resource(AccountImg, '/account/img')  flask_restful 기반 API.  내가 경험한것을 요약하면 두 프레임워크의 선택기준은 다음과 같다.       Reference     https://tutorial.djangogirls.org/ko/django_start_project/   how-to-create-a-custom-django-middleware   https://oz123.github.io/advanced-python/book/middlewares.html   DJANGO 커스텀 미들웨어 만들기   https://github.com/jadetypehoon/duckhoogosa-server-kth   https://developer.mozilla.org/ko/docs/Learn/Server-side/Django  ","categories": ["Python"],
+        "tags": ["Language","Framework","Web","Flask","Django"],
+        "url": "/python/%ED%8C%8C%EC%9D%B4%EC%84%A0-%EC%9B%B9%EC%84%9C%EB%B2%84-%EB%AD%90%EA%B0%80-%EC%A2%8B%EC%9D%84%EA%B9%8C-Django-vs-Flask/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
         "title": "CRA .env 지정해서 쓰는법(env-cmd)",
-        "excerpt":"* .env 파일은 버전별로 다른 환경변수를 지원하기 위해서 Create React App(이하CRA)가 읽어오는 파일이다.     npm start 명령어 시행시 시스템 변수를 읽어와서 프로젝트 내의 .env.[$NODE_ENV]을 적용한다.   (현재 내 개발환경에선 $NODE_ENV 에 development가 설정되어 있다.)   그리고 build를 할때는 그것 대신 .env.production 파일을 읽어 빌드를 진행한다.   이걸 임의로 컨트롤할 필요가 있을때를 위한 방법을 이글에서 소개하고자 한다. 나의 경우엔 test 버전을 빌드하기 위함이다.            Install ‘env-cmd’ for set several environment in ‘Create React App’ yarn add env-cmd2. Add root DIR ‘.test.env’           // .test.env  REACT_APP_MODE=”test”3. Set build option at ‘package.json’, This way NODE_ENV should assigned ‘.test.env’   // package.json  scripts: {   “start”: “react-scripts start”,   “build”: “react-scripts build”,   “build:test”: “env-cmd -f .env.test react-scripts build”,  }4. Build and verify the way you set   yarn build:test  yarn run v1.16.0  $ env-cmd -f .env.test react-scripts build  Creating an optimized production build…hosting client console.log  ","categories": [],
-        "tags": [],
-        "url": "/cra-env-env-cmd/",
+        "excerpt":"      .env 파일은 버전별로 다른 환경변수를 지원하기 위해서 Create React App(이하CRA)가 읽어오는 파일이다.   npm start 명령어 시행시 시스템 변수를 읽어와서 프로젝트 내의 .env.[$NODE\\_ENV]을 적용한다.   (현재 내 개발환경에선 $NODE_ENV 에 development가 설정되어 있다.)   그리고 build를 할때는 그것 대신 .env.production 파일을 읽어 빌드를 진행한다.   이걸 임의로 컨트롤할 필요가 있을때를 위한 방법을 이 글에서 소개하고자 한다. 나의 경우엔 test 버전을 빌드하기 위함이다.      Install ‘env-cmd’ for set several environment in ‘Create React App’      $ yarn add env-cmd2.       Add root DIR ‘.test.env’ and vi .test.env            REACT\\_APP\\_MODE=\"test\"            Set build option at ‘package.json’, This way NODE\\_ENV should assigned .test.env.     // package.json scripts: {    \"start\": \"react-scripts start\",    \"build\": \"react-scripts build\",    \"build:test\": \"env-cmd -f .env.test react-scripts build\",   }           Build and verify the way you set      yarn build:test    yarn run v1.16.0   $ env-cmd -f .env.test react-scripts build   Creating an optimized production build...!        hosting client console.log  ","categories": ["react"],
+        "tags": ["framework","env-cmd"],
+        "url": "/react/CRA-.env-%EC%A7%80%EC%A0%95%ED%95%B4%EC%84%9C-%EC%93%B0%EB%8A%94%EB%B2%95(env-cmd)/",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
+        "title": "CloudFront 배포 후 Access-Denied 증상",
+        "excerpt":"AWS DOC - Amazon S3 객체에 대한 액세스 권한을 관리하는 방법을 설명합니다   S3 객체를 만들때 allow 해야할 항목이 워낙 많다보니 확인해볼 체크리스트를 만들었다.      S3 버킷 정책, get-object 항목   S3 액세스리스트   AWS 계정 레벨의 S3 권한 체크 (개별 버킷보다 우선한다)   버킷에 담긴 오브젝트 권한 체크   Cloud-Front General → Default Root Object → Add ‘index.html’   ","categories": ["AWS"],
+        "tags": ["S3","Checklist"],
+        "url": "/aws/cloudfront-access-denied/",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
+        "title": "EC2 HTTP 웹서버를 HTTPS로 바꾸기",
+        "excerpt":"  EC2 HTTP 웹서버를 HTTPS로 바꾸기  개요  현재 HTTP로 서비스 되고 있는 내 플라스크 서버를 SSL을 적용한 HTTPS 서비스로 바꾸고 적용하는 과정을 정리했다.   글쓴이의 사용 환경  EC2(linux AMI), EIP, Route53, 정식도메인, cert-bot, S3 호스팅, Cloud Front   절차     무료 인증서 프로젝트인 Letsencript는 정식도메인에서 서비스되는 서버에만 인증서를 발급한다.   현재 가비아로부터 duckhoo.site를 구매해서 Route53을 이용해 도메인서버를 운영하고 있다.   infra.duckhoo.site 의 이름으로 현재 elastic IP로 서비스되고 있는 EC2서버에 정식도메인을 부여   HTTPS로 서버가 운영되고   최종적으로 duckhoo.site 클라이언트가 HTTPS 서비스를 지원하는게 최종적 목적지다. (꼭 HTTPS를 해야하는건 아니다. ELB를 활용하면 VPC단에서 HTTPS서비스를 제공할 수 있다.)     Route53 설정    route53 console   Route53에서 소유중인 도메인의 하위 도메인으로 infra 레코드 세트를 만들었었다. 아래에 입력되는 아이피는 탄력적아이피이며 (Elastic IP) 는 AWS 프리티어에 1개 제공된다.     local terminal, 만든 레코드에 대한 통신확인 완료   CERT 발급     SSH EC2 접속   certbot-auto 다운로드 및 실행  $ wget  https://dl.eff.org/certbot-auto$  $ chmod a+x certbot-auto   오토봇을 실행한다. 마지막에 정식도메인을 입력해줘야한다.  $ sudo ./certbot-auto —debug -v —server https://acme-v01.api.letsencrypt.org/directory certonly -d infra.duckhoo.site   옵션을 다 안지정해줘서 정보를 2개 물어본다. 첫번째는 email 두번째는 서비스할 webroot다. flask 내장서버를 쓰고 있어서 뭘 입력해줘야하나 고민하다가 프로젝트 폴더에 cert폴더를 만들어서 입력했다.  Input the webroot for infra.duckhoo.site: (Enter ‘c’ to cancel): /home/ec2-user/DuckhooGosa-server/cert/   인증서가 발급된 모습     Server Side HTTPS  이제 인증서를 들고 서비스를 하도록 코드를 짤 차례다. SSL모듈을 사용하려고 pip install ssl 을 하니 SyntaxError: Missing parentheses in call to ‘print’. Did you mean print(‘looking for’, f)? 이런 에러가 뜨는데, 알아보니 현재 내 flask는 내장웹서버를 쓰기 때문에 별도의 설치가 필요 없었다. (권장 사항은 아니다 나중에 WSGI 를 붙일예정. 파이선 웹서버를 프로덕션 레벨에서 쓸때는 내장 WSGI를 쓰면 안된다.)  개발환경에서 먼저 확인을 해보고 싶어서 로컬부터 openssl로 만든 pem으로 서비스해보기로 했다.  $ pip install pyopenssl $ openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 36500  이렇게하면 100년 유효기간의 키가 생겼다. 제3자의 증명을 위한 cert 지만 이렇게 만드는건 자기 스스로가 증명하고 자기가 사용하는 꼴이라  브라우저에서 접근하면 경고창이 보이지만 (브라우저는 인정하는 CA 인증과정을 거친 CERT만을 보증하도록 로직을 갖추고 있다) 어쨌든 일단 형식은 갖추었다.   if __name__ == '__main__':     pemTuple = (app.config['CERT_PEM'], app.config['PRIVATE_KEY_PEM'])     app.run(port=app.config['PORT'], host=app.config['SERVER_HOST'], ssl_context=pemTuple)  app.py   flask-app에 인증서를 등록시킨다. app.config의 내용은 각자 프로젝트 환경변수 설정방법에 따라 다르므로 자세한 설명은 생략한다.   개발환경의 API서버는 이제 https 서비스를 시작했다. CRA의 내장서버도 옵션을 켜면 자기가 사인한 허술한 인증서로 https 서비스로 시작된다.🔗참고 링크: CRA using-https-in-development    한쪽만 Https가 되면 Mixed Contents 에러가 난다. 개발환경에서 충분히 준비가 되었는지 확인하고 이제 배포 테스트용 클라이언트, 배포 테스트 서버 브랜치를 업데이트시킨다.   실행을 시켜보니 에러가 뜬다.  File “/usr/lib64/python3.6/ssl.py”, line 750, in __init__self._context.load_cert_chain(certfile, keyfile)PermissionError: [Errno 13] Permission denied  넘겨준 인증서를 읽는데 실패한 에러다. 인증서 경로를 가면 경로의 파일은 넘겨받은 파일은 Soft 카피(Soft-Link)다. 원본과 복사본에 실행권한을 주면 된다. 이때 chmod 777 같은 every 레벨로 줘도 동작은 하지만 보안적으로 권장하지는 않는다. Server를 실행할 유저 및 그룹을 만들어서 그 그룹한테 1(+x)의 권한만 주는 방법을 권장하고 있다.   🔗 참고자료: Let’s encrypt SSL couldn’t start by “Error: EACCES: permission denied, open…  🔗 참고자료: lets-encrypt-ssl-couldnt-start-by-error-eacces-permission-denied-open-et  —   Client Side HTTPS  이제 서버를 동작시켜보니 서명을 기반으로 통신은 잘되는데 크롬에서는 NOT Secure 경고를 하고 있다.      원인을 찾아보니 버킷이름 SSL 프로토콜 약속을 위반한것 같다. 다음과 같은 내용을 찾았다.     Secure Sockets Layer(SSL)와 함께 가상 호스팅 방식의 버킷을 사용할 경우, SSL 와일드카드 인증서는 마침표가 포함되지 않은 버킷에만 연결됩니다. 이 문제를 해결하려면 HTTP를 사용하거나, 인증서 확인 로직을 직접 작성해야 합니다. 가상 호스팅 방식의 버킷을 사용할 경우, 버킷 이름에 마침표(“.”)를 사용하지 않는 것이 좋다.    버킷이름을 test.duckhoo.site 로 설정해두었는데 SSL 프로토콜에 위배된것같다. 버킷이름을 바꿀 방법은 없을까. 찾아봤는데 AWS CLI로 버킷을 복사하고 동기화하는 방법만 보이길래 새로 만들었다.    다시 CloudFront 설정을했다. {: .caption}..   오리진 도메인만 새로운 버킷으로 고쳐주면 Distribution을 새로 만드는 번거로움을 피할 수 있다. 중간에 SSL통신을 크롬이 인증서를 invalid로 판단해서 Not Secure를 보여주는 문제가 있었는데 이걸 해결한 우여곡절을 확인하고 싶다면  🔗 다른 포스트 링크   SSL은 클라이언트나 서버 혼자 하는게 아니므로 어느 쪽이든 클라이언트와 서버가 요구하는 원칙을 위배한 통신을 하면 Not secure가 뜨게되므로 주의.      검증된 오리진(제3자가 인정한 인증서를 가진 호스트)들이 검증된 통신(SSL)을 지키고 있으면 크롬이 Secure 하다고 인정한다. SSL을 사용하면 통신의 오버헤드는 미미하게 증가 하지만 암호화된 통신을 구현할 수 있다. 자세한 원리는 비대칭 공개키를 검색.  ","categories": ["WEB"],
+        "tags": ["AWS","EC2","HTTP","PaaS"],
+        "url": "/web/ec2-http-to-https/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
         "title": "HTTPS- Not Secure 디버깅",
@@ -263,34 +275,10 @@ var store = [{
         "url": "/sata/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
-        "title": "파이선 웹서버 뭐가 좋을까? Django vs Flask",
-        "excerpt":"배경   지난주 데모데이를 마쳤던 퀴즈플랫폼  Duckhoogosa🔗 프로젝트는 누구나 쉽게 자신이 좋아하는 분야에 대한 퀴즈를 만들고 풀고 그 결과를 공유할 수 있는 플랫폼이다. 컴포넌트는 레트로한 분위기의 nes.css를 사용했고 레이아웃은 flex로 직접 작성했다. 클라이언트와 서버 양쪽에서 AWS S3에 접근하여 유저들의 업로드를 처리했다. 또 어뷰징을 막고 유저를 구분하기 위한 인증은 OAuth 토큰과 AWS Cognito를 활용했다.      이 프로젝트 설계에서 첨예했던 주제는 API와 AWS 인프라를 컨트롤할 파이선 웹서버의 스택선택이었다. Flask와 Django 둘중에 하난데 뭘 결정해야할지에 대한 정보가 많이 부족했다. 인터넷에 검색하면 막연히 이런 정보는 많이 나온다.      Django는 딱딱하다. Flask는 가볍다    그런데 아직 경험이 없는 나로서는 이 문장이 도대체 어떤 맥락인지 이해가 안됐다. 나는 먼저 Django를 선택해서 부딪쳐보기로 했고 적응할만한 즈음 Django-rest-framework-mongoengine에 버그가 있어 뒤집어서 최종적으로 Flask와 pymongo를 사용하기로 했다. 그 과정을 이번 글에서 정리하고자 한다.   데이터베이스 설정  Django는?  Django 를 설치하고 튜토리얼을 따라가다보면 장고의 특징이 드러나기 시작한다. Skeleton 프로젝트를 생성하면 덩달아 따라오는 빽빽한 setting.py가 바로 그것이다. 그리고 데이터베이스 파트는 이렇게 생겼다.   DATABASES = {     'default': {         'ENGINE': 'django.db.backends.mysql',         'NAME': 'name',         'USER': 'user',         'PASSWORD': 'password'     }  이 부분에 장고에서 지원하는 DB Engine과 접속정보를 기입하면 장고는 로드할 때 여기있는 정보를 기반으로 자체적인 백엔드 로직을 구성하여 돌려준다. 여기서 백엔드로직이라 함은 대표적으로 admin 페이지나 회원가입, 읽고 쓰는 기능이다.    Django Admin Page   Django는 이런 기능을 내장하고 있고 API 리소스 별로 테스트할 수있는 html-UI도 제공한다. 다만 이것들을 사용하기 위해선 위의 Database 항목을 잘 관리해야한다. 이걸 공백으로 두면 에러가 떠서 서버가 켜지지 않는다. 그리고 이걸 지원하는 않는 모듈을 별도로 쓴다면 더미모듈을 설정해줘야한다. Python에서 MongoDB를 쓴다고 하면 Djongo, Mongo-engine,  django-rest-framework-mongoengine , pymongo 등의 옵션이 있는데 Djongo를 빼면 (적확하게 말하자면 Django가 지정한 방식대로 쓰지 않으면) 이런 어드민기능을 지원하지 않는다. 즉 까다롭게 설정하는대신 덕은 못본다는 것이다. 그래서 Django는 딱딱하다. 자기기능을 다 쓸게 아니라면 사용자를 답답하게 만든다.   Flask는?  from pymongo import MongoClient  connection = MongoClient(host,                          username=user,                          password=password)  db = connection[Database_name] commentsCollections = db.comments  위 코드는 pymongo를 사용해서 컬렉션을 준비시킨 모습이다.   플라스크엔 setting.py가 없다. 그냥 텅텅비어있다. app.py를 읽을때 명시적으로 디비를 지정해놓고 필요할때 유저가 명시적으로 지정해서 사용한다. 유저가 지정할 수 있기 때문에 어디서 무엇이 이루어지는지 확실하게 알 수 있다. 그 대신 Flask가 임의로 만들어주는 로직은 없다고 봐도된다.   서버 사이드 데이터 플로우  Django는?     Django  created the skeleton project을 실행했을 때 생성되는 서버사이드 MVC(MTC) 모델인데 이미 쓰여진 파일명대로 따라서 Django가 읽어서 플로우를 진행한다.  urls.py → views.py ← template.html 의 구조로 진행한다.     urls.py : 어떤 view로 보낼지 결정 (라우팅)   views.py : 최종 Return ( 컨트롤러)   template : html 문서 껍데기   from .models import Book # models에서 들고오는 데이터베이스 ORM객체    def index(request):     Books = Book.objects.all()     # 쿼리가 된 결과가 담긴다.     context = {'Books':Books}     # template에 넘겨주기위해 딕셔너리형태로 바꾼다.     return render(request, 'store/index.html', context)     # index.html에 딕셔너리 데이터가 들어가고 그걸 기반으로 렌더된 문서가 클라이언트로 반환된다.  views.py   이 코드를 이해하기 위해선 index 함수가 urls.py에 등록되어 있기 때문에 라우팅 흐름을 타고 작동하는 관계를 알아야한다. 이런건 코드에 안쓰여져 있다. 고생해서 익혀야 한다.   Flask는?   @app.route('/', methods=['GET', 'POST']) def home():   return flask.render_template('filename.html')   플라스크를 어떤 기능을 어떤 파일명에서 어떤 이름으로 구현하라는 약속이 없다. 필요에 따라 구현하고 구현한 만큼 기능한다. 플라스크는 @view_decorator로 처리하는 로직이 많다. 덕분에 명시적인 성향이 강해서 한눈에 어떤 로직이 관계되는지 파악할 수 있다. 위는 app 객체에 route를 등록하고 바로 아래에 Response를 반환하는 예제다.   미들웨어  Django는?   MIDDLEWARE = [     'django.middleware.security.SecurityMiddleware',     'django.contrib.sessions.middleware.SessionMiddleware'     'my_middleware_directory.MyCheckTokenClass', ]  setting.py   setting.py에서 미들웨어를 등록해놓으면 request할때는 위에서부터 밑으로 적용시키고 response 할때는 아래부터 밑으로 적용해나간다.      다음은 Django에서 미들웨어를 구현한 모습이다. 위에 있는 MIDDLEWARE = [… my_middleware_directory.MyCheckTokenClass] 의 연장으로 보면 이해하기 쉽다. 쓰겠다고 했으니 구현한거다.   class MyCheckTokenClass:     METHOD = ('GET', 'POST', 'PUT', 'DELETE')      def __init__(self, get_response):         self.get_response = get_response         self.API_URLS = [             re.compile(r'^(.*)/api'),             re.compile(r'^api'),         ]         # 메인 로직에서 사용할 미들웨어의 프로퍼티를 지정하는 생성자 __init__       def __call__(self, request):         response = None         if not response:             response = self.get_response(request)         if hasattr(self, 'process_response'):             response = self.process_response(request, response)         return response                  # 클래스가 호출되면 함수처럼 실행되는 __call__         # 여기서는 REQ객체로부터 RES객체를 생성하고 한다.         # process_response 함수를 통해 전처리가 된 response를 다음 미들웨어로 보낸다.       def process_response(self, request, response):         path = request.path_info.lstrip('/')         valid_urls = (url.match(path) for url in self.API_URLS)                  # url과 메서드를 검사해서 적용 케이스를 분기한다.         if request.method in self.METHOD and any(valid_urls):             response.isCheck = True         else:             response.isCheck = False          return response   어떤 요청에 대해 위의 미들웨어 로직을 적용 할지에 대해서는 객체를 직접검사하고 리턴을 돌려주는 방식으로 구현된다.   Flask는?   다음 코드에서 보여주면서 설명  from flask import Flask from flask_cors import CORS  # 방법 1 미들웨어를 import하고 감싸주면 적용. app = Flask(__name__) cors = CORS(app, resources={r\"/api/*\": {\"origins\": \"*\"}})  # 방법 2 전통적인 방법으로 미들웨어 만들기 from werkzeug.wrappers import Request  class Middleware:     def __init__(self, app):         self.app = app      def __call__(self, environ, start_response):         request = Request(environ)         print('path: %s, url: %s' % (request.path, request.url))         return self.app(environ, start_response)  app.wsgi_app = Middleware(app.wsgi_app)  # 방법 3 데코레이터 사용 from functools import wraps  def login_required():     def _decorated_function(f):         @wraps(f)         def __decorated_function(*args, **kwargs):             if 'logged_in' in session:                 print(session['email'], \"session pass\")                 return f(*args, **kwargs)             else:                 print(\"️ ___no session___\")                 return \"NO SESSION ERROR\"          return __decorated_function      return _decorated_function   @app.route('/home') @login_required() def home():     return 'Hello'   이것 말고도 다양한 방법이 지원되지만 세가지를 예로 들었다.     app을 래핑하는 미들웨어   전통적 (명시적) 미들웨어   decorator를 통해 미리 명시적으로 보여주는 방법. 이때 @app.route 가 상단에 있어야한다. Flask의 방법은 Node — express 와 비슷하다는걸 알 수 있다.   정리  이렇게 보면 Flask는 @decorator로 상당히 많은것을 하는것처럼 보이지만  flask_restful 을 활용하면 Django처럼 별도의 장소에서 라우팅을 정리하고 적용할 함수형 리소스, 클래스형 리소스을 지정하여서 코드를 깔끔하게 관리할 수도 있다.   from flask_restful import Api, Resource  app = Flask(__name__) api = Api(app)  class AccountImg(Resource):     def post(self):         pic = request.get_json()         img = pic['img']         usersCollections.update_one({'email': session['email']},                                     {'$set': {\"img\": img}})         return 'ok'          api.add_resource(AccountImg, '/account/img')  flask_restful 기반 API.  내가 경험한것을 요약하면 두 프레임워크의 선택기준은 다음과 같다.       Reference     https://tutorial.djangogirls.org/ko/django_start_project/   how-to-create-a-custom-django-middleware   https://oz123.github.io/advanced-python/book/middlewares.html   DJANGO 커스텀 미들웨어 만들기   https://github.com/jadetypehoon/duckhoogosa-server-kth   https://developer.mozilla.org/ko/docs/Learn/Server-side/Django  ","categories": ["Python"],
-        "tags": ["Language","Framework","Web","Flask","Django"],
-        "url": "/python/%ED%8C%8C%EC%9D%B4%EC%84%A0-%EC%9B%B9%EC%84%9C%EB%B2%84-%EB%AD%90%EA%B0%80-%EC%A2%8B%EC%9D%84%EA%B9%8C-Django-vs-Flask/",
-        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
-      },{
-        "title": "가제",
-        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
-        "tags": [],
-        "url": "/ec2-http-https/",
-        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
-      },{
-        "title": "가제",
-        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
-        "tags": [],
-        "url": "/feat/",
-        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
-      },{
         "title": "가제",
         "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
         "tags": [],
         "url": "/devops/",
-        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
-      },{
-        "title": "가제",
-        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
-        "tags": [],
-        "url": "/2022-06-17-til-diary/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
         "title": "가제",
@@ -302,19 +290,7 @@ var store = [{
         "title": "가제",
         "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
         "tags": [],
-        "url": "/2022-06-24-til-diary/",
-        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
-      },{
-        "title": "가제",
-        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
-        "tags": [],
         "url": "/2022-07-07-til-diary/",
-        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
-      },{
-        "title": "가제",
-        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
-        "tags": [],
-        "url": "/2022-07-11-til-diary/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
         "title": "가제",
@@ -326,19 +302,7 @@ var store = [{
         "title": "가제",
         "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
         "tags": [],
-        "url": "/2022-07-16-til-diary/",
-        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
-      },{
-        "title": "가제",
-        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
-        "tags": [],
         "url": "/2022-07-21-til-diary/",
-        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
-      },{
-        "title": "가제",
-        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
-        "tags": [],
-        "url": "/2022-07-23-til-diary/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
         "title": "가제",
@@ -347,16 +311,16 @@ var store = [{
         "url": "/2022-07-25-til-diary/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
-        "title": "가제",
-        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
-        "tags": [],
-        "url": "/2022-07-28-til-diary/",
-        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
-      },{
         "title": "about me",
         "excerpt":"  I’m back  Spring has come to my life and I’m back to blogging again. And I bought a good MacBook as a souvenir. Previously, I had a 2013 MacBook. I won’t talk much. Cuz the best way to tell me is by posting. Sat, Jun 4, 2022   ","categories": ["about"],
         "tags": [],
         "url": "/about/first_post/",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
+        "title": "가제",
+        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
+        "tags": [],
+        "url": "/feat/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
         "title": "2022. 06. 13 TIL & Diary",
@@ -381,6 +345,12 @@ var store = [{
         "excerpt":"#### Great day, PR template, basename, regex   Language      Bear-Auto-Publish 다시 함수를 작성, github PR 체크리스트 템플릿 만듬. Angular.js 프로젝트꺼 가져와서 절반은 내 취향에 맞게. 나 혼자라도 지켜가면서 하나하나 지켜가는 재미를 찾아보려고함(시간이 지나 내가 봐도 모르면 남이 보면 더 모른다. 이 부채가 없도록 잘 처리하는게 고수인듯). Issue 메뉴 활성화해서 프로젝트 목표를 적은 이슈작성, 테스트에 필요한 기본구조 짜서 병합.   화면보호 안걸리게 하는 프로그램이 필요해서 배치 하나 작성.     Shell       HERE STRING, touch(오래 전부터 이게 왜 있나했는데. 타임스탬프를 조정하는게 원래 기능이었다. 그런데 타임스탬프를 일부러 조정할 케이스가 있나? 테스트 환경 구축?) , besename(이 커맨드가 왜 있는가 했는데 오늘 읽다보니 실행환경에서 자유로운 쉘을 만드는데 유용했다), : 널커맨드(이게 파일의 내용을 비우는데 가장 적합한 방법이다. 생성할 때도 echo “” &gt; file , touch file 이런거 하지 말고 : &gt; file 이 제일 짧다. ‘( )’ 서브쉘을 값을 가져오기 위해서 뿐만 아니라 cd 같이 실행환경을 바꿀 수 있는 명령어로 부터 독립적으로 실행하는데 쓸 수가 있다.   cd “${0%/}” program=${0$$/}— **확장쉘 **파일의 디렉토리만 추출하거나 파일이름만 추출할 수도 있다. 이건 처음봐서 신기했는데 실용성이 있는지는 모르겠다. 가독성도 떨어지는데 신선해서 메모는함.   Philosophy   Regex 사용에 비판적인 예전에 팟캐스트에서 자주 듣던 포프님의 의견이 담긴 유튜브한편. (그럼 확장쉘은 더욱더 쓰면 안되겠네)   Diary   다이어트 한다고 잡곡양 절반으로 줄인게 슬슬 영향이 오는듯. 퇴근길에 술이 생각남. 이번주 일요일엔 리피딩 데이다.   Life      운동 시간 0   생체배터리 45% → 20%   ","categories": [],
         "tags": [],
         "url": "/2022-06-16-til-diary/",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
+        "title": "가제",
+        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
+        "tags": [],
+        "url": "/2022-06-17-til-diary/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
         "title": "2022. 06. 13 TIL & Diary",
@@ -417,6 +387,12 @@ var store = [{
         "excerpt":"#### 디버깅, 타입 언어, 사진과 의미, 기억 다이어트   Language   어이없게 시간을 날렸다. js에서 regex는 console로 찍어보면 //g 이렇게 아무 값이 없어도 하나의 오브젝트인데 그렇게 써야하는걸 모르고 “//g” 이렇게 문자열로 만들어버리고 그걸 자꾸 정규식 arg로 넣고 있었다. 왜 이게 matching이 안되지 하고 삽질을 했다. (어제까진 잘하다가 오늘..) 또 null을 자꾸 함수에 집어넣고 그걸 눈치못채고 시간을 많이 낭비했다. 단절된 망이라 개발환경이 제한되어 타입스크립트를 못쓰는게 한이다. 매번 함수마다 타입검사를 하는게 시간 버는 길이다. 오랜만에 js 쓰다보니 타입을 몰라서 하루종일 시간을 낭비했던 추억이 새록새록.   Philosophy   기존에 써놓은 노트와 예전에 찍은 사진들을 정리하는 가졌다. 기록을 어떻게 태깅하고 분류하느냐에 계속 고민을 하게 되는데. 단순히 심미적인 이유가 아니라 이런 분류 활동들이 사고 및 행동을 반성하는데 큰 도움이 되기 때문이다. 기록의 총량을 꾸준히 다이어트 해가면서 새로운 기억들이 들어올 공간들을 만들어야 하는데. 이런 이유로 지울때 마다 **인생에서 무엇이 소중한지 무엇에 애정을 가지고 만족하게 되는지 적나라하게 드러난다.    **(아이디어야 나보다 더 좋은 생각을 하는 사람들도 많아서 미련이 없고 시간이 한참 지난 지금 다시 읽을때 영민함이 느껴 지지 않는다면 아이디어로서 생명력이 없는거니 과감하게 지우는데 그래도 아쉬운 것들은 특히 사진, S3 Glacier 에 집어넣는 느낌으로 외장하드나 네이버마이박스에 집어넣는다.)   Life      운동 시간 0 hr   생체배터리 40% → 15%   ","categories": [],
         "tags": [],
         "url": "/2022-06-23-til-diary/",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
+        "title": "가제",
+        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
+        "tags": [],
+        "url": "/2022-06-24-til-diary/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
         "title": "2022. 06. 26 TIL & Diary",
@@ -485,6 +461,12 @@ var store = [{
         "url": "/2022-07-10-til-diary/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
+        "title": "가제",
+        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
+        "tags": [],
+        "url": "/2022-07-11-til-diary/",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
         "title": "2022. 07. 12 TIL & Diary",
         "excerpt":"#### Intergration, 컨디션 안좋은날   Language   Phase 1 깃허브 마크다운 문법으로 치환하는 작업 막바지 인터그레이션 테스트 중   Dairy   이상하게 아침부터 의욕이 없이 하루종일 집중도 안되고 재미가 없었다. 이유는 잘 모르겠다. 어제 요리 하느라 안좋은 가스를 많이 먹었나. 아침에 닭육수 아깝다고 물대신 육수에 꿀타먹고 육수에 밥 말아먹고 한게 좀 오바였던걸까. 이해 할 수 없는 하루. 가끔 이런날도 있는거겠지. 컨디션이 안좋은 날은 좀 빨리 자야겠다. 습관을 유지하려고 드라이브를 넣다가 하다가 마음만 더 상하는거 같다.   Life      움직인 시간: 0.5hr   습관 일기: Youtube 1시간 29분. 시간 줄이는게 쉽진 않다. 그냥 걸어갈때 출퇴근 시간에 교육 동영상 소리만 켜놓고 들을때도 있고 밥먹을때 틀어놨다가 밥먹고 나서도 자연스레 보는것도 있고 정말 봤어야했나? 기회비용은 뭐였을까 고민해봐야지   생체배터리: 20% → 0%   ","categories": [],
         "tags": [],
@@ -501,6 +483,12 @@ var store = [{
         "excerpt":"#### AWS IAM Best Practice, Network Security, 내부질서 5단계   Devops   첫째, AWS IAM 보안 관련하여 베스트 프랙티스 내용을 진행하였다. 주요키워드는 root, inline policy, IMDSv2, ttl token, 보안 로직 자동화(with lambda), IRSA (k8s에서 파드가 노드의 권한을 통째로 assume 하지 않도록 처리), EC2를 둘러싼 네트워크 설계, ec2-user 외 원하는 계정의 생성, System Manager(Session Manager), ssh 할때 pem을 호출 하지 않고 aws-cli가 세션매니저를 호출하여 접속하는 방법을 통해 사용자의 경험 개선, EC2 백업 방법 (EBS를 통해, AMI를 만드는 방법을 통해 ), AWS backup, AWS Golden Iamge라는 컨셉과 pakcer로 이를 만드는 절차, Codebuild 임지를 만드는 절차, EC2 inspector v2의 스캔과 작동 수준차이   둘째, 네트워크 관련 서비스들을 보안의 관점에서 다시 복습하고 활용방법을 진행하였다. 주요키워드는 Routing Table의 subnet Association 기능, NAT, Middlebx routing을 활용해 firewall로 플로우를 흘렸다가 dest로 보내기 (반대로 security appliance 노드를 통해서 인터넷으로 내보내기), VPC IPEM, Security Group의 특성 (soft-limit, ENI단위로 설정, chaning-prefixList), SG와는 다른 NACL의 동작특성 그리고 이를 활용한 3TIER Architect, 엔드포인트를 굳이 쓰는 이유, 프라이빗링크 엔드포인트, 컨슈머 엔드포인트(Private Link endpoint, GW endpoint, GWLB endpoint), 프로듀서 엔드포인트, GWLB 엔드포인트가 하는일 (방화벽으로 가는 패킷을 중간에 컨트롤하여 부하 분산, VPC Endpoint service 등록기능)   오늘 별로 한게 없는거 같은데 생각보다 내용을 많이 진행했다. 안토해내고 잘 소화가 될런지. 결국 아침부터 밤까지 이것만 한건가   Philosophy   내부 질서 5단계 부분만 다 읽었다. 영원할것 같은 질서도 결국은 끝나는 순간이 온다니 놀라운 일이다. 우리 모두는 멈춰버린것 같은 역사의 산증인이다.   Life      움직인 시간: 2.5 hr. 격일로 운동을 하고 있는데 1시간은 무산소, 30분은 자전거 인터벌을하는 중. 무아지경에 빠질정도로 열심히 하는거 오랜만에 하니까 재밌다. 무릎에 통증만 없기를 기도하면서 사는 중. 기계가 이상한건지 조금만(?) 열심히 하니까 최대 심박수(182)에 도달한다. 실제 자전거 타면서는 그렇게까지 올리기가 쉽지가 않던데 아무래도 의자에 등을 대고 쥐어짜듯이 움직이기가 용이해서 그런걸까   습관 일기: Youtube 앤드류 테이트라는 전 킥복싱 선수 및 사업가의 영상   환율방어선이 무너졌습니다   드릴헤드 비트 고정방법      생체배터리: 50% → 10%   ","categories": [],
         "tags": [],
         "url": "/2022-07-15-til-diary/",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
+        "title": "가제",
+        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
+        "tags": [],
+        "url": "/2022-07-16-til-diary/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
         "title": "2022. 07. 17 TIL & Diary",
@@ -533,6 +521,12 @@ var store = [{
         "url": "/2022-07-21-til-diary/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
+        "title": "가제",
+        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
+        "tags": [],
+        "url": "/2022-07-23-til-diary/",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
         "title": "2022. 07. 24 TIL & Diary",
         "excerpt":"#### External Secret, Fargate, Best Practice in Data Plane, 미국근대화폐   Devops   EKS 클러스터 활용에 있어 IRSA, Metric Server 구성, External Secret controller를 이용하여 정보매핑, AWS ALB controller 구성.    EKS 구성시 EC2외에도 또 지원하는 Managed Data Plane Fargate 를 이용한 EKS 구성. Fargate profile을 이용한 파드 스케쥴. Fargate를 왜 EC2대신 이용해야하는지 단점은 무엇인지. 베스트프랙티스는?   이걸로 커리큘럼 완주 Devops 마지막까지 완주했다. 구체적인 이야기는 별도의 글에서   Philosophy   미국의 도금시대부터 전쟁 후 자산팽창의 시기. 브레튼우드 체제의 종말. 70년 스태그플레이션에 사태에 대한 화폐관점에서의 해석. 인플레와 고금리가 끝난 이후 80년대의 호황.   Life      움직인 시간: 0.5 hr   습관 일기  다음주 마지막 상승장 시험이 있습니다  나르시시즘이 남자의 삶에 미치는 영향 별난 사람. 에고라는 적이란 책의 내용이나 리버럴의 멘탈을 정확히 반대로 실천하고 사는 사람. 오늘은 유튜브 보는 시간도 별로 없이 정말 집중해서 알차게 시간을 보냈다.   생체배터리: 70% → 20%   ","categories": [],
         "tags": [],
@@ -555,6 +549,12 @@ var store = [{
         "excerpt":"#### devops는 어떤 미래를 꿈을 꿀 수 있을까?   커리큘럼과 중반까지에 대한 내 감상은 다른 포스트에서 다루었다.   → Devops 교육을 들으며 중간 정리   총 들어간 시간. 실습, 메모, 모르는 개념을 찾는걸 포함 더 많은 시간을 투자했다.#### 후반부 커리큘럼은 다음과 같다.      도커와 쿠버네티스를 이용한 배포구성 및 운영   Jenkins / AWS Build Series / Github Actions / Circle CI를 이용한 실습   Argo 를 이용한 쿠버네티스 배포구성   Prometheus+Grafana, CloudWatch를 활용한 모니터링 데이터 수집 구성 및 모니터링 라인 구성, SNS 연동   ELK Stack 구성, 데이터 수집 및 시각화   IAM(Assume, IRSA), Session Manager, 골든이미지 구성 파이프라인, Inspector, Endpoint (Produce, Consume),GWLB, ANF, AWS WAF, CloudTrail, GardDuty, Security Hub 등 보안 서비스를 네트워크에 적용하기 자세히 보면 똑같은 기능에 대해 여러 가지 툴을 이용해 같은 작업을 한 것이 많다. 각 툴들의 컨셉을 비교함으로서 차이와 공통점을 몸으로 이해하도록 해놓은 구성이다. 실제로 사용할 때는 더 깊은 기능과 작동 원리와 절차에 대한 더 깊은 이해가 필요할 텐데 그땐 학습자가 문서를 읽어보며서 하면 될 일이라고 본 것 같다. 그리고 나도 그런 점에 공감한다. T자 학습. 여러 가지 워크플로를 몸으로 익히고 생소한 단어와 개념에 익숙해지는 게 커뮤니케이션의 시작이라고 생각하기 때문이다. (일단 팀에 들어가면 아키텍트를 봐야 하니)   쿠버네티스 쇼크   전반부 파트에서 나에게 가장 충격을 준 툴이 ‘Ansible’ 이었다면 후반부에서 가장 충격을 준건 받은 부분을 ‘kubernetes` 였다. 도커만 해도 컨테이너로 관리와 배포를 혁신적으로 할 수 있어서 큰 변화라고 느꼈는데. 파드를 노드에 배치하고 네트워크와 연결하는 부분은 문서로서 정의해놓으면 나머지는 쿠버네티스가 유연하게 적용함으로써 한 사람이 할 수 있는 작업의 양과 정확도, reusable 이 폭발적으로 증가하게 된다. 테스트 베드나 다른 리전에 서비스를 하고 싶을때도 코드를 복사해 테넌트 이름만 바꾸는 것으로 구성할 수 있는 점도 지적하고 싶다. 거기에 Lens처럼 웬만한 건 다 GUI에서 신속하게 처리할 수 있는 툴까지 합치면 왜 이 툴이 그렇게 주목받는지 이해가 되었다.   SaaS의 엄청난 효율성   그리고 Part8 AWS 보안, EKS 내용을 보면 Devops는 AWS가 만들어놓은 베스트프랙티스 서비스를 SaaS로 구매해 연결하는 사람으로 보이기도 하는데 10명의 사람이 할 수 있는 일을 1명이 할 수 있는 현실에. 돈을 많이 받고 그 한 사람을 지향한다는 게 경제적으로 이치는 맞는 말이지만 뭔가 SaaS를 연결하는 게 직업이라고 단면적으로 해석하면 뭔가 쓸쓸하게 느껴지지 않는다고 하면 거짓말이라고 생각한다. 실제로 일을 하다 보면 결국 거기서도 커뮤니케이션적인 측면과 도구를 사용하는 방법과 정책에 있어 사람과 사람사이엔 결과물의 차이가 생기겠지만 클라우드 SaaS 사업자는 항상 그런 차이를 줄여 균일한 서비스를 받을 수 있도록 베스트프랙스트를 매일 생산해내고 있다. 예를 들어 EKS는 컨트롤 플레인에 대한 염려를 때어놓을 수 있게 했고. EKS에서도 EC2대신 쓸 수 있는 파게이트는 데이터 노드에 대한 걱정도 때어놓게 만들었다. 그 다음은 무엇이란 말인가?   하나된 미래가 온다#### 목을 내어놓고 있다는 느낌을 지울 수 없다.   우리는 1년 뒤엔 인도에 있는 247 근무 MSP(Managed service provider) 조직에 AWS 계정을 맡기는 CTO를 만나게 될지도 모른다.** 그 회사에서 CTO는 비즈니스 로직이 들어간 repository와 개발자들의 사기를 관리하는 데다른 CEO들에게 디지털이 주도하는 비즈니스를 어필하는데 집중하게 될 것이다. 그리고 가끔 인도인들이 돈을 헛되게 쓰고 있지 않은지 비용분석 회사의 컨설팅 보고서를 읽는다. 자본주의가 효율적일수록 사람과 사람 사이에 일의 퀄리티에 차이가 없을수록 클라우드 회사들이 열심히 그들의 성공 케이스를 적용할수록 그 미래는 더 빨리 올 것이다. **그때 나를 포함한 전 세계의 데브옵스들은 247 근무를 수용한 절박한 인도인과 무슨 차별점을 가지게 될까? 이건 망상이 아니다. 이 추론은 ITO 외주가 일상이었던 지난 업계의 질서의 연장이자 확장이다.   난 이런 욕망을 가진 사람이구나   이런 내 걱정과 싸늘한 감각엔 일을 통해 긍지를 얻고 존중받고 싶다는 욕망, 도저히 내 인생에서 지워낼 수 없는 그 욕망이 근거하고 있다. 이 강의를 들으며 그 감히 두려워 입에 담을 수 없었던 그 욕망을 다시 발굴해낸 점이 이 강의에서 얻어낸 가장 큰 소득이라고 생각한다.    다만 이 생각은 수강을 마무리하는 시점에 묘하게 싸늘한 그 감정을 쏟아낸 것에 불가하다. 나 혼자만의 생각이니 다른 사람들과 토론하고 관련된 사람들의 책을 읽어봄으로써 발전시켜나가야 한다. 성급한 결론은 내리지 않는 것으로 하고 이것으로 마무리한다.   ","categories": [],
         "tags": [],
         "url": "/devops/",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
+        "title": "가제",
+        "excerpt":"! D O C T Y P E h t m l &gt;   ","categories": [],
+        "tags": [],
+        "url": "/2022-07-28-til-diary/",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       },{
         "title": "TIL & Diary",

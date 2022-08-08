@@ -10,4 +10,4 @@ date:	2022-06-29
  Scripts for use in hand-to-hand environments without using manifestos. Instead of preventing mistakes, there are processing tasks to eliminate history as they are entered in plain text.
 
 $ echo "CurrentPW1\nNewpassWord2\nNewpassWord2" | passwd  
-$ for i in {1..3} ; do history -d $(expr $(history 1| awk '{print $1}') - 3); done![](/img/1*kXb2dHnwQdRL26PjEb0JgQ.png)  
+$ for i in {1..3} ; do history -d $(expr $(history 1| awk '{print $1}') - 3); done![](/assets/img/1*kXb2dHnwQdRL26PjEb0JgQ.png)  

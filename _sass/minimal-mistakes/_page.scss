@@ -87,11 +87,17 @@ body {
   font-size: $type-size-4;
 }
 
+// has는 좋지만 이건 좋은 접근이 아니다. 코드 블록을 단독 문장으로 만드는게 잘못된 사용방법이다.
+// p:has( code){
+//   color: red;
+//   background: white;
+// }
+
 .page__content {
-  h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
-  }
+  // h2 {
+  //   padding-bottom: 0.5em;
+  //   border-bottom: 1px solid $border-color;
+  // }
 
 	h1, h2, h3, h4, h5, h6 {
 		.header-link {
@@ -146,8 +152,13 @@ body {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
     font-size: 0.8em;
-    background: $code-background-color;
+    // background: $code-background-color;
+    background: $base00;
+    border : 1px rgba(rgb(209, 209, 209), 0.25);
+    border-style: double;
     border-radius: $border-radius;
+    margin-top: 2em;
+    margin-bottom: 2em;
 
     &::before,
     &::after {

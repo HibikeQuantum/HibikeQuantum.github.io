@@ -15,7 +15,7 @@ excerpt: 페어프로그래밍으로 하는 문제 중 가장 재미있는 시�
 
 N-Queens 의 목표는N * N 사이즈의 보드에 rook 와 queen을 놓는 경우의 수와 놓은 모양의 배열을 만드는 것이다. 내가 푼 방식은 비효율적인것 같긴하지만 OOP를 도전적인 문제를 해결하는데 재미있게 사용한 첫 경험을 제공해주었다.
 
-![](/img/1*wLK6PBcmcJVOZHiZGh9HfQ.png)
+![](/assets/img/1*wLK6PBcmcJVOZHiZGh9HfQ.png)
 {:.align-center}
 사용한 자료구조
 {: .caption}

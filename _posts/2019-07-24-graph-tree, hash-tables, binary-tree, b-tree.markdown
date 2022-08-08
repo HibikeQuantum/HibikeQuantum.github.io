@@ -12,7 +12,7 @@ excerpt: Tree, Graph, HashTable
 # 자료구조 정리 2편 Binary Tree
 ## Tree
 
-![](/img/1*vefdKQhrnccjMbET1JH7NA.png)
+![](/assets/img/1*vefdKQhrnccjMbET1JH7NA.png)
 
 * 1편에서 알아본 자료구조는 각자 특징이 있었지만 모두 **선형적구조**를 가지고 있었다. 
 * 2편은 그렇지 않은 자료구조의 모임이며 Tree는 그중 Root를 가지고 하위노드를 거느린다는 특징을 가진다.
@@ -74,7 +74,7 @@ class Tree {
 ---
 
 ## Graph
-![](/img/1*V-SSiyw_fCY2bgA7Zy6u2A.png)
+![](/assets/img/1*V-SSiyw_fCY2bgA7Zy6u2A.png)
 
 * Graph는 부모를 가지고 자녀를 가지는 면에서 Tree와 비슷하지만 Tree에 있는 몇 가지 제약이 없는 사실상 Tree의 상위호환격 자료구조이다. 몇 개의 자식노드(인접노드)를 가지는지 제약도 없고 root도 없기 때문이다.
 * Directed Graph, Undirected Graph로 나뉜다. (Tree는 Directed)
@@ -104,7 +104,7 @@ var Graph = function () {
 ---
 
 ## Hash table
-![](/img/1*WKf-3lBaGkZpNYzdsNUWPQ.png)
+![](/assets/img/1*WKf-3lBaGkZpNYzdsNUWPQ.png)
 
 **Separate chaining 방식 해쉬테이블**
 

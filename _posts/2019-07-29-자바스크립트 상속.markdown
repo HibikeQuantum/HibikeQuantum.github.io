@@ -8,7 +8,7 @@ tags: [javascript, language, inheritance]
 excerpt: ES5 style inheritance 자바스크립트가 원래 OOP가 아닌만큼 상속을 구현하는게 상당히 상스럽다.
 ---
   
-![](/img/1*EtN-yZX5QHA7auFWRwKzLw.jpeg)
+![](/assets/img/1*EtN-yZX5QHA7auFWRwKzLw.jpeg)
 
 ## ES5 스타일
 

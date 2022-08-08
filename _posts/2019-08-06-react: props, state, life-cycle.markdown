@@ -120,7 +120,7 @@ class Item extends React.Component {
 
 ### 라이프사이클
 
-![](/img/1*3AdJb7oqj8UerlojaXv8kg.jpeg)
+![](/assets/img/1*3AdJb7oqj8UerlojaXv8kg.jpeg)
 {:.align-center}
 리액트 컴포넌트 구조가 어떻게 관리받는지를 정리한 표
 {: .captionC}
