@@ -5,7 +5,7 @@ tags: [TIL,DAIRY]
 toc: true
 date: !!!
 last_modified_at: !!!
-title: "TIL & Diary" # !!!
+title: TIL & Diary
 excerpt: !!!
 ---
 ## Language  

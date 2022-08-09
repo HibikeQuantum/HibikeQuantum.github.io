@@ -182,11 +182,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/devlog/%EB%82%98%EB%8A%94-%EC%97%AC%EA%B8%B0%EC%84%9C-%EC%99%9C-%EC%9D%B4-%EC%9D%BC%EC%9D%84-%ED%95%98%EB%8A%94%EA%B0%80-%EC%82%AC%EC%9A%A9%EC%84%A4%EB%AA%85%EC%84%9C</loc>
-<lastmod>2019-12-14T00:00:00+09:00</lastmod>
+<lastmod>2022-08-09T23:24:21+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/about/first_post</loc>
-<lastmod>2022-05-01T12:00:00+09:00</lastmod>
+<loc>http://localhost:4000/devlog/I_came_back</loc>
+<lastmod>2022-06-04T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/devlog/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8</loc>
@@ -576,7 +576,7 @@
 <loc>http://localhost:4000/tag/essay</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tag/devlog,-diary</loc>
+<loc>http://localhost:4000/tag/devlog,-diary,-about</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tag/software</loc>

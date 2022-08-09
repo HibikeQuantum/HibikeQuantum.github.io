@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  "about me"
-date: 2022-05-01 12:00:00 +0900
-categories: about
-tag: devlog, diary
+title: Spring has come and I'm starting my blog again.
+date: 2022-06-04
+categories: devlog
+tag: devlog, diary, about
 ---
 
 ![my-desk](/assets/img/my-desk.jpeg)

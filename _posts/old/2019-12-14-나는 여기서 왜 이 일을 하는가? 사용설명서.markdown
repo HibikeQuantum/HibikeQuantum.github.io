@@ -2,6 +2,7 @@
 layout:	single
 title: 나는 여기서 왜 이 일을 하는가? 사용설명서
 date: 2019-12-14
+last_modified_at: 2022-08-09T23:24:21+09
 toc: true
 category: devlog
 tags: [devlog, essay]
