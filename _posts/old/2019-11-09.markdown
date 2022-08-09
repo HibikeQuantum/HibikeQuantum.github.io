@@ -3,7 +3,7 @@ layout:	single
 title:	"데이터 기록의 역사 톺아보기"
 date:	2019-11-09
 toc: true
-category: Devlog
+category: devlog
 tags: [data, db]
 excerpt: 
 ---

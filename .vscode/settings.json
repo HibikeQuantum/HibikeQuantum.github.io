@@ -12,7 +12,7 @@
         "/.jekyll-cache": true,
         "/.vscode": true,
         "/.site": true,
-        "/_posts/old/*": true,
+        // "/_posts/old/*": true,
         "_sass/minimal-mistakes/vendor": true,
         "_sass/minimal-mistakes/skins/_neon.scss": true,
         "_sass/minimal-mistakes/skins/_contrast.scss": true,

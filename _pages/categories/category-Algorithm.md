@@ -1,12 +1,11 @@
 ---
-title: "Devops 관련된 글모음"
+title: "알고리즘 관련된 글모음"
 layout: archive
-permalink: categories/Devops
+permalink: categories/Algorithm
 author_profile: true
 sidebar_main: true
 ---
-
-{% assign posts = site.categories.Devops %}
+{% assign posts = site.categories.Algorithm %}
 {% for post in posts %} 
     {% include archive-single.html type=page.entries_layout %} 
 {% endfor %}

@@ -3,8 +3,8 @@ layout:	single
 title:	"나는 왜 개발자가 됐나?"
 date:	2019-10-16
 toc: true
-category: Diary
-tags: [Diary, Engineer]
+category: devlog
+tags: [diary, Engineer]
 excerpt: 
 ---
 

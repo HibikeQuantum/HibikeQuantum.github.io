@@ -2,10 +2,10 @@
 main:
   - title: "READ.ME"
     url: http://github.com/HibikeQuantum/HibikeQuantum
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "category"
+    url: /categories/
+  - title: "Year"
+    url: /year-archive/
   - title: "Archieve"
     url: /collection-archive/
   - title: "Sitemap"

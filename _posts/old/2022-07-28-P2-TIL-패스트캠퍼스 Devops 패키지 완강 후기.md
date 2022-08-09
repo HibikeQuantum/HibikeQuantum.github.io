@@ -1,7 +1,8 @@
 ---
 layout: single
-title: "패스트캠퍼스 Devops 패키지 완강 후기"
+title: "Devops 교육 완강 후기"
 date: 2022-07-28
+last_modified_at: 2022-08-09T16:40:45+09
 toc: true
 category: devlog
 tags: [devlog, software, devops, career]

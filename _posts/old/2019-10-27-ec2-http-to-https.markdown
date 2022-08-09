@@ -3,7 +3,7 @@ title: EC2 HTTP 웹서버를 HTTPS로 바꾸기
 layout: single
 date: '2019-10-27'
 toc: true
-category: WEB
+category: Web
 tags: AWS EC2 HTTP PaaS
 ---
 

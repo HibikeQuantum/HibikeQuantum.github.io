@@ -4,7 +4,7 @@ title:	"React — props, state, life-cycle"
 date:	2019-08-06
 toc: true
 last_modified_at: 2019-08-06
-category: react
+category: React
 tags: [javascript, language, Concept]
 excerpt: 리액트를 배울때 가장 많이 언급되는 개념 그중 props, state, life-cycle을 정리하는글이다.
 ---
