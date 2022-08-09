@@ -1,11 +1,11 @@
 ---
 layout:	single
 title: 나는 여기서 왜 이 일을 하는가? 사용설명서
-date: 2022-01-01
+date: 2019-12-14
 toc: true
 category: devlog
 tags: [devlog, essay]
-excerpt: ‘삶은 가지치기’
+excerpt: 새로운 가능성을 탐구하지 않는 나무, 즉 새로운 가지를 뻗지 않는 나무는 죽은 나무. 가지치기를 하지 않는 나무는 무질서하고 쓸모를 잃는다
 ---
 ![](/assets/img/1*adgfjKP2VCcwNHAY5aSdaQ.jpeg){:.align-center}
 {: .caption}
