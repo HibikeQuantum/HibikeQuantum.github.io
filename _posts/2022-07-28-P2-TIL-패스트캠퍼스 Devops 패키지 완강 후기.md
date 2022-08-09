@@ -1,7 +1,7 @@
 ---
-layout:	single
-title:	"패스트캠퍼스 Devops 패키지 완강 후기"
-date:	2022-07-28
+layout: single
+title: "패스트캠퍼스 Devops 패키지 완강 후기"
+date: 2022-07-28
 ---
 
   ## Devops  는 어떤 미래를 꿈을 꿀 수 있을까?

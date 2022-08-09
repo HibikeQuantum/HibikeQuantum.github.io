@@ -1,7 +1,7 @@
 ---
-layout:	single
-title:	"HTTPS- Not Secure 디버깅"
-date:	2019-10-27
+layout: single
+title: "HTTPS- Not Secure 디버깅"
+date: 2019-10-27
 ---
 
   ![](/assets/img/1*fKvhRwG9jPeZNvemJNjIqw.png)알고나면 크게 어려운건 아닌데 어디서 봐야할지, 그것도 아니면 어떤 키워드로 검색해야할지 감이 안와서 조금 헤매서 정리하고자한다.
