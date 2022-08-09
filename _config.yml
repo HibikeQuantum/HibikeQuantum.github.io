@@ -225,8 +225,8 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 20 # amount of posts to show
+permalink: /:categories/:title/ #카테고리를 지정해주지 않은 애를 위한 디폴트값
+paginate: 7 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -329,14 +329,12 @@ defaults:
       toc_sticky: true # 마우스 스크롤과 함께 내려갈 것인지 설정
 
 # 2022.08.08
-tag_page_layout: tag_page
-tag_page_dir: tag
-
 # Jekyll-tagging plugin 
 # https://github.com/pattex/jekyll-tagging
+
 tag_page_layout: tag_page
 tag_page_dir: tag
-tag_permalink_style: pretty
+# tag_permalink_style: pretty
 # ignored_tags: 
 # tag_page_data:
 #   sitemap: false

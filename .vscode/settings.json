@@ -12,7 +12,7 @@
         "/.jekyll-cache": true,
         "/.vscode": true,
         "/.site": true,
-        "**/.md": true,
+        "/_posts/old/*": true,
         "_sass/minimal-mistakes/vendor": true,
         "_sass/minimal-mistakes/skins/_neon.scss": true,
         "_sass/minimal-mistakes/skins/_contrast.scss": true,
@@ -24,7 +24,6 @@
         "_sass/minimal-mistakes/skins/_sunrise.scss": true
     },
     "files.include": {
-
     },
     "hide-files.files": [
         "_sass/minimal-mistakes/skins/_neon.scss",

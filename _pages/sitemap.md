@@ -4,7 +4,7 @@ title: "Sitemap"
 permalink: /sitemap/
 author_profile: false
 ---
-
+<!-- 전체 글을 다 보여주는 기능 현재 네비바에서 갈 수 있게 셋팅된 상태 -->
 A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ '/sitemap.xml' | relative_url }}) available for digesting as well.
 
 <h2>Pages</h2>

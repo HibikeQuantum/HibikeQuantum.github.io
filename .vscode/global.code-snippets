@@ -20,4 +20,28 @@
 		"prefix": "-->",
 		"body": ["➡️"]}
 		,
+		"ImageWithCaption": {
+			"prefix": "ic",
+			"body": [
+			"![](/assets/img/$1){:.align-center}",
+			"$2",
+			"{: .caption}"
+		]
+		},
+		"CodeWithCaption": {
+			"prefix": "cc",
+			"body": [
+			"```$1",
+			"```",
+			"{:.align-center}",
+			"$2",
+			"{: .captionC}"
+		]
+		},
+		"Files Not Called": {
+			"prefix": "fnc",
+			"body": [
+			"<!-- Files Not Called -->"
+		]
+		},
 }
