@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-09T10:43:28+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-52/" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-08T23:27:31+09:00</published><updated>2022-08-09T00:27:35+09:00</updated><id>http://localhost:4000/til/P2-TIL-52</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-52/"><![CDATA[<h2 id="language">Language</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-09T12:05:53+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-52/" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-08T23:27:31+09:00</published><updated>2022-08-09T00:27:35+09:00</updated><id>http://localhost:4000/til/P2-TIL-52</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-52/"><![CDATA[<h2 id="language">Language</h2>
 <p>오늘은 jekll 플러그인 설치하고 설치하는 동안 문제를 커트하고, 오픈소스로 받은 루비 소스가 잘 실행이 안되길래 디버그 해보다가 시간을 많이 보냈다. import 하다가 실패한 부분들 직접 입력해주고. CSS가 마음에 안드는 녀석들은 계속 수정하면서 하는 중이다. 뭔가 시간 낭비인듯 하면서도 포기하기 싫다. 다 끝나면 이제 프로젝트성 포스트를 써야지</p>
 <h2 id="devop">Devop</h2>
 <p>Jira Workflow 쪽 기능을 한참 연구를 했다. 다른 쪽은 그렇게 커스터 마이징에 대한 배려가 없는듯 했는데 워크플로우 하나만은 transition 동작 하나하나에 굉장히 많은 일을 할 수 있게 edit 기능이 굉장히 광범하게 지원된다. 매번 일을 유연하게 한다면 이런 기능들이 별 의미가 없을수도 있겠지만 귓동냥으로 듣는 외국계 회사의 분위기 (업무의 시간의 절반을 사규에 맞냐 안맞냐. 근거가 있냐 없냐를 따지고 있다) 그런 분위기라면 이런 기능들을 참 잘쓰겠다는 생각이 들었다.</p>
@@ -258,61 +258,7 @@ Definition term 1
 <p>두 영상다 인생을 살면서 공격을 할때와 방어를 하는 방법에 대한 이야기다. 영리하게 이걸 해내지 못하면 아무리 뛰어나도 인정받지도 스스로 만족할 수도 없다. be smart~!</p>
 <ul>
   <li>생체배터리: 40% -&gt; 10%</li>
-</ul>
-
-<!-- [^1]: Test 1의 내용입니다. -->
-<!-- # header:
-#   overlay_image: "assets/images/banner_template.jpg" # 얘를 예쁘게 쓸일이 있으려나  
-#   overlay_filter: 0.3 # 투명도
-#   overlay_filter: rgba(205, 239, 154, 0.30) -->
-<!-- <figure class="">
-  <img src="/assets/images/banner_template.jpg"
-       alt="this is a placeholder image"><figcaption>
-      This is a figure caption.
-
-    </figcaption></figure>
-
-![image-right](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png){:.align-center}
-저렇게 됩니다. 이렇게 됩니다. 저렇게 됩니다.
-{: .caption}
-
-[![styled-image](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png  "This is some hover text"){: .align-center style="width: 10%;"}](/assets/images/pixel_tracker_logo_80px.png "Title shown in gallery view")
-Some custom styled caption.
-{: .caption}
-
-짜라투스트라는 이렇게 말했다.[^1]
-
-Definition term 1
-: 저렇게 말했다.
-
-집중! 어텐션 플리즈
-{: .notice}
-그렇게 하면
-{: .notice--primary}
-안되요
-{: .notice--info}
-!!
-{: .notice--warning}
-@@
-{: .notice--danger}
-흑
-{: .notice--success}
-
-
-
-<div class="notice">
-<p><strong>Extended notice box</strong>:</p>
-<ul>
-  <li>맥락을 분리시키는 TIP, 또는 결론을 내릴때 쓰기좋은 패턴 <strong>야호!</strong></li>
-</ul>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
-  <span class="nt">&lt;body&gt;</span>Some body. help me!<span class="nt">&lt;body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div>
-</div>
-
-[Text](#link){: .btn .btn--primary} -->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[Today I learned &amp; Diary Language 오늘도 Liquid 공식 DOC 보면서 블로그에 사용할 템플릿들 정리했다. 그리고 지금 테마를 정말 잘쓰시는 깃허브 블로그 참조해서 볼만하게 고쳐놨다. 색감은 Bear app - ‘Panic’과 Iterm app - ‘Dracula’를 참조했다. 오랜만에 CSS 고치는게 재밌어서 밥먹고 하루종일 책상에 앉아서 이것만했다. (살짝 후회되네)]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-47/" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-03T23:55:31+09:00</published><updated>2022-08-03T23:55:35+09:00</updated><id>http://localhost:4000/til/P2-TIL-47</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-47/"><![CDATA[<!-- <figure class="">
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[Today I learned &amp; Diary Language 오늘도 Liquid 공식 DOC 보면서 블로그에 사용할 템플릿들 정리했다. 그리고 지금 테마를 정말 잘쓰시는 깃허브 블로그 참조해서 볼만하게 고쳐놨다. 색감은 Bear app - ‘Panic’과 Iterm app - ‘Dracula’를 참조했다. 오랜만에 CSS 고치는게 재밌어서 밥먹고 하루종일 책상에 앉아서 이것만했다. (살짝 후회되네)]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-47/" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-03T23:55:31+09:00</published><updated>2022-08-03T23:55:35+09:00</updated><id>http://localhost:4000/til/P2-TIL-47</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-47/"><![CDATA[<!-- <figure class="">
   <img src="/assets/images/banner_template.jpg"
        alt="this is a placeholder image"><figcaption>
       This is a figure caption.

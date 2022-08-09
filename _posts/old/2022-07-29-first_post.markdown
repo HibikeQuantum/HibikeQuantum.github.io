@@ -3,6 +3,7 @@ layout: single
 title:  "about me"
 date: 2022-05-01 12:00:00 +0900
 categories: about
+tag: devlog, diary
 ---
 
 ![my-desk](/assets/img/my-desk.jpeg)
