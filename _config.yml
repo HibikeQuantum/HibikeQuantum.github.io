@@ -225,7 +225,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/ #카테고리를 지정해주지 않은 애를 위한 디폴트값
+permalink: /:categories/:title #카테고리를 지정해주지 않은 애를 위한 디폴트값
 paginate: 7 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -272,9 +272,9 @@ category_archive:
 category_archive:
   type: liquid
   path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+# tag_archive:
+#   type: liquid
+#   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:

@@ -5,7 +5,7 @@ date: 2022-07-28
 last_modified_at: 2022-08-09T16:40:45+09
 toc: true
 category: devlog
-tags: [devlog, software, devops, career]
+tags: devlog software devops career 미래
 ---
 
 ## Devops 는 어떤 미래를 꿈을 꿀 수 있을까?
