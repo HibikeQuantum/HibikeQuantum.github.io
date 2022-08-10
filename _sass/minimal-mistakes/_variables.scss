@@ -12,7 +12,7 @@ $doc-font-size: 16 !default;
 $paragraph-indent: true !default; // true, false (default)
 $indent-var: 0.5em !default;
 
-/* system typefaces */  
+/* system typefaces */
 $serif: Georgia, Times, serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
@@ -199,12 +199,16 @@ $intro-transition: intro 0.3s both !default;
 
 .mimg {
    max-width: 600px;
-   display: block; 
+   display: block;
    margin: 0px auto;
  }
 
 .simg {
    max-width: 400px;
-   display: block; 
+   display: block;
    margin: 0px auto;
+ }
+
+ .ignoreIndent {
+   text-indent: 0em !important;
  }
