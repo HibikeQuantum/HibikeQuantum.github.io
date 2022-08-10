@@ -26,3 +26,147 @@ search: false
     font-weight: normal;
     font-style: normal;
 }
+
+// test import for pagination from blog sensei
+.pagination {
+    clear: both;
+    float: left;
+    margin-top: 1em;
+    padding-top: 1em;
+    width:100%
+}
+
+.pagination::after {
+    clear: both;
+    content: "";
+    display:table
+}
+
+.pagination ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: "Iropke Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+}
+
+.pagination li {
+    display: block;
+    float: left;
+    margin-left: -1px;
+}
+
+.pagination li a {
+    display: block;
+    margin-bottom: 0.25em;
+    padding: 0.5em 1em;
+    font-family: "Iropke Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    color: #eee;
+    border: 1px solid #474a4c;
+    border-radius: 0;
+}
+
+.pagination li a:hover {
+    color:#a9dde0
+}
+
+.pagination li a.current, .pagination li a.current.disabled {
+    color: #fff;
+    background:#FFBF00
+}
+
+.pagination li a.disabled {
+    color: rgba(238, 238, 238, 0.5);
+    pointer-events: none;
+    cursor:not-allowed
+}
+
+.pagination li:first-child {
+    margin-left:0
+}
+
+.pagination li:first-child a {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px
+}
+
+.pagination li:last-child a {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px
+}
+
+.pagination_prev_next {
+    clear: both;
+    float: left;
+    width:100%
+}
+
+.pagination_prev_next::after {
+    clear: both;
+    content: "";
+    display:table
+}
+
+.pagination_prev_next--pager {
+    margin-top: 0em;
+    padding-top: 0em;
+    display: block;
+    padding: 1em 2em;
+    width: 100%;
+    font-family: "Iropke Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #eee;
+    border: 1px solid #bfc1c1;
+    border-radius:4px
+}
+
+.pagination_prev_next--pager .prev_next {
+    font-family: "Cafe24Oneprettynight";
+    color:#ffd861
+}
+
+.pagination_prev_next--pager:hover {
+    background-color: #eee;
+    color:#3d4144
+}
+
+.pagination_prev_next--pager:first-child {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius:0
+}
+
+.pagination_prev_next--pager:last-child {
+    margin-bottom: 1em;
+    border-top-left-radius: 0;
+    border-top-right-radius:0
+}
+
+.pagination_prev_next--pager.disabled-first-child {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: rgba(238, 238, 238, 0.5);
+    pointer-events: none;
+    cursor:not-allowed
+}
+
+.pagination_prev_next--pager.disabled-last-child {
+    margin-bottom: 1em;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    color: rgba(238, 238, 238, 0.5);
+    pointer-events: none;
+    cursor:not-allowed
+}
+
+.page__content + .pagination, .page__meta + .pagination, .comment__date + .pagination, .page__share + .pagination, .page__comments + .pagination {
+    margin-top: 2em;
+    padding-top: 2em;
+    border-top:1px solid #5f6365
+}
