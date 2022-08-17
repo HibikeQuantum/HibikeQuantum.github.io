@@ -6,9 +6,9 @@ main:
     url: /categories/
   - title: "Year"
     url: /year-archive/
-  - title: "Archieve"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
-  - title: "Tags"
-    url: /tags/
+  # - title: "Archieve"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+  # - title: "Tags"
+  #   url: /tags/

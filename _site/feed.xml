@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2022-08-17T23:58:05+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-57" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-17T13:38:36+09:00</published><updated>2022-08-17T23:11:15+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-57</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-57"><![CDATA[<h2 id="language">Language</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2022-08-18T08:25:39+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-57" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-17T13:38:36+09:00</published><updated>2022-08-17T23:11:15+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-57</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-57"><![CDATA[<h2 id="language">Language</h2>
 <p>커밋 별로 변화된 글자를 konlpy로 분석하여 csv로 쓰는데까지 작업완료. 내일은 PR하고 비쥬얼라이즈 작업해야지</p>
 
 <h2 id="finance">Finance</h2>
@@ -14,7 +14,7 @@
 <ul>
   <li>움직인 시간: 2H</li>
   <li>습관 일기:<br />
-<a href="https://www.youtube.com/watch?v=W4Z-hTubvT0">변동성이 두려우신 분들은 이 영상 보시면 완치됩니다 (라방요약3)</a>
+<a href="https://www.youtube.com/watch?v=W4Z-hTubvT0">변동성이 두려우신 분들은 이 영상 보시면 완치됩니다 (라방요약3)</a><br />
 <a href="https://www.youtube.com/watch?v=ENSQJWZDsyg&amp;t=704s">779. 20년 전 2022년 주식시장 바닥을 예측한 책!</a> - 이거 보면서 로또 숫자 분석하는 사람이랑 무슨차이인지 고민을 했다. 차라리 거품 붕괴를 기준으로 리셋하면서 8년 사이클이 동작하는지 보는게 더 영양가 있을듯.</li>
   <li>생체배터리: 40% -&gt; 10% 블라인드를 사야겠다. 아침에 일어나는 시간이 너무 불규칙하다..</li>
   <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/3cadb97ed436cf71775a7558022dd220cf901e3e">🔗<strong>일일메모장 커밋</strong></a></li>
