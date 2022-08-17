@@ -646,4 +646,10 @@ var store = [{
         "tags": ["TIL,DAIRY"],
         "url": "/til/P2-TIL-56",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
+        "title": "TIL & Diary",
+        "excerpt":"Language  커밋 별로 변화된 글자를 konlpy로 분석하여 csv로 쓰는데까지 작업완료. 내일은 PR하고 비쥬얼라이즈 작업해야지   Finance  오늘 통장을 여러개 만들었다. ISA도 만들고 카카오뱅크 통장도 만들고. 한 7개 정도 통장을 구분해서 쓸것 같다. 월급, 생활비, 비상금, 해외가치투자, 해외퀀트, 국내자산   ENGLISH  상태와 동작을 구분하는 동사에 대해 공부   Diary  어떤 메모를 하고 어떤 기록을 남겨야 좋은 삶이 될지 고민이 깊다 😠   Life     움직인 시간: 2H   습관 일기:  변동성이 두려우신 분들은 이 영상 보시면 완치됩니다 (라방요약3) 779. 20년 전 2022년 주식시장 바닥을 예측한 책! - 이거 보면서 로또 숫자 분석하는 사람이랑 무슨차이인지 고민을 했다. 차라리 거품 붕괴를 기준으로 리셋하면서 8년 사이클이 동작하는지 보는게 더 영양가 있을듯.   생체배터리: 40% -&gt; 10% 블라인드를 사야겠다. 아침에 일어나는 시간이 너무 불규칙하다..   🔗일일메모장 커밋  ","categories": ["TIL"],
+        "tags": ["TIL,DAIRY"],
+        "url": "/til/P2-TIL-57",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       }]

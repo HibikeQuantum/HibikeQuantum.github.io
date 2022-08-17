@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2022-08-16T23:30:50+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-56" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-16T23:14:02+09:00</published><updated>2022-08-16T23:14:06+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-56</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-56"><![CDATA[<h2 id="language">Language</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2022-08-17T23:58:05+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-57" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-17T13:38:36+09:00</published><updated>2022-08-17T23:11:15+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-57</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-57"><![CDATA[<h2 id="language">Language</h2>
+<p>커밋 별로 변화된 글자를 konlpy로 분석하여 csv로 쓰는데까지 작업완료. 내일은 PR하고 비쥬얼라이즈 작업해야지</p>
+
+<h2 id="finance">Finance</h2>
+<p>오늘 통장을 여러개 만들었다. ISA도 만들고 카카오뱅크 통장도 만들고. 한 7개 정도 통장을 구분해서 쓸것 같다. 월급, 생활비, 비상금, 해외가치투자, 해외퀀트, 국내자산</p>
+
+<h2 id="english">ENGLISH</h2>
+<p>상태와 동작을 구분하는 동사에 대해 공부</p>
+
+<h2 id="diary">Diary</h2>
+<p>어떤 메모를 하고 어떤 기록을 남겨야 좋은 삶이 될지 고민이 깊다 😠</p>
+
+<h2 id="life">Life</h2>
+<ul>
+  <li>움직인 시간: 2H</li>
+  <li>습관 일기:<br />
+<a href="https://www.youtube.com/watch?v=W4Z-hTubvT0">변동성이 두려우신 분들은 이 영상 보시면 완치됩니다 (라방요약3)</a>
+<a href="https://www.youtube.com/watch?v=ENSQJWZDsyg&amp;t=704s">779. 20년 전 2022년 주식시장 바닥을 예측한 책!</a> - 이거 보면서 로또 숫자 분석하는 사람이랑 무슨차이인지 고민을 했다. 차라리 거품 붕괴를 기준으로 리셋하면서 8년 사이클이 동작하는지 보는게 더 영양가 있을듯.</li>
+  <li>생체배터리: 40% -&gt; 10% 블라인드를 사야겠다. 아침에 일어나는 시간이 너무 불규칙하다..</li>
+  <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/3cadb97ed436cf71775a7558022dd220cf901e3e">🔗<strong>일일메모장 커밋</strong></a></li>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[konlpy 작업완료, 통장쪼개기, 무엇을 메모하고 무엇을 글로쓸까?, 변동성, 로또과학]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-56" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-16T23:14:02+09:00</published><updated>2022-08-16T23:14:06+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-56</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-56"><![CDATA[<h2 id="language">Language</h2>
 <p>파이선 사이드 프로젝트 진행. 익숙하지 않은 패키지에 고전 중. 그냥 쉘이 짱이다.</p>
 
 <h2 id="devops">Devops</h2>
@@ -336,74 +356,4 @@ Definition term 1
 <p>두 영상다 인생을 살면서 공격을 할때와 방어를 하는 방법에 대한 이야기다. 영리하게 이걸 해내지 못하면 아무리 뛰어나도 인정받지도 스스로 만족할 수도 없다. be smart~!</p>
 <ul>
   <li>생체배터리: 40% -&gt; 10%</li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[Today I learned &amp; Diary Language 오늘도 Liquid 공식 DOC 보면서 블로그에 사용할 템플릿들 정리했다. 그리고 지금 테마를 정말 잘쓰시는 깃허브 블로그 참조해서 볼만하게 고쳐놨다. 색감은 Bear app - ‘Panic’과 Iterm app - ‘Dracula’를 참조했다. 오랜만에 CSS 고치는게 재밌어서 밥먹고 하루종일 책상에 앉아서 이것만했다. (살짝 후회되네)]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-47" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-03T23:55:31+09:00</published><updated>2022-08-03T23:55:35+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-47</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-47"><![CDATA[<!-- <figure class="">
-  <img src="/assets/images/banner_template.jpg"
-       alt="this is a placeholder image"><figcaption>
-      This is a figure caption.
-
-    </figcaption></figure>
-
-![image-right](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png){:.align-center}
-저렇게 됩니다. 이렇게 됩니다. 저렇게 됩니다.
-{: .caption}
-
-[![styled-image](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png  "This is some hover text"){: .align-center style="width: 10%;"}](/assets/images/pixel_tracker_logo_80px.png "Title shown in gallery view")
-Some custom styled caption.
-{: .caption}
-
-짜라투스트라는 이렇게 말했다.[^1]
-
-Definition term 1
-: 저렇게 말했다.
-
-집중! 어텐션 플리즈
-{: .notice}
-그렇게 하면
-{: .notice--primary}
-안되요
-{: .notice--info}
-!!
-{: .notice--warning}
-@@
-{: .notice--danger}
-흑
-{: .notice--success}
-
-
-
-<div class="notice">
-<p><strong>Extended notice box</strong>:</p>
-<ul>
-  <li>맥락을 분리시키는 TIP, 또는 결론을 내릴때 쓰기좋은 패턴 <strong>야호!</strong></li>
-</ul>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
-  <span class="nt">&lt;body&gt;</span>Some body. help me!<span class="nt">&lt;body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div>
-</div>
-
-[Text](#link){: .btn .btn--primary} -->
-<h2 id="language">Language</h2>
-<p>jekyll 셋팅하면서 이것저것 건들여봤다. 리액트 없이 자바스크립트와 마크다운을 이렇게 혼합해서 동적인 컨텐츠를 만들 수 있다는게 신기하다. 일단 빌드가 되고 나면 DOM은 순수한 상태이므로 CSS커스터마이징이나 자바스크립트로 컨트롤 할 수 있는 자유도도 높다. 요즘은 서버사이드 렌더링이 유행한다던데. 역시 정적 서비스가 짱이지</p>
-<h2 id="shell">Shell</h2>
-<p>표준출력으로 연결해도 되는 것과 xargs로 해야하는것 점차 편하게 구분되는것 같다. 예전에 비교할 수 없이 자신있게 명령어를 쓰고 있다. 표준입출력에 대한 이해는 일반 언어 배울때는 매번 똑같은 걸음이었던거 같은데. 맨날 수학책 1장만 공부하는 느낌. 배시로 하니까 맥이 뚫리는 기분이다.</p>
-<h2 id="english">ENGLISH</h2>
-<p>무직전생 24화 까지 다 봤다. 여성 주인공이 남자에 대한 존중심을 이렇게 적극적으로 보여주면서도 낮간지럽지 않은 작품은 처음인것 같다. 스스로를 검열하고 무시당하는 판국에도 존중받기를 갈망하는 요즘 남자들에게 위로를 주는 영리한 캐릭터 구조의 이야기라고 생각한다.</p>
-
-<p>왜 영리하냐? 심야애니의 pathetic한 냄새가 이 작품엔 없기 떄문이다. 루디스는 이기적인 두 파트너를 조율하는 리더로서의 역할을 묵묵히 해냈고 끝없이 자신을 발전시키며 에리스의 상황을 컨트롤 할 수 있음을 증명해낸다. 이것이 에리스가 루디스에게 보내는 존중과 사랑의 근거다.</p>
-
-<p>동시에 에리스는 남자를 존중하며 무능력하게 보호를 기대하는 애처로운 전통적 히로인(ex. 클라나드)이 아니라 남주인공를 돕기위해 스스로 발전하고자하며 자신의 비교적 단순한 머리로 남자에게 할 일을 많이 만들어준다.(너무 다능하면 나눌 일이 없다) 보통의 모에 애니메이션엔 이런게 없기 때문에 심야애니메이션은 pathetic한 오타쿠들의 문화라는 느낌을 언받는데 (그런 코드가 없으면 보통 오버그라운드 작품 즉 인싸픽이 된다.) 이 작품은 그런 느낌이 들지 않도록 캐릭터들의 권력역학을 잘 설정한것 같다. 다만 혐오스러운 캐릭터 설정 때문에 그렇게까지 유행을 할것 같진 않다. 그런 측면에서 보면 건강한 맛 에반게리온 느낌이네.</p>
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 2hours</li>
-  <li>습관 일기
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=qVmfzi7mtJE">해결돼야만 하는 둔촌 주공아파트 재건축 사태</a> 그놈의 소유권. 그냥 일괄적으로 소유권과 토지를 건설사에 전매한 다음 증권을 가지고 입주권과 추가수익을 나눠가지는 모델로 사업을 하면 안되나? 왜 자본주의를 민주주의와 결합해놓고 이런 말도 안되는게 작동될때까지 스스로 셀프 고문을 하는걸 생산방법이라고 주장하는걸까.</li>
-      <li><a href="https://www.youtube.com/watch?v=qLXJlHoSz8w"> 지구 온난화의 주범은 ‘인간’일까 ‘태양’일까? 과학적 팩트로 알아보는 기후 위기의 핵심</a> 나는 옛날부터 원자력 발전을 지지했는데 세상은 피를 봐야 정신을 차리나보다. 그런 점에서 누군가가 사람들이 올바른 패러다임을 예측하고 주장하더라도 다음 페이즈로 가기 위해선 다수가 기존의 틀린 패러다임을 끝까지 밀어붙여 버블을 붕괴시킬떄까지 잘못된 실행이 누적되어야 한다는 이야기가 떠오른다.</li>
-    </ul>
-  </li>
-  <li>생체배터리: 40% -&gt; 30%</li>
-</ul>
-
-<!-- [^1]: Test 1의 내용입니다. -->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[jekyll, 정적사이트, xargs, 무직전생, 패러다임 시프트]]></summary></entry></feed>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[Today I learned &amp; Diary Language 오늘도 Liquid 공식 DOC 보면서 블로그에 사용할 템플릿들 정리했다. 그리고 지금 테마를 정말 잘쓰시는 깃허브 블로그 참조해서 볼만하게 고쳐놨다. 색감은 Bear app - ‘Panic’과 Iterm app - ‘Dracula’를 참조했다. 오랜만에 CSS 고치는게 재밌어서 밥먹고 하루종일 책상에 앉아서 이것만했다. (살짝 후회되네)]]></summary></entry></feed>
