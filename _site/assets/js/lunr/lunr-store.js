@@ -652,4 +652,10 @@ var store = [{
         "tags": ["TIL,DAIRY"],
         "url": "/til/P2-TIL-57",
         "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
+      },{
+        "title": "2022.08.18 TIL & Diary",
+        "excerpt":"   Language   Devops   Shell   Philosophy   Finance   ENGLISH   Diary   Life     움직인 시간: 2H   습관 일기:   생체배터리: % -&gt; 0%   🔗일일메모장 커밋  ","categories": ["TIL"],
+        "tags": ["TIL,DAIRY"],
+        "url": "/til/P2-TIL-58",
+        "teaser": "/assets/images/HibikeQauntumSymbol_500x300_version_waifu.jpeg"
       }]
