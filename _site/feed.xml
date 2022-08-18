@@ -1,26 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2022-08-18T14:19:18+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">2022.08.18 TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-58" rel="alternate" type="text/html" title="2022.08.18 TIL &amp;amp; Diary" /><published>2022-08-18T08:34:17+09:00</published><updated>2022-08-18T08:34:17+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-58</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-58"><![CDATA[<p><img src="/assets/img/" alt="life" class="simg" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2022-08-19T00:45:45+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">2022.08.18 TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-58" rel="alternate" type="text/html" title="2022.08.18 TIL &amp;amp; Diary" /><published>2022-08-18T08:34:17+09:00</published><updated>2022-08-18T23:54:34+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-58</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-58"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-10 23.58.44 - draw still life, about moralist, First-world-problem and time.jpg" alt="시간" class="simg" />
+시간</p>
 
-<h2 class="caption" id="language">Language</h2>
+<h2 id="language">Language</h2>
+<p>신규 기능을 만들기전에 테스트 케이스를 만들다가 이상하게 동작이 안해서 많이 해맸다. unittest 프레임워크가 특이한 네이밍 규칙을 요구하는 점이나 unittest discover 명령어를 실행할때 import 단계에서 문제를 일으키는 등. 뭐 잘못쓰는거야 그럴 수 있는데, 정확히 뭘 고쳐야하는지 알 수 없는 exception이 나와서 굉장히 혼란스러웠다. 잘 알지 못하는 상태에서 응용단계로 바로 넘어간 대가를 뒤 늦게 받는거라 생각한다.</p>
 
 <h2 id="devops">Devops</h2>
-
-<h2 id="shell">Shell</h2>
-
-<h2 id="philosophy">Philosophy</h2>
-
-<h2 id="finance">Finance</h2>
-
-<h2 id="english">ENGLISH</h2>
+<p>OOM이 발생하는데 미리 발생하기 전에 조치를 하면 좋았을텐데. 좀더 스크립트를 짜서 예방을 해야하나?</p>
 
 <h2 id="diary">Diary</h2>
+<p>오늘은 전반적으로 해야할일을 많이 처리하지 못했다. 골고루 하지 못하고 오랫동안 그냥 코드를 잡고 있거나 밤시간에 좀 멍하게 보냈다. 뭐 아주 논건 아니지만.. 의욕을 꺽이는 원인은 대충 알것같다. 전투적인 태도를 잃지 않도록 나쁜 습관을 다시 잡아가야지.</p>
 
 <h2 id="life">Life</h2>
 <ul>
-  <li>움직인 시간: 2H</li>
-  <li>습관 일기:</li>
-  <li>생체배터리: % -&gt; 0%</li>
-  <li><a href="">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-57" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-17T13:38:36+09:00</published><updated>2022-08-17T23:11:15+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-57</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-57"><![CDATA[<h2 id="language">Language</h2>
+  <li>움직인 시간: 0.45H</li>
+  <li>습관 일기:<br />
+나쁜 습관 없애기 Phase 2 - 1일차
+ <a href="https://www.youtube.com/watch?v=Bb2ZWl5nmnI">책을 읽는다고 정말 똑똑해 질까요?</a> - 이 사람이  극단적인 사람이라 전방위적으로 적용하긴 힘들긴 하지만 아주 틀린말은 아니다. 소설의 역사는 인쇄술의 전파와 함께 시작했다. 왕족들이 호화로운 파티와 예술을 즐길때 저렴한 미디어는 불만족스러운 인생에 대한 대중의 마취제였다. 폐인킬러는 언제나 잘 팔리니까. 오늘날이라고 다를까. 역사는 폐인킬러가 더 빠르고 더 쉽게 우리 손으로 들어오는 흐름이다. 반면에 진정으로 필요한 지식은 언제나 접근하기 힘들다. 어떤 지식이 보급되면 그 독점적 가치는 희석된다. 가치는 흩어진다. 그리고 보급되지 못한 지식의 가치는 평가절상된다. 조중동으로 대표되는 뻥구독자 신문이 지배하던 시대를 넘어 유료구독 뉴스레터가 팔리는 시대가 말해준다. 정보를 많이 봐주는 사람이 있는걸 기반으로 광고 수익을 내려던 패러다임 대신 비교적 흔하지 않은 정보를 구해다가 특이하게 편집하고 유료로 팔아서 그 가치가 희석 되는걸 방지한다.</li>
+  <li>생체배터리: 50% -&gt; 20%</li>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[unittest, OOM, 살짝 무기력 패턴, 책을 읽는다고 똑똑해질까요?]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-57" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-17T13:38:36+09:00</published><updated>2022-08-17T23:11:15+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-57</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-57"><![CDATA[<h2 id="language">Language</h2>
 <p>커밋 별로 변화된 글자를 konlpy로 분석하여 csv로 쓰는데까지 작업완료. 내일은 PR하고 비쥬얼라이즈 작업해야지</p>
 
 <h2 id="finance">Finance</h2>
