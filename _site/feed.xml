@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2022-08-19T00:45:45+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">2022.08.18 TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-58" rel="alternate" type="text/html" title="2022.08.18 TIL &amp;amp; Diary" /><published>2022-08-18T08:34:17+09:00</published><updated>2022-08-18T23:54:34+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-58</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-58"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-10 23.58.44 - draw still life, about moralist, First-world-problem and time.jpg" alt="시간" class="simg" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-20T17:46:39+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">2022.08.19 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-59" rel="alternate" type="text/html" title="2022.08.19 TIL &amp;amp; Diary" /><published>2022-08-19T23:59:59+09:00</published><updated>2022-08-20T00:34:04+09:00</updated><id>http://localhost:4000/til/P2-TIL-59</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-59"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-10 23.58.31 - draw still life, about moralist, First-world-problem and time.png" alt="!!!" class="simg" />
+시간</p>
+
+<h2 id="language">Language</h2>
+<p>bokeh API DOC 읽으면서 천천히 진행중. 요즘 정말로 내가 집중해야할게 뭔가 생각을 많이 한다. 굳이 에너지를 여기저기 쓰는게 맞나 생각이든다.</p>
+
+<h2 id="devops">Devops</h2>
+<p>환경변수 주입에 실패한 케이스에 의한 버그 발견. 뭐든 잘못 동작하는게 스노우볼이 구르지 않도록 바로바로 에러를 던지는게 상책이다. (그래서 타입이 있는게 좋다.)</p>
+
+<h2 id="finance">Finance</h2>
+<p>나름 종목을 공부해본다고 게임 주식들을 살펴봤는데 중국게임 퍼블리셔들이 많이 상장되있는 모습들이 뭔가 낯설었다. 지금 당장 사고 싶은건 넵튠. 넵튠은 밴드지표의 아랫단에 올때마다 사는건 나쁘지 않다고 본다. (회사 CEO가 바보는 아닌듯함) 나머지 생각이 있는 CEO를 가진 회사들은 다들 자기기업 가치에 맞는 가격을 가지고 있는듯함. 생각보다 온라인 노름판의 정체성을 가진 기업(넷마블, 엔씨)들이 죽을 쓰는거 보고 게임산업도 뭔가 이제 게이머 정신의 본질을 찾아가는건가.. 하고 조금 기뻤다. 가치주를 본다면 중국 게임 기업에 투자해야 한다는게 내 결론 (CWEB으로 간다) 아편의 종가집에다 훨씬 생산성이 좋은 주식들이 많다.</p>
+
+<h2 id="diary">Diary</h2>
+<p>에너지를 잘 모아서 쓸곳에 써야한다. 그런 강단있는 행동력도 있으면서 유연하게 반응도 해야함. 이런 이슈에 여러가지 고민이 많다. 요즘</p>
+
+<h2 id="life">Life</h2>
+<ul>
+  <li>움직인 시간: 2H. 4월 부터 운동해서 몸이 변한건 잘 모르고 살다가 거울 앞에서 뽀빠이 자세를 해보니 뭔가 우왁하고 튀어나오는게 깜짝놀랐다. 다리야 로드바이크 탈때부터 아 운동하면 이런 느낌이지! 하고 알고 있었으니 놀라진 않는데. 평생 상체 근육이 허약하게 살았으니 조금만 운동해도 변화가 느껴지는게 재밌다. 이런 맛에 웨이트 트레이닝하는거였구나.</li>
+  <li>습관 일기:<br />
+나쁜 습관 없애기 Phase 2 - 2일차<br />
+ <a href="https://www.youtube.com/watch?v=SugsGSmJnxk">브릭스가 왜 무서운지 알아보자</a> 이란과 사우디의 관계에 대해 적어놓은 댓글을 보고 많이 배웠다. 아직도 종교에 의해 국가의 대사가 정해지는 곳이 있다는걸 모르고 살았다는 생각에 부끄러워졌다.</li>
+  <li>생체배터리: 40% -&gt; 20%</li>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[bokeh, 환경변수 트러블, 게임주식, 상체근육, 사우디-이란 관계에 대해]]></summary></entry><entry><title type="html">2022.08.18 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-58" rel="alternate" type="text/html" title="2022.08.18 TIL &amp;amp; Diary" /><published>2022-08-18T08:34:17+09:00</published><updated>2022-08-18T23:54:34+09:00</updated><id>http://localhost:4000/til/P2-TIL-58</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-58"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-10 23.58.44 - draw still life, about moralist, First-world-problem and time.jpg" alt="시간" class="simg" />
 시간</p>
 
 <h2 id="language">Language</h2>
@@ -17,7 +39,7 @@
 나쁜 습관 없애기 Phase 2 - 1일차
  <a href="https://www.youtube.com/watch?v=Bb2ZWl5nmnI">책을 읽는다고 정말 똑똑해 질까요?</a> - 이 사람이  극단적인 사람이라 전방위적으로 적용하긴 힘들긴 하지만 아주 틀린말은 아니다. 소설의 역사는 인쇄술의 전파와 함께 시작했다. 왕족들이 호화로운 파티와 예술을 즐길때 저렴한 미디어는 불만족스러운 인생에 대한 대중의 마취제였다. 폐인킬러는 언제나 잘 팔리니까. 오늘날이라고 다를까. 역사는 폐인킬러가 더 빠르고 더 쉽게 우리 손으로 들어오는 흐름이다. 반면에 진정으로 필요한 지식은 언제나 접근하기 힘들다. 어떤 지식이 보급되면 그 독점적 가치는 희석된다. 가치는 흩어진다. 그리고 보급되지 못한 지식의 가치는 평가절상된다. 조중동으로 대표되는 뻥구독자 신문이 지배하던 시대를 넘어 유료구독 뉴스레터가 팔리는 시대가 말해준다. 정보를 많이 봐주는 사람이 있는걸 기반으로 광고 수익을 내려던 패러다임 대신 비교적 흔하지 않은 정보를 구해다가 특이하게 편집하고 유료로 팔아서 그 가치가 희석 되는걸 방지한다.</li>
   <li>생체배터리: 50% -&gt; 20%</li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[unittest, OOM, 살짝 무기력 패턴, 책을 읽는다고 똑똑해질까요?]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-57" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-17T13:38:36+09:00</published><updated>2022-08-17T23:11:15+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-57</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-57"><![CDATA[<h2 id="language">Language</h2>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[unittest, OOM, 살짝 무기력 패턴, 책을 읽는다고 똑똑해질까요?]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-57" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-17T13:38:36+09:00</published><updated>2022-08-17T23:11:15+09:00</updated><id>http://localhost:4000/til/P2-TIL-57</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-57"><![CDATA[<h2 id="language">Language</h2>
 <p>커밋 별로 변화된 글자를 konlpy로 분석하여 csv로 쓰는데까지 작업완료. 내일은 PR하고 비쥬얼라이즈 작업해야지</p>
 
 <h2 id="finance">Finance</h2>
@@ -37,7 +59,7 @@
 <a href="https://www.youtube.com/watch?v=ENSQJWZDsyg&amp;t=704s">779. 20년 전 2022년 주식시장 바닥을 예측한 책!</a> - 이거 보면서 로또 숫자 분석하는 사람이랑 무슨차이인지 고민을 했다. 차라리 거품 붕괴를 기준으로 리셋하면서 8년 사이클이 동작하는지 보는게 더 영양가 있을듯.</li>
   <li>생체배터리: 40% -&gt; 10% 블라인드를 사야겠다. 아침에 일어나는 시간이 너무 불규칙하다..</li>
   <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/3cadb97ed436cf71775a7558022dd220cf901e3e">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[konlpy 작업완료, 통장쪼개기, 무엇을 메모하고 무엇을 글로쓸까?, 변동성, 로또과학]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-56" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-16T23:14:02+09:00</published><updated>2022-08-16T23:14:06+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-56</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-56"><![CDATA[<h2 id="language">Language</h2>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[konlpy 작업완료, 통장쪼개기, 무엇을 메모하고 무엇을 글로쓸까?, 변동성, 로또과학]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-56" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-16T23:14:02+09:00</published><updated>2022-08-16T23:14:06+09:00</updated><id>http://localhost:4000/til/P2-TIL-56</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-56"><![CDATA[<h2 id="language">Language</h2>
 <p>파이선 사이드 프로젝트 진행. 익숙하지 않은 패키지에 고전 중. 그냥 쉘이 짱이다.</p>
 
 <h2 id="devops">Devops</h2>
@@ -58,7 +80,7 @@
   <li>습관 일기:  요즘은 유튜브를 보는 시간이 거의 없다. 그냥 영어를 열심히 읽어야 하는 턴에이 건담 애니메이션 보는중…</li>
   <li>생체배터리: 60% -&gt; 15%</li>
   <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/be0b29e16995ca9dae91347857f20a3a5fbc3bab">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[Pythongit, 데브옵스 핸드북, 박물관, 양파껍질, 턴에이 건담]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-55" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-15T23:37:15+09:00</published><updated>2022-08-15T23:37:18+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-55</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-55"><![CDATA[<h2 id="language">Language</h2>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[Pythongit, 데브옵스 핸드북, 박물관, 양파껍질, 턴에이 건담]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-55" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-15T23:37:15+09:00</published><updated>2022-08-15T23:37:18+09:00</updated><id>http://localhost:4000/til/P2-TIL-55</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-55"><![CDATA[<h2 id="language">Language</h2>
 <p>AutoPubish 사이드 프로젝트 진행을 했다. 키워드를 추출하고 통계데이터를 SVG파일로 추축하는 내용을 진행할 예정이다. <a href="https://github.com/HibikeQuantum/Bear-Auto-Publisher/issues/18">🔗GitHubIssue</a> gitpython 패키지가 익숙하지가 않고 공식 DOC도 너무 불친절해서 이리저리 헤매면서 헤딩 중</p>
 
 <h2 id="finance">Finance</h2>
@@ -79,7 +101,7 @@
 운동하는 시간에 역사팟캐스트를 듣기로 했다. 흘러가는 가요는 집중할 요소가 없어서 간혹 흐름이 끊기는것보다 지속적인 텍스트가 나오는 팟캐스트를 들으니 적당히 집중력을 유지할 수 있어서 좋았다. 파트는 프랑스 역사. 최근에 영국 네덜란드 독일은 지겹게 들었으니 프랑스로 선택. 예전에 유로파4 할때 생각이 난다.</li>
   <li>생체배터리: 50% -&gt; 20%</li>
   <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/96bbeb0fb5113edebd7f8d25f8a1805df7d7a89b">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[gitpython, 트레이드뷰, 영어학습이론, 휴가끝, 역사팟캐스트, 한산]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-54" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-10T23:41:17+09:00</published><updated>2022-08-10T23:41:25+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-54</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-54"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-10 23.58.35 - draw still life, about moralist, First-world-problem and time.jpg" alt="life" class="simg" />
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[gitpython, 트레이드뷰, 영어학습이론, 휴가끝, 역사팟캐스트, 한산]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-54" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-10T23:41:17+09:00</published><updated>2022-08-10T23:41:25+09:00</updated><id>http://localhost:4000/til/P2-TIL-54</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-54"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-10 23.58.35 - draw still life, about moralist, First-world-problem and time.jpg" alt="life" class="simg" />
 Still life</p>
 
 <h2 id="devops">Devops</h2>
@@ -101,7 +123,7 @@ Still life</p>
 <a href="https://www.youtube.com/watch?v=vN2WzQzxuoA">First World Problem</a> - 우리가 문제라고 정의하는게 얼마나 웃긴지 다시 한번 생각해보고 강건한 삶을 살아야겠다고 생각하지만 결국 시간이 지나 선진국이 열심히 하고 있다는 첨단의 비즈니스도 FWP에 부응하는 것이란 생각을 하니 이게 바로 현실의 압축아닌가. 지구엔 심각한 문제 가진 사람은 지불능력이 없고 사소한 불편을 가진 사람일수록 지불능력이 더 크다.</li>
   <li>생체배터리: 60% -&gt; 30%<br />
 <a href="https://github.com/HibikeQuantum/PlayGround/commit/52e754c4775b43a27959a76bc028191891a3aa8b">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[Nexus repository, 도덕주의자, FWP, 수동태, 독서활동에 대한 고민]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-53" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-09T00:00:00+09:00</published><updated>2022-08-10T00:19:13+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-53</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-53"><![CDATA[<h2 id="devops">Devops</h2>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[Nexus repository, 도덕주의자, FWP, 수동태, 독서활동에 대한 고민]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-53" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-09T00:00:00+09:00</published><updated>2022-08-10T00:19:13+09:00</updated><id>http://localhost:4000/til/P2-TIL-53</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-53"><![CDATA[<h2 id="devops">Devops</h2>
 <p>Jekll 블로그 Import 작업마치고 사이드 카테고리와 Navi바 쪽의 조정작업을 했다. 이제 왠만한건 다 손봤기 때문에 이제 글만 쓰면 된다.</p>
 
 <h2 id="english">ENGLISH</h2>
@@ -115,7 +137,7 @@ Still life</p>
 <a href="https://www.youtube.com/watch?v=WaYUSljdC5A">3천만원으로 창업해서 200억에 매각한 치킨 프렌차이즈 대표</a> - 아웃스탠드 메일링으로 알게된 영상. 열심히 잘하는 사람은 성공할 수 밖에 없다는 생각이 든다. 중요한건 잘하는거겠지.. 😢 어떻게 잘 할 수 있을까 영상에 계신분처럼 몸이 박살나기 전에 잘해야 할텐데</p>
 
 <p><strong>생체배터리</strong> 70% -&gt; 30%
-<a href="https://github.com/HibikeQuantum/PlayGround/commit/0ee80f38b6c5be3c8c5becf5ea4a9a58932a00bb">🔗<strong>일일 메모장 커밋</strong></a></p>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[Devops Jekll 블로그 Import 작업마치고 사이드 카테고리와 Navi바 쪽의 조정작업을 했다. 이제 왠만한건 다 손봤기 때문에 이제 글만 쓰면 된다.]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-52" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-08T23:27:31+09:00</published><updated>2022-08-09T00:27:35+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-52</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-52"><![CDATA[<h2 id="language">Language</h2>
+<a href="https://github.com/HibikeQuantum/PlayGround/commit/0ee80f38b6c5be3c8c5becf5ea4a9a58932a00bb">🔗<strong>일일 메모장 커밋</strong></a></p>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[Devops Jekll 블로그 Import 작업마치고 사이드 카테고리와 Navi바 쪽의 조정작업을 했다. 이제 왠만한건 다 손봤기 때문에 이제 글만 쓰면 된다.]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-52" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-08T23:27:31+09:00</published><updated>2022-08-09T00:27:35+09:00</updated><id>http://localhost:4000/til/P2-TIL-52</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-52"><![CDATA[<h2 id="language">Language</h2>
 <p>오늘은 jekll 플러그인 설치하고 설치하는 동안 문제를 커트하고, 오픈소스로 받은 루비 소스가 잘 실행이 안되길래 디버그 해보다가 시간을 많이 보냈다. import 하다가 실패한 부분들 직접 입력해주고. CSS가 마음에 안드는 녀석들은 계속 수정하면서 하는 중이다. 뭔가 시간 낭비인듯 하면서도 포기하기 싫다. 다 끝나면 이제 프로젝트성 포스트를 써야지</p>
 <h2 id="devop">Devop</h2>
 <p>Jira Workflow 쪽 기능을 한참 연구를 했다. 다른 쪽은 그렇게 커스터 마이징에 대한 배려가 없는듯 했는데 워크플로우 하나만은 transition 동작 하나하나에 굉장히 많은 일을 할 수 있게 edit 기능이 굉장히 광범하게 지원된다. 매번 일을 유연하게 한다면 이런 기능들이 별 의미가 없을수도 있겠지만 귓동냥으로 듣는 외국계 회사의 분위기 (업무의 시간의 절반을 사규에 맞냐 안맞냐. 근거가 있냐 없냐를 따지고 있다) 그런 분위기라면 이런 기능들을 참 잘쓰겠다는 생각이 들었다.</p>
@@ -185,7 +207,7 @@ Definition term 1
 [Text](#link){: .btn .btn--primary}
  -->
 
-<!-- [^1]: Test 1의 내용입니다. 푸터라인 주석-->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[jekll-plugin, JIRA, workflow]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-51" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-07T23:57:21+09:00</published><updated>2022-08-07T23:57:23+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-51</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-51"><![CDATA[<h1 id="today-i-learned--diary">Today I learned &amp; Diary</h1>
+<!-- [^1]: Test 1의 내용입니다. 푸터라인 주석-->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[jekll-plugin, JIRA, workflow]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-51" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-07T23:57:21+09:00</published><updated>2022-08-07T23:57:23+09:00</updated><id>http://localhost:4000/til/P2-TIL-51</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-51"><![CDATA[<h1 id="today-i-learned--diary">Today I learned &amp; Diary</h1>
 <h2 id="language">Language</h2>
 <p>오늘은 medium exported 된 html파일을 md양식으로 바꿔주는 프로그램을 사용해 medium 블로그를 옮겼다. 닉네임을 바꾼덕에 gist 링크가 깨지고 이미지에 넣은 캡션도 다 깨지는등 문제가 많지만 그냥 내용들을 읽으면서 복습도 하고 무슨 생각을 했는지 반성 중이다. 주된 내용은 팀 프로젝트에 대한 회고나 javascript에 대한 개념들.</p>
 <h2 id="finance">Finance</h2>
@@ -257,7 +279,7 @@ Definition term 1
 [Text](#link){: .btn .btn--primary}
  -->
 
-<!-- [^1]: Test 1의 내용입니다. 푸터라인 주석-->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[javascript, 블로그이전, 7월장 복기]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-50" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-06T21:52:17+09:00</published><updated>2022-08-06T21:52:25+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-50</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-50"><![CDATA[<h1 id="today-i-learned--diary">Today I learned &amp; Diary</h1>
+<!-- [^1]: Test 1의 내용입니다. 푸터라인 주석-->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[javascript, 블로그이전, 7월장 복기]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-50" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-06T21:52:17+09:00</published><updated>2022-08-06T21:52:25+09:00</updated><id>http://localhost:4000/til/P2-TIL-50</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-50"><![CDATA[<h1 id="today-i-learned--diary">Today I learned &amp; Diary</h1>
 <h2 id="philosophy">Philosophy</h2>
 <p>거대한 전환, 서문이 도대체 몇 개나 되는건지 오늘도 서문만 읽다가 끝났다. 저자의 경제를 민주주의에 복속시키려는 원대한 플랜을 스웨덴이 실현시켰다는 이야기를 보고 스웨덴 경제에 대해 찾아봤는데 나름 잘해나가고 있는 국가처럼 보인다. 경제신문에서 스웨덴을 자원이 풍부한 나라로 포함시켜서 뭔가 있는줄 알았는데 원유생산량도 별 의미 없어보이고 불모지가 넓어 경작지가 넓은 나라도 아니었다. 임업과 철광에서 기반한 제조업이 자원에 기댄 산업들이었다. 폴라니가 꿈꿨던 모델이 정말 잘 동작할 수 있는지 책을 읽어보면 대충 알 수 있을것 같다. 지금 시점에서 추정하건데 그의 논지는 아마도 세계를 단 하나의 경제적 프레임에 복속시키려는 세계화에 반대하고 각 사회 제도에 있는 특수성을 잘 녹여내는 의사결정 체계를 만들어 내는것인듯하다. 다행인지 불행인지 세계화는 벌써 하루가 다르게 후퇴중이다.</p>
 <h2 id="finance">Finance</h2>
@@ -277,79 +299,4 @@ Definition term 1
   </li>
   <li>생체배터리: 60% -&gt; 20%</li>
   <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/72e1ab1c5352d7db32112906c85d950bf60bd04f">일일 메모장 커밋</a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[민주주의, 세계화, 리튬, 원형부정사, 여의도여행, 더현대, 투자]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-49" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-05T22:29:10+09:00</published><updated>2022-08-05T22:29:29+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-49</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-49"><![CDATA[<h1 id="today-i-learned--diary">Today I learned &amp; Diary</h1>
-<h2 id="language">Language</h2>
-<p>Python 사이드 프로젝트 2단계 돌입. 사용성을 높힐 수 있는 옵션과 추가 될 기능들의 엔드포인트를 작성해서 머지. 메모에 있는 문자열 데이터를 분석할 오픈소스 한글 분석 패키지, 데이터의 변화를 인터렉티브한 SVG로 출력할 라이브러리로 bokeh를 채택했다.</p>
-<h3 id="shell">Shell</h3>
-<p>프로그램을 bash로 하느냐 파이선으로 짜느냐 고민이 많다. bash로 하는게 더 재밌긴한데 개인적으론 시간이 오래걸리니</p>
-<h3 id="philosophy">Philosophy</h3>
-<p>칼 폴라니. 거대한 전환 1일차 진행. 100년이 다 되어 가는 책이 생명력을 가지고 있다는걸 보면 세상의 이치는 시간이 흘러도 변하지 않는 다는점을 보여주는것 같아서 마음 한편으로 안심된다. 우리가 그 원리를 파악 할 수만 있다면, 영원히 파악할 수 없을 것만 같은 시장의 진화 속에서도 인간 존재를 유지하기 위한 조건들을 충족시킬 수 있을 것이기 때문이다. 한편으론 이 발문을 쓰는 사람들이 시장의 자기 조정에 대해 너무 비판적인게 뭔가 옛날에 좌파들을 생각나게 해서 조금은 반감이 들기도 한다.</p>
-<h3 id="finance">Finance</h3>
-<p>주말은 좀 공부를 해서 월요일에 리밸런스 해야지. 사실 벌써 퀀트를 해서 기계적으로 하겠다는 규칙은 스스로 깨트려버린지 오래다. 깬덕에 다행히 벌어서 다행이지만.. 앞으로 계속 이렇게 할 수 있을까. 내가 보는 시장은 너무 빠르게 변하는데 10년 단위로 지속되는 사이클에 맞춰 최적화된 퀀트의 규칙은 마음에 안든다. (그래서 퀀트들이 지난 7개월 동안 다 박살났다. 새로 보는 패턴이라) 무제한 양적완화 완화 같은 이상한 짓이나 그걸 또 긴축하겠다고 떠벌이는 이벤트, 대규모 정책경제 등의 이벤트에 대해 전혀 퀀트는 적응할 준비가 되어 있지 않다. 역사가 짧은 근본없는 ETF의 최적화란 느낌을 지울 수가 없다. 다만 그들이 만들어놓은 매매의 규칙은 시장이 예측 가능한 사이클로 돌아왔을땐 적용할만하다고 본다.</p>
-<h3 id="english">ENGLISH</h3>
-<p>to 전치사의 활용 방법에 대한 부분 진행 중</p>
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 2 hours</li>
-  <li>습관일기
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=zle48JlzQvs">임용한 박사가 알려주는 투자와 투기의 차이점</a> ➡️ 전쟁사에서 보는 훌륭한 행동양식을 발굴하고 그걸 투자로 연결시켜보는 컨텐츠. 가장 치열한 인간 역사의 정점에 있는 전쟁에서 빗어지는 지혜를 보면 평소에 지혜를 발굴하려면 어떤 환경에 나를 놓는게 좋을까. 고민하게 된다.</li>
-      <li><a href="https://www.youtube.com/watch?v=6LkCXHHk_R0&amp;t=371s">대부분의 남자들이 모르는 여자들의 역설</a> ➡️ 성전략의 전제 때문에 스스로 자빠지는건 특정 성에 국한된 이야기가 아니란 이야기. <strong>확장하면 우리가 어떤 프레임으로 세상을 바라보고 그것이 동작할때 그것이 동작하는 이유로 인해 무너질때가 온다는 이야기다. 그래서 유연하게 가장 이해하기 쉬운 전략인 좌랑 우를 왔다갔다하고 더 나아가 균형을 설명할 수 있는 현상의 원리를 찾아내야하는 이유.</strong></li>
-    </ul>
-  </li>
-  <li>생체배터리: 50% -&gt; 25%: 직접 코딩을 하고 커밋 할때 너무 뿌듯하다. 하루가 활기찬 기분. 책 읽은 내용이나 메모를 정리한다거나 Glue작업 할 때와는 차원이 다르다.</li>
-</ul>
-
-<!-- [^1]: Test 1의 내용입니다. -->
-<!-- # header:
-#   overlay_image: "assets/images/banner_template.jpg" # 얘를 예쁘게 쓸일이 있으려나  
-#   overlay_filter: 0.3 # 투명도
-#   overlay_filter: rgba(205, 239, 154, 0.30) -->
-<!-- <figure class="">
-  <img src="/assets/images/banner_template.jpg"
-       alt="this is a placeholder image"><figcaption>
-      This is a figure caption.
-
-    </figcaption></figure>
-
-![image-right](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png){:.align-center}
-저렇게 됩니다. 이렇게 됩니다. 저렇게 됩니다.
-{: .caption}
-
-[![styled-image](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png  "This is some hover text"){: .align-center style="width: 10%;"}](/assets/images/pixel_tracker_logo_80px.png "Title shown in gallery view")
-Some custom styled caption.
-{: .caption}
-
-짜라투스트라는 이렇게 말했다.[^1]
-
-Definition term 1
-: 저렇게 말했다.
-
-집중! 어텐션 플리즈
-{: .notice}
-그렇게 하면
-{: .notice--primary}
-안되요
-{: .notice--info}
-!!
-{: .notice--warning}
-@@
-{: .notice--danger}
-흑
-{: .notice--success}
-
-
-
-<div class="notice">
-<p><strong>Extended notice box</strong>:</p>
-<ul>
-  <li>맥락을 분리시키는 TIP, 또는 결론을 내릴때 쓰기좋은 패턴 <strong>야호!</strong></li>
-</ul>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
-  <span class="nt">&lt;body&gt;</span>Some body. help me!<span class="nt">&lt;body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div>
-</div>
-
-[Text](#link){: .btn .btn--primary} -->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[사이드 프로젝트, 칼 폴라니, 원리, 퀀트, 전쟁사, 프레임]]></summary></entry></feed>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[민주주의, 세계화, 리튬, 원형부정사, 여의도여행, 더현대, 투자]]></summary></entry></feed>

@@ -12,8 +12,8 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     backports (3.23.0)
     coffee-script (2.4.1)
       coffee-script-source
@@ -26,10 +26,10 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     execjs (2.8.1)
-    faraday (2.4.0)
-      faraday-net_http (~> 2.0)
+    faraday (2.5.2)
+      faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
-    faraday-net_http (2.1.0)
+    faraday-net_http (3.0.0)
     faraday-retry (2.0.0)
       faraday (~> 2.0)
     ffi (1.15.5)
@@ -108,7 +108,7 @@ GEM
       sawyer (~> 0.9)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (4.0.7)
+    public_suffix (5.0.0)
     rack (1.6.13)
     rack-protection (1.5.5)
       rack
@@ -145,13 +145,14 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-  arm64-darwin-21
+  universal-darwin-21
 
 DEPENDENCIES
   bundler
   faraday-retry
   font-awesome-sass
   gem (~> 0.0.1.alpha)
+  jekyll (~> 4.2)
   jekyll-admin
   jekyll-coffeescript
   jekyll-default-layout
