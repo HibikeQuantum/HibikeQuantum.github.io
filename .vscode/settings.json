@@ -41,5 +41,7 @@
     ],
     "editor.autoIndent": "full",
     "emptyIndent.highlightIndent": true,
-    "emptyIndent.removeIndent": false
+    "emptyIndent.removeIndent": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false
 }

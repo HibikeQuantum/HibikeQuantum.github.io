@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-20T17:46:39+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">2022.08.19 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-59" rel="alternate" type="text/html" title="2022.08.19 TIL &amp;amp; Diary" /><published>2022-08-19T23:59:59+09:00</published><updated>2022-08-20T00:34:04+09:00</updated><id>http://localhost:4000/til/P2-TIL-59</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-59"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-10 23.58.31 - draw still life, about moralist, First-world-problem and time.png" alt="!!!" class="simg" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-21T00:51:37+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">2022.08.20 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-60" rel="alternate" type="text/html" title="2022.08.20 TIL &amp;amp; Diary" /><published>2022-08-20T17:50:25+09:00</published><updated>2022-08-21T00:47:51+09:00</updated><id>http://localhost:4000/til/P2-TIL-60</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-60"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-04 23.12.50 - red hari girl in tokyo,  Makoto Shinkai.png" alt="!!!" class="simg" />
+Dalle가 그려준 이미지</p>
+
+<h2 id="language">Language</h2>
+<p>쌓은 데이터를 편집하기 위한 pandas 쪽 기능을 소개한 블로그를 보고 README.md 쪽 손을 좀 봤다. 쌓은 데이터를 어떻게 표현할지 hmtl이나 svg는 지원하는지도 체크했다.</p>
+
+<h2 id="philosophy">Philosophy</h2>
+<p>거대한 전환을 쭉 읽었다. 현대 자본주의 사회에서 맹신하는 독트린을 100년전에 비판한 이야기를 보는데 그것이 설득력이 있다면 어떻게 봐야할까? 나름 지속적으로 잘 작동한다고 여겨 내가 금과옥조처럼 섬기는 자본주의 독트린을 비판하는 저자가 살짝 약파는거 아닌가 의심이 들때가 많지만 저자는 정말 그 근거를 열심히 대서 마음에 든다. 이런 훌륭한 좌파 많으면 좋을텐데.<br />
+예를 들면 그는 튜더왕조(엘리자베스1세 시절쯤이다)에서 인클로저 운동(농민을 내쫒고 공유지에 대한 소유권을 확립)에 대한 튜더왕조의 온정적 반동주의 정책(농민을 구제하고 자본가 탄압)이 결국에는 영국이 발전하는데 도움이 된거라고 본다. 그의 논지는 사회가 발전(자본주의의 고도화)라는 방향은 손볼것이 없지만 그것으로 이행하는 과정이 너무 빨라 사회가 수용하지 못하면 반동적 에너지에 의해 자생적 진보가 전복될 가능성이 있다고 보는 것이다. 저자는 이것을 진보의 속도를 조정하는게 국가의 역할이라고 설명한다. 그런 튜더왕조의 역할이 있었음에도 150년이 지나 자본가와 고용주(예전엔 왕권 아래였지만 이젠 국가의 실질적 지배자)들은 그 성과를 깡그리 무시하고 철저히 악으로 묘사할것을 대중에게 가르친다.<br />
+이런 서술 속, 한 집단이 무엇을 기억할지 결정하는 과정에 대해 묘사하는 부분은 『제국의 위안부』가 떠오른다. 가짜뉴스 패러다임을 지나 지금은 인민들이 믿고 싶은게 진실이 되는 세상이다. 나는 제국의 위안부를 읽기전엔 조선인 업자의 존재도 일본을 규탄하는 주류 피해자 모임과 다른 목소리를 내는 피해자들도 있다는 사실을 몰랐다. 왜 우리는 그것을 기억하지 못하는가? 독트린을 의심해선 안된다는 믿음이 있었기 때문이다. 그것이 불편했기 때문이고 지금의 우리의 이익에 반했기 떄문이다.</p>
+
+<h2 id="finance">Finance</h2>
+<p>월요일에 살 자산을 정했다. 그것과 별개로 옥시덴탈에 대한 인수허가건으로 폭등한것과 TAN etf가 정부의 부양책에 의해 몇살잡혀서 오른걸 보면 거인이 하는 정책은 그 자체로 상승의 원인이 된다는 생각이 들었다. 대마불사. 나아가 이미 일어난 부에 대해 잘못을 묻는 일은 잘 일어나지 않는다. 부에 편승할 기회를 볼 뿐.</p>
+
+<h2 id="english">ENGLISH</h2>
+<p>자동사와 타동사에 대한 파트를 쭉 진행. 저자의 주장의 핵심은 그냥 익숙해질때까지 많이 경험하면서 문맥을 느끼란건데. running to 인지 running인지. 다 다른거니까. 맞는말이다 .영어로 책을 많이 보고, 당장에 복사 넣기할 작문을 하는게 나의 느낌을 정확히 전달했는지 모니터링하면서 적확한 언어를 쓸 수 있도록 연습을 해야 영어가 발전할것같다.</p>
+
+<h2 id="life">Life</h2>
+<ul>
+  <li>움직인 시간: 0.5H</li>
+  <li>습관 일기:<br />
+나쁜 습관 없애기 Phase 2 - 3일차<br />
+오늘도 이상무!</li>
+  <li>생체배터리: 50% -&gt; 25%</li>
+  <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/2ae23606ec61668ed1d8e3c88aea81a6d491b197">🔗<strong>일일메모장 커밋</strong></a></li>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[padas, 자유주의 독트린, 옥시덴탈과]]></summary></entry><entry><title type="html">2022.08.19 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-59" rel="alternate" type="text/html" title="2022.08.19 TIL &amp;amp; Diary" /><published>2022-08-19T23:59:59+09:00</published><updated>2022-08-20T00:34:04+09:00</updated><id>http://localhost:4000/til/P2-TIL-59</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-59"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-10 23.58.31 - draw still life, about moralist, First-world-problem and time.png" alt="!!!" class="simg" />
 시간</p>
 
 <h2 id="language">Language</h2>
@@ -279,24 +304,4 @@ Definition term 1
 [Text](#link){: .btn .btn--primary}
  -->
 
-<!-- [^1]: Test 1의 내용입니다. 푸터라인 주석-->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[javascript, 블로그이전, 7월장 복기]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-50" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-06T21:52:17+09:00</published><updated>2022-08-06T21:52:25+09:00</updated><id>http://localhost:4000/til/P2-TIL-50</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-50"><![CDATA[<h1 id="today-i-learned--diary">Today I learned &amp; Diary</h1>
-<h2 id="philosophy">Philosophy</h2>
-<p>거대한 전환, 서문이 도대체 몇 개나 되는건지 오늘도 서문만 읽다가 끝났다. 저자의 경제를 민주주의에 복속시키려는 원대한 플랜을 스웨덴이 실현시켰다는 이야기를 보고 스웨덴 경제에 대해 찾아봤는데 나름 잘해나가고 있는 국가처럼 보인다. 경제신문에서 스웨덴을 자원이 풍부한 나라로 포함시켜서 뭔가 있는줄 알았는데 원유생산량도 별 의미 없어보이고 불모지가 넓어 경작지가 넓은 나라도 아니었다. 임업과 철광에서 기반한 제조업이 자원에 기댄 산업들이었다. 폴라니가 꿈꿨던 모델이 정말 잘 동작할 수 있는지 책을 읽어보면 대충 알 수 있을것 같다. 지금 시점에서 추정하건데 그의 논지는 아마도 세계를 단 하나의 경제적 프레임에 복속시키려는 세계화에 반대하고 각 사회 제도에 있는 특수성을 잘 녹여내는 의사결정 체계를 만들어 내는것인듯하다. 다행인지 불행인지 세계화는 벌써 하루가 다르게 후퇴중이다.</p>
-<h2 id="finance">Finance</h2>
-<p>리튬 선물 투자가 어떨까 알아보는 중. 공급과 소비, 가격을 둘러싼 요인들에 대한 장기적 이해를 충분히 한다면 선물도 괜찮을것 같다. 주식은 정부의 조정이나 이벤트 등 너무 공부할게 많다.</p>
-<h2 id="english">ENGLISH</h2>
-<p>원형부정사 진행. 외국어 학습에 대한 이론들도 책 중간에 있는데 재밌다. 모든 학습에 적용시킬만한 이론들임. <strong>Comprehensible Input, Interactional modification</strong></p>
-<h2 id="diary">Diary</h2>
-<p>여의도의사당, 더현대, IFC몰 여행을 다녀왔다. 원래는 저녁까지 계속 돌아다닐려고 했는데 생각보다 너무 지루해서 금방 집에 왔다. 진짜 여행 재미없다. 빨리 집에와서 독서나 코딩이나 하는게 더 재밌을것 같다는 생각이 불쑥불쑥드는게. 난 정말 자본주의가 제시하는 물질적 환상에 너무 관심이 없는것 같다. 이래서 투자를 어떻게 관찰력있게 할 수 있을런지.. 아무래도 상품을 다루는 회사는 하면 안될것같다. 그나마 관심을 가지고 지켜보는건 데이터, 농업 산업일까.</p>
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 6hr</li>
-  <li>습관 일기
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=Xnfru1lcO5o">770. 나라면 이런거 사겠다 - 동적자산배분(2022.8)</a> 경제 동향을 보건데 중간선거까지 주식을 들고 있을 이유가 충분한것 같다. 월요일에 매수해야지.</li>
-      <li><a href="https://www.youtube.com/watch?v=QkbWSaVkro0">일본 와 문화가 만들어낸 일본의 노포들</a> 결과에 대해 원인을 분석하는 방법에 <strong>원래 그렇다라는 설명은 집어치워야한다.</strong> 이 영상을 보고나서 우리가 일본인을 바라보는 시선이 얼마나 편협했는지 깨닫게 되었다. 이 역사 깊은 사회의 규칙에 따라 만들어진 ‘와’를 겨우 일본인들은 장인이야~ 라고 설명하다니. 얕은 해석은 실질적으로도 그렇지 않고 그게 도움이 되지도 않는다. 제대로 알아야 한다.</li>
-    </ul>
-  </li>
-  <li>생체배터리: 60% -&gt; 20%</li>
-  <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/72e1ab1c5352d7db32112906c85d950bf60bd04f">일일 메모장 커밋</a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[민주주의, 세계화, 리튬, 원형부정사, 여의도여행, 더현대, 투자]]></summary></entry></feed>
+<!-- [^1]: Test 1의 내용입니다. 푸터라인 주석-->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[javascript, 블로그이전, 7월장 복기]]></summary></entry></feed>
