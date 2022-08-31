@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-21T10:30:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">2022.08.20 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-60" rel="alternate" type="text/html" title="2022.08.20 TIL &amp;amp; Diary" /><published>2022-08-20T17:50:25+09:00</published><updated>2022-08-21T00:47:51+09:00</updated><id>http://localhost:4000/til/P2-TIL-60</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-60"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-04 23.12.50 - red hari girl in tokyo,  Makoto Shinkai.png" alt="!!!" class="simg" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-31T23:57:18+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">2022.08.31 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-64" rel="alternate" type="text/html" title="2022.08.31 TIL &amp;amp; Diary" /><published>2022-08-31T23:05:59+09:00</published><updated>2022-08-31T23:06:02+09:00</updated><id>http://localhost:4000/til/P2-TIL-64%08</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-64"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-31 23.13.21 - Lovely girl with pink hair, in Keith Haring style.png" alt="!!!" class="simg" />
+dalle가 그려준 그림</p>
+
+<h2 id="language">Language</h2>
+<p>Python Bear-Auto-Publish 사이드 프로젝트 완료 1.00버전을 릴리즈헀다. 시작은 베어 노트에 하루에 내가 뭘 썼는지 시각적으로 보고 싶어서 했으니 누가 써주면 좋고 안써주면 그만. 내일은 사용방법을 한글로도 READ.me에 남기고 앱에 대해 홍보하는 글을 쓸 예정. 괜찮으면 유튜브로 남겨도 될듯.</p>
+
+<h2 id="philosophy">Philosophy</h2>
+<p>신정론에 대해 이야기를 듣는데, <code class="language-plaintext highlighter-rouge">추상적이고 이론적인 악에 대한 설명은 인간을 무기력하게 만들고 현재 존재하는 지배구조를 정당화한다</code>는 이야기가 나왔다. 최근에 팔레스타인의 근현대사 이야기를 들으며 결국은 힘있는 애들이 싸움에서도 이기고 여론전까지도 이겨 착한 사람취급까지 받는 현실을 어떻게 받아야하나 고민이 깊었던 찰나에 가슴에 울리는 이야기 였다. 팔레스타인들의 주권회복을 위한 행동들을 들을때면 나는 라스트 오브 어스2가 떠올랐는데. 그 게임은 악의 평범성를 강조하기 위해 해체주의적 관점에서 인류가 즐겨온 영웅서사(우리의 가치를 지키기 위해 폭력을 행사하고 승리하는 영웅)를 찢어버린 이야기였다. 영웅서사가 찢어진 남은공간에는 복수의 순환을 끊기위해 복수를 포기하는 주인공의 이야기로 채워진다.<br />
+악이 실질적으로 인간 안에 존재하며 구조적으로 영속될 수 밖에 없다는 인식은 팔레스타인들이 복수와 주권을 포기하고 현재의 질서에 수긍해야한다는 결론으로 이끈다. 이들이 복수와 주권을 위해 또 폭력을 행사한다면 폭력은 영원할거니까. 만약 팔레스타인들이 정말로 그렇게 수긍한다면 (지난 역사에서 지워진 수 많은 민족들이 그랬던것 처럼) 매번 군사작전마다 성경에 나오는 전쟁의 명칭을 따오며 당당하게 폭력을 저지르는 이스라엘인들은 그들이 존경하는 다윗이나 여호수아의 영웅서사를 자신의 역사로 성취하게 될것이다. 그렇게 보면 또 다른 시온주의가 탄생할 역사적 근거가 되는 것이고 그게 현생인류의 도덕적 주소를 만든것 아닌가? <code class="language-plaintext highlighter-rouge">악의 평범성에 주목하고 복수를 포기하는게 현실을 추악하게 만드는것 아닌가? 더 비도덕적인 인류를 만드는 지름길 아닌가?</code>이런 생각이 들었다. 먼거리에서 악을 관찰하고 상대의 입장을 고려한 완벽한 황금률을 찾으며 평화를 갈구하는것보다 순수하게 삶을 위협하는 악의 단면만을 주시하고 그것과 맞서 싸우는게 더 도덕적일수 있다는 생각이 문득 들었다. 물론 항상 싸울 필요는 없다. 하지만 양보할 생각이 없이 자신들이 영웅이며 신적인 권위를 가지고 있다는 집단이 역사를 지배하게 둬서는 안된다.<br />
+평소에 결국 평화와 힘의 논리를 수긍하는것과 도덕성을 일치시키고 있던 내가 이런 전투적 생각에 도달했단 사실에 깜짝놀라는 하루였다.</p>
+
+<h2 id="english">ENGLISH</h2>
+<p>현재진행완료, He’s 가 He has 라는 것도 정말 오랜만에 꺠우쳤다. gotten은 소유의 의미로 잘 안쓰기 때문에 과거분사가 쓰여야할 자리에 그냥 got을 많이 쓴다는 내용도 기억에 남는다. 문법책말고도 vscode에 grammarly 확장팩이 있어서 그거 깔고 Read.me를 고쳤는데 참 편하고 좋았다.</p>
+
+<h2 id="life">Life</h2>
+<ul>
+  <li>움직인 시간: 0.5H</li>
+  <li>습관 일기:<br />
+나쁜 습관 없애기 Phase 2 - 12일차, 저녁먹고 뭔가 기운이 없어서 뭉게느라 시간을 좀 낭비했다. 다이어트문제인가</li>
+  <li>생체배터리: 50% -&gt; 10%</li>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[사이드프로젝트 완료, 신정론, 팔레스타인, 복수를 멈추는게 비도덕적일수도 있겠다란 생각.]]></summary></entry><entry><title type="html">2022.08.30 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-63" rel="alternate" type="text/html" title="2022.08.30 TIL &amp;amp; Diary" /><published>2022-08-30T23:32:07+09:00</published><updated>2022-08-31T00:32:20+09:00</updated><id>http://localhost:4000/til/P2-TIL-63</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-63"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-20 17.59.49 - oil painting girl in the city, Claud monet.png" alt="!!!" class="simg" />
+monet style</p>
+
+<h2 id="devops">Devops</h2>
+<p>『데브옵스 핸드북』 오늘 8장 정도까지 읽었다. 대학시절 경영공부할때 맨날 듣던 이야기를 오랜만에 이런 책에서 볼줄은 몰랐다. 리드타임, 도요타. 항상 소프트웨어 개발에 대한 변호를 할때 자주 듣는 수사가 ‘개발자는 공장 노동자가 아니다’ 였는데 사실 그런건 공장 노동자를 수동적인 사람으로 비하한것에 불과했던것 같다. 물론 도요타의 공장에서 데브옵스적 방법론의 실행을 위한 노력과 주의들을 한국 모든 공장 노동자들이 하고 있다고 보진 않는다. 일절 커뮤니케이션할 필요가 없는 영역부터 외국인으로 채워넣는게 저부가가치 분야의 공장일이라는 거니.
+ 각설하고 기술적인 방법에 대한 이야기는 후반부부터 나오는데 이 책을 보고 있으니 지금 내가 당장 읽기엔 조금은 너무 큰 이야기들도 많다는 기분이 들기도 한다. 하지만 장기적으로 보면 내가 하는 일이 기술을 넘어 가치밸류를 창출하는 관점에서 까지 확장해야하고 그럴때 더 복잡하고 흥미진진한 목표들이 많다는걸 알려주는 내용이라 기운이 난다. 한동안 기술적 방면에서 내가 하는 일이 어떤 장기적 비전이 있을 수 있을까 고민을 했었는데 그 답이 이 책에 있는것 같다.</p>
+
+<h2 id="english">ENGLISH</h2>
+<p>단순현재, 현재진행, 과거완료, 단순과거 파트 진행. ‘시제’라고 붙어 있다고 해서 시제만을 뜻하는게 아니라 여러가지 맥락(사실, 습관, 임시, 영구, 불만표현)이 담길 수 있다는 저자의 말이 가슴에 꼽혔다. 그냥 이런 문법 법칙들은 체험적으로 알고 있었는데 명시적으로 보는건 이번이 처음.</p>
+
+<h2 id="diary">Diary</h2>
+<p>조금씩 조금씩 일보하면 된다. 자신을 고문하지 말고 할 수 있는 만큼만 효율적으로 하면 된다. 이렇게 나를 다독여보면서 하루 마무리. 그래도 필요할때는 나를 채찍질해서 피크까지 밀어붙일 수 있도록 내가 가진 용량은 테스트 해야지.</p>
+
+<h2 id="life">Life</h2>
+<ul>
+  <li>움직인 시간: 2H, 오늘 운동하러 갔다가 너무 몸에 힘이 안들어가서 깜짝 놀랐다. 인터벌도 거의 못하고 평소 3/4을 무게를 헥헥대면서 진행. 평소에 습관적으로 탄수화물 리피드를 해야할듯.</li>
+  <li>습관 일기: 
+나쁜 습관 없애기 Phase 2 - 11일차 잘 진행중</li>
+  <li>생체배터리: 50% -&gt; 20%</li>
+  <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/e10a991604865600e8dcd039f462868fa8379c7a">🔗<strong>일일메모장 커밋</strong></a></li>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[monet style]]></summary></entry><entry><title type="html">2022.08.30TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-62" rel="alternate" type="text/html" title="2022.08.30TIL &amp;amp; Diary" /><published>2022-08-29T23:59:35+09:00</published><updated>2022-08-30T00:00:59+09:00</updated><id>http://localhost:4000/til/P2-TIL-62</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-62"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-20 17.59.37 - oil painting girl on the hill, Claud monet.png" alt="!!!" class="simg" />
+아무 상관 없는 사진</p>
+
+<h2 id="language">Language</h2>
+<p>어떤 언어를 어떤 사용법에 집중적으로 해야할까란 고민에 대한 답은 내렸다. GO, Python 둘이 장 단점을 서로 잘 보완하고 SRE 직무에서 활용도도 높아 보였다.</p>
+
+<h2 id="devops">Devops</h2>
+<p>데브옵스 핸드북 조금 읽었다. 책을 읽는 전략을 좀 수정했다. 교양서적이나 투자서적은 주말에 몰아서 읽고 주중엔 기술서적 중심으로</p>
+
+<h2 id="finance">Finance</h2>
+<p>경동보일러 주식을 샀다. 튼실하고 경영도 잘하는거 같았고 떨어지더라도 얼마든지 오를 수 있는 회사라고 판단, 오래된 안정적 회사지만 에너지 분야의 기업은 요즘 시국에 성장가능성도 높다고 판단했다. 나중에 실제로 오르게 되면 어떤 소스로 오르게 됐는지에 따라 이전 고점에서 팔지 계속 홀드할지 결정할 예정.</p>
+
+<h2 id="life">Life</h2>
+<ul>
+  <li>움직인 시간: 0.25 H</li>
+  <li>습관 일기:<br />
+나쁜 습관 없애기 Phase 2 - 10일차 잘 진행중</li>
+  <li>생체배터리: 50% -&gt; 30%</li>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[아무 상관 없는 사진]]></summary></entry><entry><title type="html">2022.08.28 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-53" rel="alternate" type="text/html" title="2022.08.28 TIL &amp;amp; Diary" /><published>2022-08-28T23:58:28+09:00</published><updated>2022-08-29T00:46:10+09:00</updated><id>http://localhost:4000/til/P2-TIL-53</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-53"><![CDATA[<p class="caption"><img src="/assets/img/i13730771621.png.jpeg" alt="!!!" class="simg" />
+휴가동안 즐긴 대항해시대 오리진</p>
+
+<h2 id="diary">Diary</h2>
+<p>저번 일요일을 시작으로 어제까지 완전히 내려놓고 쉬었다. 그 동안 목표를 설정하고 실행하고 휴식을 취함에 있어 밸런스가 안맞는 부분이 있었는데 누적된 피로가 한번에 빵 터진 상태였다. 내가 가진 상황을 상기하기 위해 몇 일 동안 단식도 하고 이상한 곳에 가서 내가 살아가는 환경의 고마움도 다시 환기하고 삶에서 집중할것과 포기할것도 정했다. 
+그 동안 참고 있었던 호기심가던 게임도 했다. 뭐 물론 예상했듯이 어차피 가상공간에서 돈을 쓰던가 시간을 쓰던가 해야했는데 돈을 써서 놀꺼면 얼마든 다른 놀이도 있고 시간을 쓸거면 현실 RPG를 하는데도 시간이 부족한데 마음이 그렇다보니 손이 그렇게 가지는 않아서 금방 떨어져나갔다. 
+일주일 동안 게임속 배를 타면서 썬킴의 세계사 팟캐스트를 많이 들었다. 러시아, 로마, 팔레스타인, 독일, 프랑스. 호기심이 가는 국가의 이야기는 다 들어서 새로운 팟캐스트를 또 찾아볼 예정.
+완전히 기존의 습관과 단절된 상태에서 새롭운 관점으로 지난 과거를 돌아보면서 어떻게 마음 먹을지 용기도 회복하고 다짐도 하고 브런치에 글로 정리했다. 오늘은 밀렸던 방청소도 하고 보던 해리포터 소설도 다 보고 짧고 굵은 유흥을 마무리. 내일부턴 돌진이다.</p>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[휴가, 대항해시대, 세계팟캐스트, 단식]]></summary></entry><entry><title type="html">2022.08.21 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-61" rel="alternate" type="text/html" title="2022.08.21 TIL &amp;amp; Diary" /><published>2022-08-21T23:34:51+09:00</published><updated>2022-08-21T23:35:30+09:00</updated><id>http://localhost:4000/til/P2-TIL-61</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-61"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-20 17.57.32 - Eris Boreas Greyrat like clanad style.png" alt="!!!" class="simg" />
+DALLE</p>
+
+<h2 id="language">Language</h2>
+<p>pandas 쪽 작업을 하는데 잘 안풀리니까 왜 이렇게 하기 싫은지. 이악물고 진행중 groupby된 데이터들이 잘 표시가 안된다. 뭔가.. 뭔가.. 정말 집중해야하는데?</p>
+
+<h2 id="diary">Diary</h2>
+<p>뭔가 변화가 필요하다. 요즘 기분의 추세가 영 좋지가 않다.</p>
+
+<h2 id="life">Life</h2>
+<ul>
+  <li>움직인 시간: 2H</li>
+  <li>습관 일기:<br />
+나쁜 습관 없애기 Phase 2 - 4일차<br />
+<a href="https://www.youtube.com/watch?v=meChZCPTakk">빌라 1200채? 오르면 내꺼, 내리면 니꺼 전세사기</a> - 사기 기법을 보고 있노라니 정말 기가막힌다. 주거비 아끼겠다고 위험을 감수하기 보단 대출이자를 감당하는게 싸게 먹힐듯하다.</li>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[DALLE]]></summary></entry><entry><title type="html">2022.08.20 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-60" rel="alternate" type="text/html" title="2022.08.20 TIL &amp;amp; Diary" /><published>2022-08-20T17:50:25+09:00</published><updated>2022-08-21T00:47:51+09:00</updated><id>http://localhost:4000/til/P2-TIL-60</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-60"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-04 23.12.50 - red hari girl in tokyo,  Makoto Shinkai.png" alt="!!!" class="simg" />
 Dalle가 그려준 이미지</p>
 
 <h2 id="language">Language</h2>
@@ -105,203 +185,4 @@ Dalle가 그려준 이미지</p>
   <li>습관 일기:  요즘은 유튜브를 보는 시간이 거의 없다. 그냥 영어를 열심히 읽어야 하는 턴에이 건담 애니메이션 보는중…</li>
   <li>생체배터리: 60% -&gt; 15%</li>
   <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/be0b29e16995ca9dae91347857f20a3a5fbc3bab">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[Pythongit, 데브옵스 핸드북, 박물관, 양파껍질, 턴에이 건담]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-55" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-15T23:37:15+09:00</published><updated>2022-08-15T23:37:18+09:00</updated><id>http://localhost:4000/til/P2-TIL-55</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-55"><![CDATA[<h2 id="language">Language</h2>
-<p>AutoPubish 사이드 프로젝트 진행을 했다. 키워드를 추출하고 통계데이터를 SVG파일로 추축하는 내용을 진행할 예정이다. <a href="https://github.com/HibikeQuantum/Bear-Auto-Publisher/issues/18">🔗GitHubIssue</a> gitpython 패키지가 익숙하지가 않고 공식 DOC도 너무 불친절해서 이리저리 헤매면서 헤딩 중</p>
-
-<h2 id="finance">Finance</h2>
-<p>트레이드뷰, 알파스퀘어 같은 서비스를 써봤다. 이전엔 야후 파이낸스, 구글 파이낸스, 인베스팅을 봤었는데 이게 훨씬 편하고 좋다.</p>
-
-<h2 id="english">ENGLISH</h2>
-<p>영어회화 1권을 땠다. 영어 학습에 대한 이론은 한번도 접해본적이 없는데 책 중간중간에 소개가 되어있다. 배움 시스템, 습득 시스템, 모니터링, 학습이 되는 문법 요소의 순서, Interactional modification 이론에 따라 적용해볼 수 있는 학습방법이 많아 보인다.</p>
-
-<h2 id="diary">Diary</h2>
-<p>목요일 저녁부터 금토일 휴가를 보내는 동안 그냥 맘 푹놓고 쉬었다. 해리포터 소설을 틈틈히 읽었는데 정말 재밌었다. 소설을 본지 15년도 되어서 이제 내용이 기억 안나는게 더 좋았다. 이렇게 좋은 작가가 왜 지금은.. 😇 아 한산 영화도 봤는데 뭐 특별히 말할게 없는 평범한 영화였다. 왜군은 화포도 없으면서 왜 그렇게 나대는지 의문만 남는 영화. (바다의 벽이고 자시고 그냥 화력에 다 녹았잖소 양반아) 추가로 역시 국군의 화력에 대한 집착은 종특인걸까.</p>
-
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 2hours  3일 동안 운동을 쉬는 동안 세상이 멸망하는줄 알았다. 운동하고 나서 기진맥진하게 밥먹고 샤워하고 의자에 앉으면 기분 너무 좋아.</li>
-  <li>습관 일기:<br />
-<a href="https://www.youtube.com/watch?v=-GsrYvZoAdA">위 수식이 틀린 이유를 설명해보십쇼 (개발면접타임)</a>
-<a href="https://www.youtube.com/watch?v=uQwksDtF7dk&amp;t=658s">한국은행이 하는 일</a>
-운동하는 시간에 역사팟캐스트를 듣기로 했다. 흘러가는 가요는 집중할 요소가 없어서 간혹 흐름이 끊기는것보다 지속적인 텍스트가 나오는 팟캐스트를 들으니 적당히 집중력을 유지할 수 있어서 좋았다. 파트는 프랑스 역사. 최근에 영국 네덜란드 독일은 지겹게 들었으니 프랑스로 선택. 예전에 유로파4 할때 생각이 난다.</li>
-  <li>생체배터리: 50% -&gt; 20%</li>
-  <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/96bbeb0fb5113edebd7f8d25f8a1805df7d7a89b">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[gitpython, 트레이드뷰, 영어학습이론, 휴가끝, 역사팟캐스트, 한산]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-54" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-10T23:41:17+09:00</published><updated>2022-08-10T23:41:25+09:00</updated><id>http://localhost:4000/til/P2-TIL-54</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-54"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-10 23.58.35 - draw still life, about moralist, First-world-problem and time.jpg" alt="life" class="simg" />
-Still life</p>
-
-<h2 id="devops">Devops</h2>
-<p>Nexus repository 동작. 2.x 버전은 그냥 os 상에서 파일을 지우고 리인덱스하는 방법을 권하는 사람도 있다. UI가 그렇게 편하지 않아서 그렇게한다. 3.x 버전부터는 logrotate처럼 Policy기반으로 스마트하게 관리해주는 기능이 들어가고 검색을 통해 지우는 방법도 등장함에 따라 이런 불만이 종식되었다. 파일용량이 큰것과 관련이 있는지 모르겠지만 10-20G 정도의 파일을 지웠음에도 1시간 가량 인덱스 작업이 길게 이어진다.</p>
-
-<h2 id="finance">Finance</h2>
-<p>거대한 전환, 도입부 마치고 본문 진행. 작가가 완고한 도덕주의자였고 사회주의는 그 이상을 위한 꿈이었단 부인의 증언에 살짝 갸우뚱.</p>
-
-<h2 id="english">ENGLISH</h2>
-<p>수동태 파트 진행 중</p>
-
-<h2 id="diary">Diary</h2>
-<p>오늘은 낮에 포스트를 쓰느라 시간을 많이 썼다. 노트한 내용을 다시 정리하면서 쓰느라 시간을 많이 썼다. 시간이 아깝기도 하고 결국 그래서 이 메모로 인해 내가 뭘 얻었을까. 하는 생각도 드는게 기록에 대한 철학을 좀 더 손봐야겠다. 뿐만 아니라 독서행위에 대해서도 점검이 필요하다. 입력에 비해 너무 출력이 안나오는 기분. 요즘 같은 내 마음엔 프랑스 사람이 쓴것 같은 책은 다 맘에 안든다.</p>
-
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 0.5H</li>
-  <li>습관 일기:
-<a href="https://www.youtube.com/watch?v=vN2WzQzxuoA">First World Problem</a> - 우리가 문제라고 정의하는게 얼마나 웃긴지 다시 한번 생각해보고 강건한 삶을 살아야겠다고 생각하지만 결국 시간이 지나 선진국이 열심히 하고 있다는 첨단의 비즈니스도 FWP에 부응하는 것이란 생각을 하니 이게 바로 현실의 압축아닌가. 지구엔 심각한 문제 가진 사람은 지불능력이 없고 사소한 불편을 가진 사람일수록 지불능력이 더 크다.</li>
-  <li>생체배터리: 60% -&gt; 30%<br />
-<a href="https://github.com/HibikeQuantum/PlayGround/commit/52e754c4775b43a27959a76bc028191891a3aa8b">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[Nexus repository, 도덕주의자, FWP, 수동태, 독서활동에 대한 고민]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-53" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-09T00:00:00+09:00</published><updated>2022-08-10T00:19:13+09:00</updated><id>http://localhost:4000/til/P2-TIL-53</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-53"><![CDATA[<h2 id="devops">Devops</h2>
-<p>Jekll 블로그 Import 작업마치고 사이드 카테고리와 Navi바 쪽의 조정작업을 했다. 이제 왠만한건 다 손봤기 때문에 이제 글만 쓰면 된다.</p>
-
-<h2 id="english">ENGLISH</h2>
-<p>현재분사, 과거분사를 진행했다. 이걸 보고 있으니 너무 쉬운 책을 고른것 같기도하고. 사전형 문법책을 하나 구비해야할지도 모르겠다는 생각이 든다.</p>
-
-<h2 id="life">Life</h2>
-<p><strong>움직인 시간</strong> 2hours 1) 살이 빠질수록 운동하고 나면 몸이 확확 변하는게 보이는게 참 기분이 좋다. 2) 인터벌을 너무 빨리 하면 퍼포먼스의 총량이 떨어진다. 몸풀기로 5분은 차분히 힘을 아끼면 전체적으로 더 많이 운동할 수 있다.
-<strong>습관 일기</strong><br />
- <a href="https://www.youtube.com/watch?v=hKKIcoAtjNo">[자막뉴스] 한강에 ‘세계 최대 규모’ 대관람차 세운다…오세훈의 꿈 / YTN</a> - 뭔가 감동을 느낀걸 바로 해볼 수 있는 위치에 있는건 참 부럽다. <code class="language-plaintext highlighter-rouge">용과같이7</code>에서 선출직이 되고 싶어한 악당의 마음이 이해가간다.<br />
-<a href="https://www.youtube.com/watch?v=5A67mQ2Pt9s">느슨해진 백엔드씬에 긴장감을 주는 FastAPI 프레임워크</a> - 운동하면서 본 내용. 뭐 플라스크도 이거랑 비슷할 만큼 짧은 코드로 된것 같은데, 성능은 훨씬 좋다고 하니 공부해볼만 할지도 모르겠다.<br />
-<a href="https://www.youtube.com/watch?v=WaYUSljdC5A">3천만원으로 창업해서 200억에 매각한 치킨 프렌차이즈 대표</a> - 아웃스탠드 메일링으로 알게된 영상. 열심히 잘하는 사람은 성공할 수 밖에 없다는 생각이 든다. 중요한건 잘하는거겠지.. 😢 어떻게 잘 할 수 있을까 영상에 계신분처럼 몸이 박살나기 전에 잘해야 할텐데</p>
-
-<p><strong>생체배터리</strong> 70% -&gt; 30%
-<a href="https://github.com/HibikeQuantum/PlayGround/commit/0ee80f38b6c5be3c8c5becf5ea4a9a58932a00bb">🔗<strong>일일 메모장 커밋</strong></a></p>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[Devops Jekll 블로그 Import 작업마치고 사이드 카테고리와 Navi바 쪽의 조정작업을 했다. 이제 왠만한건 다 손봤기 때문에 이제 글만 쓰면 된다.]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-52" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-08T23:27:31+09:00</published><updated>2022-08-09T00:27:35+09:00</updated><id>http://localhost:4000/til/P2-TIL-52</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-52"><![CDATA[<h2 id="language">Language</h2>
-<p>오늘은 jekll 플러그인 설치하고 설치하는 동안 문제를 커트하고, 오픈소스로 받은 루비 소스가 잘 실행이 안되길래 디버그 해보다가 시간을 많이 보냈다. import 하다가 실패한 부분들 직접 입력해주고. CSS가 마음에 안드는 녀석들은 계속 수정하면서 하는 중이다. 뭔가 시간 낭비인듯 하면서도 포기하기 싫다. 다 끝나면 이제 프로젝트성 포스트를 써야지</p>
-<h2 id="devop">Devop</h2>
-<p>Jira Workflow 쪽 기능을 한참 연구를 했다. 다른 쪽은 그렇게 커스터 마이징에 대한 배려가 없는듯 했는데 워크플로우 하나만은 transition 동작 하나하나에 굉장히 많은 일을 할 수 있게 edit 기능이 굉장히 광범하게 지원된다. 매번 일을 유연하게 한다면 이런 기능들이 별 의미가 없을수도 있겠지만 귓동냥으로 듣는 외국계 회사의 분위기 (업무의 시간의 절반을 사규에 맞냐 안맞냐. 근거가 있냐 없냐를 따지고 있다) 그런 분위기라면 이런 기능들을 참 잘쓰겠다는 생각이 들었다.</p>
-<h2 id="diary">Diary</h2>
-<p>요즘 자는 시간이 자꾸 늦어지고 있다. 블로그 이전 작업이 딱히 큰 피곤함을 유발하지 않다보니 저녁에 힘이 남아서 그런듯하다. 내일부터는 빨리 자야지.</p>
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 0.5hours</li>
-  <li>습관 일기: 오늘 밥먹으면서 본 UFC 말고 특별히 본 유튜브가 없다. 처음!</li>
-  <li>생체배터리: 70% -&gt; 40%</li>
-  <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/5fe61326657d89f048fdebe36eef43e62d9ecb85">🔗일일메모장 커밋</a></li>
-</ul>
-
-<!-- # header:
-#   overlay_image: "assets/images/banner_template.jpg" # 얘를 예쁘게 쓸일이 있으려나  
-#   overlay_filter: 0.3 # 투명도
-#   overlay_filter: rgba(205, 239, 154, 0.30) -->
-
-<!-- 
-<figure class="">
-  <img src="/assets/images/banner_template.jpg"
-       alt="this is a placeholder image"><figcaption>
-      This is a figure caption.
-
-    </figcaption></figure>
-
-![image-right](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png){:.align-center}
-저렇게 됩니다. 이렇게 됩니다. 저렇게 됩니다.
-{: .caption}
-
-[![styled-image](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png  "This is some hover text"){: .align-center style="width: 10%;"}](/assets/images/pixel_tracker_logo_80px.png "Title shown in gallery view")
-Some custom styled caption.
-{: .caption}
-
-짜라투스트라는 이렇게 말했다.[^1]
-
-Definition term 1
-: 저렇게 말했다.
-
-집중! 어텐션 플리즈
-{: .notice}
-그렇게 하면
-{: .notice--primary}
-안되요
-{: .notice--info}
-!!
-{: .notice--warning}
-@@
-{: .notice--danger}
-흑
-{: .notice--success}
-
-
-
-<div class="notice">
-<p><strong>Extended notice box</strong>:</p>
-<ul>
-  <li>맥락을 분리시키는 TIP, 또는 결론을 내릴때 쓰기좋은 패턴 <strong>야호!</strong></li>
-</ul>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
-  <span class="nt">&lt;body&gt;</span>Some body. help me!<span class="nt">&lt;body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div>
-</div>
-
-[Text](#link){: .btn .btn--primary}
- -->
-
-<!-- [^1]: Test 1의 내용입니다. 푸터라인 주석-->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[jekll-plugin, JIRA, workflow]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-51" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-07T23:57:21+09:00</published><updated>2022-08-07T23:57:23+09:00</updated><id>http://localhost:4000/til/P2-TIL-51</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-51"><![CDATA[<h1 id="today-i-learned--diary">Today I learned &amp; Diary</h1>
-<h2 id="language">Language</h2>
-<p>오늘은 medium exported 된 html파일을 md양식으로 바꿔주는 프로그램을 사용해 medium 블로그를 옮겼다. 닉네임을 바꾼덕에 gist 링크가 깨지고 이미지에 넣은 캡션도 다 깨지는등 문제가 많지만 그냥 내용들을 읽으면서 복습도 하고 무슨 생각을 했는지 반성 중이다. 주된 내용은 팀 프로젝트에 대한 회고나 javascript에 대한 개념들.</p>
-<h2 id="finance">Finance</h2>
-<p>운동하면서 favorite 해놓은 자산들 전부 둘러봤는데 그 동안 많이 조정받은 성장형 우량주는 10% 가량. 완성형 우량주는 오히려 떨어졌다. (IBM, 월마트). DBC는 제자리 걸음. 국내 주식중엔 좋은 뉴스를 받은 경기주(배터리)의 경우 15% 이상의 수익이 났고 가장 흥미로운건 카카오게임과 넵튠. 넵튠은 30% 뛰었고 카카오는 단기간이 17%가 뛰었는데. 언젠가 오를 주식인데 그게 언제인지는 모르는 주식의 전형이다 이둘은. 결국 불투명하게 (하지만 이해관계자 주변 사람들에겐 투명한) 운영되는 주식시장에서 이런 주식에 투자하는건 무리수인것 같다. 우마무스메가 분명 수익이 좋을것이라고 나는 생각했으나 그게 게임 릴리즈 직전에 반영되고 바로 조정받는 패턴을 예상했으나 그렇게 움직이지 않았다. 넵튠은 원래 내가 유일하게 장기보유를 생각해본 주식인데 정말 장기투자 주식이라 매번 매크로 이벤트에 주가가 쓸려내려간다. 아직 캐시플로도 좋지 않은걸로 기억한다. 그래서 언젠가 내가 엿본 잠재력이 발동된다면 주식이 튀어오르긴 하겠으나 그게 언제인지는 모를 주식. 그때까지 무한 우하향 하겠지. 정말 이런 투자를 해도되는걸까. (?) 시나리오를 짜서 우량주 투자를 했을때랑 리턴 비교를 해봐야겠다.</p>
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 2hours</li>
-  <li>습관 일기
-    <ul>
-      <li><a href="피터린치의 생활 속 10배 오르는 주식 찾는 법">https://www.youtube.com/watch?v=4SAhu7LN0Hk</a></li>
-      <li><a href="https://www.youtube.com/watch?v=CTJSEw8KnAg&amp;t=98s">[요즘 북한은] 산림 황폐 심각한 북한…백만 그루 나무 심기</a></li>
-    </ul>
-  </li>
-  <li>생체배터리: 70% -&gt; 30%</li>
-</ul>
-
-<!-- # header:
-#   overlay_image: "assets/images/banner_template.jpg" # 얘를 예쁘게 쓸일이 있으려나  
-#   overlay_filter: 0.3 # 투명도
-#   overlay_filter: rgba(205, 239, 154, 0.30) -->
-<!-- 
-<figure class="">
-  <img src="/assets/images/banner_template.jpg"
-       alt="this is a placeholder image"><figcaption>
-      This is a figure caption.
-
-    </figcaption></figure>
-
-![image-right](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png){:.align-center}
-저렇게 됩니다. 이렇게 됩니다. 저렇게 됩니다.
-{: .caption}
-
-[![styled-image](/assets/images/HibikeQauntumSymbol_88x88_version_waifu.png  "This is some hover text"){: .align-center style="width: 10%;"}](/assets/images/pixel_tracker_logo_80px.png "Title shown in gallery view")
-Some custom styled caption.
-{: .caption}
-
-짜라투스트라는 이렇게 말했다.[^1]
-
-Definition term 1
-: 저렇게 말했다.
-
-집중! 어텐션 플리즈
-{: .notice}
-그렇게 하면
-{: .notice--primary}
-안되요
-{: .notice--info}
-!!
-{: .notice--warning}
-@@
-{: .notice--danger}
-흑
-{: .notice--success}
-
-
-
-<div class="notice">
-<p><strong>Extended notice box</strong>:</p>
-<ul>
-  <li>맥락을 분리시키는 TIP, 또는 결론을 내릴때 쓰기좋은 패턴 <strong>야호!</strong></li>
-</ul>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
-  <span class="nt">&lt;body&gt;</span>Some body. help me!<span class="nt">&lt;body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div>
-</div>
-
-[Text](#link){: .btn .btn--primary}
- -->
-
-<!-- [^1]: Test 1의 내용입니다. 푸터라인 주석-->]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL" /><category term="DAIRY" /><summary type="html"><![CDATA[javascript, 블로그이전, 7월장 복기]]></summary></entry></feed>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[Pythongit, 데브옵스 핸드북, 박물관, 양파껍질, 턴에이 건담]]></summary></entry></feed>
