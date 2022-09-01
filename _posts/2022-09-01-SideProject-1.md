@@ -5,7 +5,7 @@ tags: SideProject, python, bash
 toc: true
 date: 2022-09-01T09:35:20+09
 last_modified_at: 2022-09-01T09:35:22+09
-title: 베어노트를 더 스마트하게 쓰자 BearAutoPublisher (v1.0.1) 릴리즈
+title: 베어노트를 더 스마트하게 쓰자 BearAutoPublisher (v1.0.1  ) 릴리즈
 ---
 
 ## 안내
