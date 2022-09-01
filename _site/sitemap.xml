@@ -677,7 +677,10 @@
 <loc>http://localhost:4000/tag/til,dairy</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tag/sideproject</loc>
+<loc>http://localhost:4000/tag/sideproject,</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/python,</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page2/</loc>

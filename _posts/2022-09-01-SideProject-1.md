@@ -5,15 +5,14 @@ tags: SideProject, python, bash
 toc: true
 date: 2022-09-01T09:35:20+09
 last_modified_at: 2022-09-01T09:35:22+09
-title: 베어노트를 더 스마트하게 쓰자 BearAutoPublisher (v1.0.0) 릴리즈
+title: 베어노트를 더 스마트하게 쓰자 BearAutoPublisher (v1.0.1) 릴리즈
 ---
 
 ## 안내
 BearAutoPublisher(이하 BAP)은 사이드 프로젝트로 만든 배치성 프로그램입니다. 본 포스트는 BAP의 기능을 소개하기 위해 쓰여졌습니다. 프로그램 설치, 구체적인 정보조회, 문의는 다음 링크 [GitHub - HibikeQuantum/Bear-Auto-Publisher: Markdown export from Bear sqlite database and publishing at github repository](https://github.com/HibikeQuantum/Bear-Auto-Publisher)에서 하실 수 있습니다.  
   
 ## 왜 만들고 왜 써야했나
-베어노트는 맥에서 저렴가격으로 쓸 수 있는 노트앱 중 유려한 UI와 합리적 인터페이스로 인정받는 프로그램입니다.  
-노트앱이란 기능에 충실한만큼 유저의 사용경험을 피드백하고 다른 파일의 포맷으로의 변환(베어 PRO버전에서 수동으로 문서 하나하나 할 수는 있습니다.)이나 히스토리 추적, 자동화된 관리기능은 기대하기 어려웠습니다.  
+베어노트는 맥에서 저렴가격으로 쓸 수 있는 노트앱 중 유려한 UI와 합리적 인터페이스로 인정받는 프로그램입니다. 하지만 노트앱이란 기능에 충실한만큼 유저의 사용경험을 피드백하고 다른 파일의 포맷으로의 변환(베어 PRO버전에서 수동으로 문서 하나하나 할 수는 있습니다.)이나 히스토리 추적, 자동화된 관리기능은 기대하기 어려웠습니다.  
 BAP는 이런 니즈를 채우기 위한(사실은 제가 쓰기위한) 배치성 프로그램입니다. Git으로 메모를 관리하는 분들은 유용하게 쓰실 수 있을거라 생각합니다.
   
 ## 기능
@@ -37,14 +36,15 @@ GitHub에 Push하고 프로세스 완료
 {: .caption}
   
 ![!!!](/assets/img/SCR-20220901-j5q.png)
-변경된 텍스트의 양을 보여주는 그래프, 마우스 오버시 상세 데이터와 자주 쓰인 키워드가 보입니다
+변동되는 텍스트의 양을 보여주는 그래프, 마우스 오버시 상세 데이터 및 주요 키워드가 팝업
 {: .caption}
   
 ## 저의 사용방법
-1) 저는 이렇게 만든 프로그램을 매일 일기장을 쓰기전에 한번 실행하고 있습니다. 메모에 뭐 썼는지 다 나오니까 무슨 일이 있었는지 한눈에 파악이 되죠.  
-2) alias를 이용하면 더 간편하게 쓸 수 있습니다.  
+1. 저는 이렇게 만든 프로그램을 매일 일기장을 쓰기전에 한번 실행하고 있습니다. 메모에 뭐 썼는지 다 나오니까 무슨 일이 있었는지 한눈에 파악이 되죠.  
+2. alias를 이용하면 더 간편하게 쓸 수 있습니다.  
 ```
-# ~/.zshrc
-@ABP="sh /Users/kth/Code/Bear-Auto-Publisher/AutoPublish.sh"
+echo "" >> ~/.zshrc
+echo "## BearAutoPublisher Alias" >> ~/.zshrc
+echo "@ABP="sh /Users/kth/Code/Bear-Auto-Publisher/AutoPublish.sh"" >> ~/.zshrc
 ```
-3) 저는 Public Repository에서 메모장을 관리하고 있으나 github에 Private repository도 만들 수 있으니 관리하셔도 됩니다. 아니면 그냥 원격저장소 안쓰고 로컬에서만 쓰셔도 되구요. git에 익숙하지 않으신분들은 이번에 한번 배우시는것도 추천합니다. 버전관리툴은 거의 모든 분야에서 지배적인 미래라고 생각합니다. (git 설치와 git init 명령어만 아셔도 충분합니다. 나머진 BAP가 해줍니다.)  
+3. 저는 Public Repository에서 메모장을 관리하고 있으나 github에 Private repository도 만들 수 있으니 관리하셔도 됩니다. 아니면 그냥 원격저장소 안쓰고 로컬에서만 쓰셔도 되구요. git에 익숙하지 않으신분들은 이번에 한번 배우시는것도 추천합니다. 버전관리툴은 거의 모든 분야에서 지배적인 미래라고 생각합니다. (git 설치와 git init 명령어만 아셔도 충분합니다. 나머진 BAP가 해줍니다.)  
