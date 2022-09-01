@@ -469,6 +469,10 @@
 <lastmod>2022-08-31T23:06:02+09:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/devlog/SideProject-1</loc>
+<lastmod>2022-09-01T09:35:22+09:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/categories/AWS</loc>
 </url>
 <url>
@@ -671,6 +675,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/til,dairy</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/sideproject</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page2/</loc>

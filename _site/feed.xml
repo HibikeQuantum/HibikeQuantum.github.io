@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-31T23:57:18+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">2022.08.31 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-64" rel="alternate" type="text/html" title="2022.08.31 TIL &amp;amp; Diary" /><published>2022-08-31T23:05:59+09:00</published><updated>2022-08-31T23:06:02+09:00</updated><id>http://localhost:4000/til/P2-TIL-64%08</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-64"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-31 23.13.21 - Lovely girl with pink hair, in Keith Haring style.png" alt="!!!" class="simg" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-01T14:23:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">베어노트를 더 스마트하게 쓰자 BearAutoPublisher (v1.0.0) 릴리즈</title><link href="http://localhost:4000/devlog/SideProject-1" rel="alternate" type="text/html" title="베어노트를 더 스마트하게 쓰자 BearAutoPublisher (v1.0.0) 릴리즈" /><published>2022-09-01T09:35:20+09:00</published><updated>2022-09-01T09:35:22+09:00</updated><id>http://localhost:4000/devlog/SideProject-1</id><content type="html" xml:base="http://localhost:4000/devlog/SideProject-1"><![CDATA[<h2 id="안내">안내</h2>
+<p>BearAutoPublisher(이하 BAP)은 사이드 프로젝트로 만든 배치성 프로그램입니다. 본 포스트는 프로그램 기능을 소개하기 위해 쓰여졌고 프로그램 설치, 구체적인 정보조회, 문의는 Github <a href="https://github.com/HibikeQuantum/Bear-Auto-Publisher">GitHub - HibikeQuantum/Bear-Auto-Publisher: Markdown export from Bear sqlite database and publishing at github repository</a> 이 링크에서 하실 수 있습니다.</p>
+
+<h2 id="왜-만들고-왜-써야했나">왜 만들고 왜 써야했나</h2>
+<p>베어노트는 맥에서 저렴가격으로 쓸 수 있는 노트앱 중 유려한 UI와 합리적 인터페이스로 인정받는 프로그램입니다. 노트앱이란 기능에 충실한 대신<br />
+유저의 사용경험을 피드백하고 다른 파일의 포맷으로의 변환이나 히스토리 추적, 자동화된 관리기능은 기대하기 어려웠습니다.<br />
+BAP는 이런 니즈를 채우기 위한 배치성 프로그램입니다. Git으로 메모를 관리하는 분들은 유용하게 쓰실 수 있을거라 생각합니다.</p>
+
+<h2 id="기능">기능</h2>
+<ol>
+  <li>베어앱의 노트를 markdown으로 변환하여 추출</li>
+  <li>git으로 관리되는 디렉토리로 추출된 파일을 이전하고 commit과 push를 수행합니다.</li>
+  <li>git의 변경 내용을 언어분석 패키지로 분석하여 변화된 내용을 그래프로 시각화합니다.</li>
+  <li>GitHub에서 제공하는 diff 페이지를 열고, 사용자가 Github에 올리지 않겠다고 선언한 문서들은 오프라인의 텍스트 에디터로 diff를 보여줍니다.</li>
+  <li>이 모든 과정은 필요에 따라 on/off 할 수 있게 모듈화 해뒀습니다.</li>
+</ol>
+
+<h2 id="실제-사용-모습">실제 사용 모습</h2>
+<p class="caption"><img src="/assets/img/SCR-20220901-dro.png" alt="!!!" />
+프로그램을 실행하여 추출을 실행하고 그 파일들을 Github에 업로드 할지 물어보는 단계</p>
+
+<p class="caption"><img src="/assets/img/SCR-20220901-er4.png" alt="!!!" />
+GitHub에 Push하고 프로세스 완료</p>
+
+<p class="caption"><img src="/assets/img/SCR-20220901-etc.png" alt="!!!" />
+변경된 내용을 웹에서 확인</p>
+
+<p class="caption"><img src="/assets/img/SCR-20220901-j5q.png" alt="!!!" />
+변경된 텍스트의 양을 보여주는 그래프, 마우스 오버시 상세 데이터와 자주 쓰인 키워드가 보입니다</p>
+
+<h2 id="저의-사용방법">저의 사용방법</h2>
+<p>1) 저는 이렇게 만든 프로그램을 매일 일기장을 쓰기전에 한번 실행하고 있습니다. 메모에 뭐 썼는지 다 나오니까 무슨 일이 있었는지 한눈에 파악이 되죠. 
+2) alias를 이용하면 더 간편하게 쓸 수 있습니다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># ~/.zshrc
+@ABP="sh /Users/kth/Code/Bear-Auto-Publisher/AutoPublish.sh"
+</code></pre></div></div>
+<p>3) 저는 Public Repository에서 메모장을 관리하고 있으나 github에 Private repository도 만들 수 있으니 관리하셔도 됩니다. 아니면 그냥 원격저장소 안쓰고 로컬에서만 쓰셔도 되구요. (BAP 의 config에서 앱의 동작들을 끄고 켤 수 있게 해뒀습니다.)</p>]]></content><author><name>강태훈</name></author><category term="devlog" /><category term="SideProject" /><summary type="html"><![CDATA[안내 BearAutoPublisher(이하 BAP)은 사이드 프로젝트로 만든 배치성 프로그램입니다. 본 포스트는 프로그램 기능을 소개하기 위해 쓰여졌고 프로그램 설치, 구체적인 정보조회, 문의는 Github GitHub - HibikeQuantum/Bear-Auto-Publisher: Markdown export from Bear sqlite database and publishing at github repository 이 링크에서 하실 수 있습니다.]]></summary></entry><entry><title type="html">2022.08.31 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-64" rel="alternate" type="text/html" title="2022.08.31 TIL &amp;amp; Diary" /><published>2022-08-31T23:05:59+09:00</published><updated>2022-08-31T23:06:02+09:00</updated><id>http://localhost:4000/til/P2-TIL-64%08</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-64"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-31 23.13.21 - Lovely girl with pink hair, in Keith Haring style.png" alt="!!!" class="simg" />
 dalle가 그려준 그림</p>
 
 <h2 id="language">Language</h2>
@@ -164,25 +200,4 @@ Dalle가 그려준 이미지</p>
 <a href="https://www.youtube.com/watch?v=ENSQJWZDsyg&amp;t=704s">779. 20년 전 2022년 주식시장 바닥을 예측한 책!</a> - 이거 보면서 로또 숫자 분석하는 사람이랑 무슨차이인지 고민을 했다. 차라리 거품 붕괴를 기준으로 리셋하면서 8년 사이클이 동작하는지 보는게 더 영양가 있을듯.</li>
   <li>생체배터리: 40% -&gt; 10% 블라인드를 사야겠다. 아침에 일어나는 시간이 너무 불규칙하다..</li>
   <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/3cadb97ed436cf71775a7558022dd220cf901e3e">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[konlpy 작업완료, 통장쪼개기, 무엇을 메모하고 무엇을 글로쓸까?, 변동성, 로또과학]]></summary></entry><entry><title type="html">TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-56" rel="alternate" type="text/html" title="TIL &amp;amp; Diary" /><published>2022-08-16T23:14:02+09:00</published><updated>2022-08-16T23:14:06+09:00</updated><id>http://localhost:4000/til/P2-TIL-56</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-56"><![CDATA[<h2 id="language">Language</h2>
-<p>파이선 사이드 프로젝트 진행. 익숙하지 않은 패키지에 고전 중. 그냥 쉘이 짱이다.</p>
-
-<h2 id="devops">Devops</h2>
-<p>『데브옵스 핸드북』 서문까지 읽었다. 무슨 책인지 아직 전혀~ 모르겠지만 소프트웨어를 전달하는게 현대 기업의 가장 중요한 활동이라는 것을 데브옵스가 선언된 11년도에 인식했다는 이야기는 인상깊었다. 미래를 보고 미래가 실현되는 것을 지켜보고 또 자신이 그 속에서 무엇을 할수 있는지 실현하는 과정이 얼마나 두근거렸을까.</p>
-
-<h2 id="finance">Finance</h2>
-<p>내일은 통장을 더 만들어서 월급 통장과 지출 통장, 비상금 통장을 쪼개볼 예정이다.</p>
-
-<h2 id="english">ENGLISH</h2>
-<p>책 2권을 시작했다. Action Verb, STATE Verb (동작 동사, 상태 동사) 문법 공부를 한지 참 오래되서 이런게 있었나..? 그런 생각만 가득</p>
-
-<h2 id="diary">Diary</h2>
-<p>저녁에 방청소하고 양파랑 향신료에 대한 연구를 좀 하느라 30분 정도 시간을 보냈다. 세상에 궁금한건 너무 많은데 우선순위가 높은건 더 많다. 이번 주말엔 근처에 어디갈까 지도를 보는데 박물관이 이렇게 세상에 많은줄은 상상도 못했다. 할게 많아</p>
-
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 0.5H</li>
-  <li>습관 일기:  요즘은 유튜브를 보는 시간이 거의 없다. 그냥 영어를 열심히 읽어야 하는 턴에이 건담 애니메이션 보는중…</li>
-  <li>생체배터리: 60% -&gt; 15%</li>
-  <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/be0b29e16995ca9dae91347857f20a3a5fbc3bab">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[Pythongit, 데브옵스 핸드북, 박물관, 양파껍질, 턴에이 건담]]></summary></entry></feed>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[konlpy 작업완료, 통장쪼개기, 무엇을 메모하고 무엇을 글로쓸까?, 변동성, 로또과학]]></summary></entry></feed>
