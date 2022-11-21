@@ -501,6 +501,14 @@
 <lastmod>2022-10-06T14:34:41+09:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC1</loc>
+<lastmod>2022-11-04T14:46:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/til/P2-TIL-71</loc>
+<lastmod>2022-11-04T11:15:38+09:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/categories/AWS</loc>
 </url>
 <url>
@@ -709,6 +717,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/python,</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/kotlin,</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/tutorial</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page2/</loc>

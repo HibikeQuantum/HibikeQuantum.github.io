@@ -1,11 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-06T14:50:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">데브옵스 핸드북을 읽고</title><link href="http://localhost:4000/devlog/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4-%ED%95%B8%EB%93%9C%EB%B6%81-%ED%9B%84%EA%B8%B0" rel="alternate" type="text/html" title="데브옵스 핸드북을 읽고" /><published>2022-10-06T00:00:00+09:00</published><updated>2022-10-06T14:34:41+09:00</updated><id>http://localhost:4000/devlog/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4%20%ED%95%B8%EB%93%9C%EB%B6%81%20%ED%9B%84%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4-%ED%95%B8%EB%93%9C%EB%B6%81-%ED%9B%84%EA%B8%B0"><![CDATA[<p class="caption"><img src="/assets/img/IMG_3023.jpeg" alt="" class="mimg" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-04T15:07:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">2022.11.04 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-71" rel="alternate" type="text/html" title="2022.11.04 TIL &amp;amp; Diary" /><published>2022-11-04T00:00:00+09:00</published><updated>2022-11-04T11:15:38+09:00</updated><id>http://localhost:4000/til/P2-TIL-71</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-71"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-10-05 15.17.33 - A picture of Nyan cat and doggy reconciling.png" alt="!!!" class="simg" />
+From dalle</p>
+
+<h2 id="language">Language</h2>
+<p>코틀린 프로젝트 블로그 쓰고 파이선 연습문제 4문제를 풀었다.</p>
+
+<h2 id="english">ENGLISH</h2>
+<p>영어회화앱으로 20분 나머지는 문법책을 처리했다. 영어로만 회화하는 모임에 가입해서 토요일에 첫 온라인 모임, 일요일은 오프라인 미팅에 참석할 예정</p>
+
+<h2 id="diary">Diary</h2>
+<p>요즘은 일단 자기자신에 대해 생각하지 않기로해서 다이어리 부분은 한동안 쓰지 않을 예정이다.</p>
+
+<h2 id="life">Life</h2>
+<ul>
+  <li>움직인 시간: 0.5H</li>
+  <li>습관 일기:<br />
+나쁜 습관 없애기 Phase 1 - 일차</li>
+  <li>생체배터리: 50% -&gt; 0%</li>
+  <li><a href="">🔗<strong>일일메모장 커밋</strong></a></li>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[간만에 쓰는 TIL]]></summary></entry><entry><title type="html">코틀린 튜토리얼 (1) 프로젝트 생성, 빌드, 실행</title><link href="http://localhost:4000/kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC1" rel="alternate" type="text/html" title="코틀린 튜토리얼 (1) 프로젝트 생성, 빌드, 실행" /><published>2022-11-04T00:00:00+09:00</published><updated>2022-11-04T14:46:00+09:00</updated><id>http://localhost:4000/kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC1</id><content type="html" xml:base="http://localhost:4000/kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC1"><![CDATA[<h2 id="시리즈-개요">시리즈 개요</h2>
+<p>회사에서 자바 프로젝트를 배포운영하다보니 자주 자바코드를 보는데, 백엔드의 전통이 자바 스프링이라면 다음 시대를 이끌어갈 기술은 뭘까 고민을 하던찰나 코틀린의 여러가지 장점에 대한 설명을 보고 ‘이거다!’ 싶어. 간단한것부터 글로 정리해가고자 시작된 튜토리얼입니다. 문법의 설명은 다른 사이트가 많을테니 목적성을 가지고 글 한나 하나를 적어보려고 합니다. 시리즈 첫번째 주제는 JVM으로 간단한 코틀린 프로그램 실행.</p>
+
+<h2 id="환경구성">환경구성</h2>
+<p class="caption">OS: MAC M1 Montery 12.4<br />
+실행환경: JVM 18.0.2, Gradle 7.5.1<br />
+IDE: IntelliJ CE<br />
+<img src="/assets/img/SCR-20221103-uqx.png" alt="" class="align-center" />
+Gradle 이 지원하는 JVM을 써야한다. JVM 설치는 IntelliJ의 프로젝트 생성 화면에서 클릭으로도 할 수 있다.</p>
+
+<h2 id="jvm에서-코틀린-프로그램-실행">JVM에서 코틀린 프로그램 실행</h2>
+<p class="caption"><img src="/assets/img/SCR-20221103-uyb.png" alt="" class="align-center" />
+프로젝트 생성을 위한 기본설정</p>
+
+<p>다음의 값을 설정해준다.<br />
+1) 프로젝트 위치, 이름 확인 2) 코틀린 프로젝트 3) Gradle 시스템 4) JDK 선택 5) ‘Add sample code’</p>
+
+<p class="caption"><img src="/assets/img/SCR-20221103-uxk.png" alt="" class="align-center" />
+JDK19를 쓰고 싶었지만 Gradle이 지원을 하지 않아서 16을 선택했다.</p>
+
+<p class="caption"><img src="/assets/img/SCR-20221103-v1u.png" alt="" class="align-center" />
+생성된 프로젝트</p>
+
+<div class="language-kotlin align-center highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nn">org.jetbrains.kotlin.gradle.tasks.KotlinCompile</span>
+
+<span class="nf">plugins</span> <span class="p">{</span>
+    <span class="nf">kotlin</span><span class="p">(</span><span class="s">"jvm"</span><span class="p">)</span> <span class="n">version</span> <span class="s">"1.7.10"</span>
+    <span class="n">application</span>
+<span class="p">}</span>
+
+<span class="n">group</span> <span class="p">=</span> <span class="s">"org.example"</span>
+<span class="n">version</span> <span class="p">=</span> <span class="s">"1.0-SNAPSHO"</span>
+
+<span class="nf">repositories</span> <span class="p">{</span>
+    <span class="nf">mavenCentral</span><span class="p">()</span>
+<span class="p">}</span>
+
+<span class="nf">dependencies</span> <span class="p">{</span>
+    <span class="nf">testImplementation</span><span class="p">(</span><span class="nf">kotlin</span><span class="p">(</span><span class="s">"test"</span><span class="p">))</span>
+<span class="p">}</span>
+
+<span class="n">tasks</span><span class="p">.</span><span class="nf">test</span> <span class="p">{</span>
+    <span class="nf">useJUnitPlatform</span><span class="p">()</span>
+<span class="p">}</span>
+
+<span class="n">tasks</span><span class="p">.</span><span class="n">withType</span><span class="p">&lt;</span><span class="nc">KotlinCompile</span><span class="p">&gt;</span> <span class="p">{</span>
+    <span class="n">kotlinOptions</span><span class="p">.</span><span class="n">jvmTarget</span> <span class="p">=</span> <span class="s">"1.8"</span>
+<span class="p">}</span>
+
+<span class="nf">application</span> <span class="p">{</span>
+    <span class="n">mainClass</span><span class="p">.</span><span class="k">set</span><span class="p">(</span><span class="s">"MainKt"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p class="captionC">build.gradle.kts</p>
+<p>Gradle은 앱을 빌드 및 구성해주는 시스템<a href="https://mkil.tistory.com/479">참조블로그</a>. DSL(Domain Specific Lanuage)로 쓰인 ‘build.gradle.kts’는 무엇을 어떻게 빌드할지 정의하는 레시피다. this 항목들은 <code class="language-plaintext highlighter-rouge">org.gradle</code>패키지를 가르키고 있다. 빌드 시스템이 동작하면 gradle이 먼저 선행되 JVM과 Dependencies를 소화한 뒤 <code class="language-plaintext highlighter-rouge">Main.kt</code>를 읽어들이게 된다. 빌드 결과물은 <code class="language-plaintext highlighter-rouge">target</code> 디렉토리에 저장되고 JVM 위에서 실행된다.</p>
+
+<p class="caption"><img src="/assets/img/SCR-20221104-el6.png" alt="" class="align-center" /></p>
+<p><code class="language-plaintext highlighter-rouge">RUN &gt; Edit Configuration</code>에서 프로그램 실행환경을 설정한다. 1) MainApp이란 이름으로 2) Main.kt 프로그램을 실행하도록 패키지를 선택했다. 이제 <code class="language-plaintext highlighter-rouge">RUN &gt; Run MainApp</code>을 하면 프로그램이 실행된다.</p>
+
+<p class="caption"><img src="/assets/img/SCR-20221104-evo.png" alt="" class="align-center" />
+글에 적진 않았지만 leadln()을 이용해 입력을 받고 출력하는 코드를 추가했다.</p>
+
+<p>이걸로 프로젝트 생성부터 실행까지 진행했다. 다음부터는 자바를 하는 이유인 Spring 을 코틀린으로 작성해서 서비스 해보려고 한다.</p>]]></content><author><name>강태훈</name></author><category term="kotlin" /><category term="kotlin," /><category term="tutorial" /><summary type="html"><![CDATA[시리즈 개요 회사에서 자바 프로젝트를 배포운영하다보니 자주 자바코드를 보는데, 백엔드의 전통이 자바 스프링이라면 다음 시대를 이끌어갈 기술은 뭘까 고민을 하던찰나 코틀린의 여러가지 장점에 대한 설명을 보고 ‘이거다!’ 싶어. 간단한것부터 글로 정리해가고자 시작된 튜토리얼입니다. 문법의 설명은 다른 사이트가 많을테니 목적성을 가지고 글 한나 하나를 적어보려고 합니다. 시리즈 첫번째 주제는 JVM으로 간단한 코틀린 프로그램 실행.]]></summary></entry><entry><title type="html">데브옵스 핸드북을 읽고</title><link href="http://localhost:4000/devlog/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4-%ED%95%B8%EB%93%9C%EB%B6%81-%ED%9B%84%EA%B8%B0" rel="alternate" type="text/html" title="데브옵스 핸드북을 읽고" /><published>2022-10-06T00:00:00+09:00</published><updated>2022-10-06T14:34:41+09:00</updated><id>http://localhost:4000/devlog/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4%20%ED%95%B8%EB%93%9C%EB%B6%81%20%ED%9B%84%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4-%ED%95%B8%EB%93%9C%EB%B6%81-%ED%9B%84%EA%B8%B0"><![CDATA[<p class="caption"><img src="/assets/img/IMG_3023.jpeg" alt="" class="mimg" />
 책 전면</p>
 
 <h2 id="왜">왜</h2>
 <p>4월부터 배포 파이프 라인을 관리하는 일을 시작했다. 따라서 직무를 둘러싼 줄기를 일단 파악하려고 산 책이다. 개인적으론 데브옵스를 IT만의 이슈라고 생각했는데 책의 내용을 보면 도요타에 대한 이야기가 참 많이 나오는 게 대학시절로 돌아간 기분이 들었다. 도요타는 현대적 제조업 경영의 스탠더드를 성립한 회사였고 그 지위를 아직도 뺏기지 않은 최고의 프랙티스다. 최근엔 테슬라를 공부해본 투자자들이 SW뿐만 아니라 제조관리도 테슬라의 강점이 있다는 이야기를 들었는데 나중에 별도로 공부해볼 만한 이슈다.</p>
 
 <h2 id="누구를-위한-책">누구를 위한 책</h2>
-<p>그렇다고 이 책이 공장을 포함하는 광범위한 범위를 다루는 책은 아니다. 이 책을 통해 향상하려는 프랙티스는 분명히 IT서비스 개발과 운영이다. 나아가 고객에게 가치를 Delivery 하는 최종 접점을 향하여 조직운영을 혁신하는 방법을 다루는 책이다. 여기엔 개발과 배포를 어떻게 할 것인지에 대해 필요한 원칙, 전술적 방법, 전략적 지향점이 포함되어 있다. 따라서 이런 실행을 위해 사용되는 오픈소스나 방법론 소프트웨어 이념 등이 짤막하게 등장할 뿐이지 코드나 코드를 짜는데 참고할만한 플로우 차트는 일절 없다. (사실 핸드북이라길래 그런 것도 있는 줄 알았다)
+<p>그렇다고 이 책이 공장을 포함하는 광범위한 범위를 다루는 책은 아니다. 이 책을 통해 향상하려는 프랙티스는 분명히 IT서비스 개발과 운영이다. 나아가 고객에게 가치를 Delivery 하는 최종 접점을 향하여 조직운영을 혁신하는 방법을 다루는 책이다. 여기엔 개발과 배포를 어떻게 할 것인지에 대해 필요한 원칙, 전술적 방법, 전략적 지향점이 포함되어 있다. 따라서 이런 실행을 위해 사용되는 오픈소스나 방법론 소프트웨어 이념 등이 짤막하게 등장할 뿐이지 코드나® 코드를 짜는데 참고할만한 플로우 차트는 일절 없다. (사실 핸드북이라길래 그런 것도 있는 줄 알았다)
 이 책은 조직운영에 대한 이야기가 주류를 이룬다. 주니어들도 읽어보면 도움은 될 수도 있지만, 조직의 문화를 관리하며 관행을 컨트롤할 수 있는 위치에 있는 이사들이나 시니어들에게 필요한 조언이 중심이 된다. 물론 팔로워도 자신들이 뭘 팔로우하는 건지는 알아야 하지 않겠는가. 때문에 이 책은 누구에게나 도움이 될 거라 생각한다.</p>
 
 <h2 id="이-책에서-제시하는-전략의-큰-덩어리">이 책에서 제시하는 전략의 큰 덩어리</h2>
@@ -202,44 +283,4 @@ echo "@ABP="sh /Users/kth/Code/Bear-Auto-Publisher/AutoPublish.sh"" &gt;&gt; ~/.
 </code></pre></div>    </div>
   </li>
   <li>저는 Public Repository에서 메모장을 관리하고 있으나 github에 Private repository도 만들 수 있으니 관리하셔도 됩니다. 아니면 그냥 원격저장소 안쓰고 로컬에서만 쓰셔도 되구요. git에 익숙하지 않으신분들은 이번에 한번 배우시는것도 추천합니다. 버전관리툴은 거의 모든 분야에서 지배적인 미래라고 생각합니다. (git 설치와 git init 명령어만 아셔도 충분합니다. 나머진 BAP가 해줍니다.)</li>
-</ol>]]></content><author><name>강태훈</name></author><category term="devlog" /><category term="SideProject," /><category term="python," /><category term="bash" /><summary type="html"><![CDATA[안내 BearAutoPublisher(이하 BAP)은 사이드 프로젝트로 만든 배치성 프로그램입니다. 본 포스트는 BAP의 기능을 소개하기 위해 쓰여졌습니다. 프로그램 설치, 구체적인 정보조회, 문의는 다음 링크 GitHub - HibikeQuantum/Bear-Auto-Publisher: Markdown export from Bear sqlite database and publishing at github repository에서 하실 수 있습니다. 왜 만들고 왜 써야했나 베어노트는 맥에서 저렴가격으로 쓸 수 있는 노트앱 중 유려한 UI와 합리적 인터페이스로 인정받는 프로그램입니다. 하지만 노트앱이란 기능에 충실한만큼 유저의 사용경험을 피드백하고 다른 파일의 포맷으로의 변환(베어 PRO버전에서 수동으로 문서 하나하나 할 수는 있습니다.)이나 히스토리 추적, 자동화된 관리기능은 기대하기 어려웠습니다. BAP는 이런 니즈를 채우기 위한(사실은 제가 쓰기위한) 배치성 프로그램입니다. Git으로 메모를 관리하는 분들은 유용하게 쓰실 수 있을거라 생각합니다. 기능 베어앱의 노트를 markdown으로 변환하여 추출 git으로 관리되는 디렉토리로 추출된 파일을 이전하고 commit과 push를 수행합니다. git의 변경 내용을 언어분석 패키지로 분석하여 변화된 내용을 그래프로 시각화합니다. GitHub에서 제공하는 code history 조회 페이지를 열고, 사용자가 Github에 올리지 않겠다고 선언한 문서들은 텍스트 에디터로 보여줍니다. 이 모든 과정은 필요에 따라 on/off 할 수 있게 모듈화 해뒀습니다. 실제 사용 모습 프로그램을 실행하여 추출을 실행하고 그 파일들을 Github에 업로드 할지 물어보는 단계 GitHub에 Push하고 프로세스 완료 변경된 내용을 웹에서 확인 변동되는 텍스트의 양을 보여주는 그래프, 마우스 오버시 상세 데이터 및 주요 키워드가 팝업 저의 사용방법 저는 이렇게 만든 프로그램을 매일 일기장을 쓰기전에 한번 실행하고 있습니다. 메모에 뭐 썼는지 다 나오니까 무슨 일이 있었는지 한눈에 파악이 되죠. alias를 이용하면 더 간편하게 쓸 수 있습니다. echo "" &gt;&gt; ~/.zshrc echo "## BearAutoPublisher Alias" &gt;&gt; ~/.zshrc echo "@ABP="sh /Users/kth/Code/Bear-Auto-Publisher/AutoPublish.sh"" &gt;&gt; ~/.zshrc 저는 Public Repository에서 메모장을 관리하고 있으나 github에 Private repository도 만들 수 있으니 관리하셔도 됩니다. 아니면 그냥 원격저장소 안쓰고 로컬에서만 쓰셔도 되구요. git에 익숙하지 않으신분들은 이번에 한번 배우시는것도 추천합니다. 버전관리툴은 거의 모든 분야에서 지배적인 미래라고 생각합니다. (git 설치와 git init 명령어만 아셔도 충분합니다. 나머진 BAP가 해줍니다.)]]></summary></entry><entry><title type="html">2022.08.31 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-64" rel="alternate" type="text/html" title="2022.08.31 TIL &amp;amp; Diary" /><published>2022-08-31T23:05:59+09:00</published><updated>2022-08-31T23:06:02+09:00</updated><id>http://localhost:4000/til/P2-TIL-64%08</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-64"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-31 23.13.21 - Lovely girl with pink hair, in Keith Haring style.png" alt="!!!" class="simg" />
-dalle가 그려준 그림</p>
-
-<h2 id="language">Language</h2>
-<p>Python Bear-Auto-Publish 사이드 프로젝트 완료 1.00버전을 릴리즈헀다. 시작은 베어 노트에 하루에 내가 뭘 썼는지 시각적으로 보고 싶어서 했으니 누가 써주면 좋고 안써주면 그만. 내일은 사용방법을 한글로도 READ.me에 남기고 앱에 대해 홍보하는 글을 쓸 예정. 괜찮으면 유튜브로 남겨도 될듯.</p>
-
-<h2 id="philosophy">Philosophy</h2>
-<p>신정론에 대해 이야기를 듣는데, <code class="language-plaintext highlighter-rouge">추상적이고 이론적인 악에 대한 설명은 인간을 무기력하게 만들고 현재 존재하는 지배구조를 정당화한다</code>는 이야기가 나왔다. 최근에 팔레스타인의 근현대사 이야기를 들으며 결국은 힘있는 애들이 싸움에서도 이기고 여론전까지도 이겨 착한 사람취급까지 받는 현실을 어떻게 받아야하나 고민이 깊었던 찰나에 가슴에 울리는 이야기 였다. 팔레스타인들의 주권회복을 위한 행동들을 들을때면 나는 라스트 오브 어스2가 떠올랐는데. 그 게임은 악의 평범성를 강조하기 위해 해체주의적 관점에서 인류가 즐겨온 영웅서사(우리의 가치를 지키기 위해 폭력을 행사하고 승리하는 영웅)를 찢어버린 이야기였다. 영웅서사가 찢어진 남은공간에는 복수의 순환을 끊기위해 복수를 포기하는 주인공의 이야기로 채워진다.<br />
-악이 실질적으로 인간 안에 존재하며 구조적으로 영속될 수 밖에 없다는 인식은 팔레스타인들이 복수와 주권을 포기하고 현재의 질서에 수긍해야한다는 결론으로 이끈다. 이들이 복수와 주권을 위해 또 폭력을 행사한다면 폭력은 영원할거니까. 만약 팔레스타인들이 정말로 그렇게 수긍한다면 (지난 역사에서 지워진 수 많은 민족들이 그랬던것 처럼) 매번 군사작전마다 성경에 나오는 전쟁의 명칭을 따오며 당당하게 폭력을 저지르는 이스라엘인들은 그들이 존경하는 다윗이나 여호수아의 영웅서사를 자신의 역사로 성취하게 될것이다. 그렇게 보면 또 다른 시온주의가 탄생할 역사적 근거가 되는 것이고 그게 현생인류의 도덕적 주소를 만든것 아닌가? <code class="language-plaintext highlighter-rouge">악의 평범성에 주목하고 복수를 포기하는게 현실을 추악하게 만드는것 아닌가? 더 비도덕적인 인류를 만드는 지름길 아닌가?</code>이런 생각이 들었다. 먼거리에서 악을 관찰하고 상대의 입장을 고려한 완벽한 황금률을 찾으며 평화를 갈구하는것보다 순수하게 삶을 위협하는 악의 단면만을 주시하고 그것과 맞서 싸우는게 더 도덕적일수 있다는 생각이 문득 들었다. 물론 항상 싸울 필요는 없다. 하지만 양보할 생각이 없이 자신들이 영웅이며 신적인 권위를 가지고 있다는 집단이 역사를 지배하게 둬서는 안된다.<br />
-평소에 결국 평화와 힘의 논리를 수긍하는것과 도덕성을 일치시키고 있던 내가 이런 전투적 생각에 도달했단 사실에 깜짝놀라는 하루였다.</p>
-
-<h2 id="english">ENGLISH</h2>
-<p>현재진행완료, He’s 가 He has 라는 것도 정말 오랜만에 꺠우쳤다. gotten은 소유의 의미로 잘 안쓰기 때문에 과거분사가 쓰여야할 자리에 그냥 got을 많이 쓴다는 내용도 기억에 남는다. 문법책말고도 vscode에 grammarly 확장팩이 있어서 그거 깔고 Read.me를 고쳤는데 참 편하고 좋았다.</p>
-
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 0.5H</li>
-  <li>습관 일기:<br />
-나쁜 습관 없애기 Phase 2 - 12일차, 저녁먹고 뭔가 기운이 없어서 뭉게느라 시간을 좀 낭비했다. 다이어트문제인가</li>
-  <li>생체배터리: 50% -&gt; 10%</li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[사이드프로젝트 완료, 신정론, 팔레스타인, 복수를 멈추는게 비도덕적일수도 있겠다란 생각.]]></summary></entry><entry><title type="html">2022.08.30 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-63" rel="alternate" type="text/html" title="2022.08.30 TIL &amp;amp; Diary" /><published>2022-08-30T23:32:07+09:00</published><updated>2022-08-31T00:32:20+09:00</updated><id>http://localhost:4000/til/P2-TIL-63</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-63"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-20 17.59.49 - oil painting girl in the city, Claud monet.png" alt="!!!" class="simg" />
-monet style</p>
-
-<h2 id="devops">Devops</h2>
-<p>『데브옵스 핸드북』 오늘 8장 정도까지 읽었다. 대학시절 경영공부할때 맨날 듣던 이야기를 오랜만에 이런 책에서 볼줄은 몰랐다. 리드타임, 도요타. 항상 소프트웨어 개발에 대한 변호를 할때 자주 듣는 수사가 ‘개발자는 공장 노동자가 아니다’ 였는데 사실 그런건 공장 노동자를 수동적인 사람으로 비하한것에 불과했던것 같다. 물론 도요타의 공장에서 데브옵스적 방법론의 실행을 위한 노력과 주의들을 한국 모든 공장 노동자들이 하고 있다고 보진 않는다. 일절 커뮤니케이션할 필요가 없는 영역부터 외국인으로 채워넣는게 저부가가치 분야의 공장일이라는 거니.
- 각설하고 기술적인 방법에 대한 이야기는 후반부부터 나오는데 이 책을 보고 있으니 지금 내가 당장 읽기엔 조금은 너무 큰 이야기들도 많다는 기분이 들기도 한다. 하지만 장기적으로 보면 내가 하는 일이 기술을 넘어 가치밸류를 창출하는 관점에서 까지 확장해야하고 그럴때 더 복잡하고 흥미진진한 목표들이 많다는걸 알려주는 내용이라 기운이 난다. 한동안 기술적 방면에서 내가 하는 일이 어떤 장기적 비전이 있을 수 있을까 고민을 했었는데 그 답이 이 책에 있는것 같다.</p>
-
-<h2 id="english">ENGLISH</h2>
-<p>단순현재, 현재진행, 과거완료, 단순과거 파트 진행. ‘시제’라고 붙어 있다고 해서 시제만을 뜻하는게 아니라 여러가지 맥락(사실, 습관, 임시, 영구, 불만표현)이 담길 수 있다는 저자의 말이 가슴에 꼽혔다. 그냥 이런 문법 법칙들은 체험적으로 알고 있었는데 명시적으로 보는건 이번이 처음.</p>
-
-<h2 id="diary">Diary</h2>
-<p>조금씩 조금씩 일보하면 된다. 자신을 고문하지 말고 할 수 있는 만큼만 효율적으로 하면 된다. 이렇게 나를 다독여보면서 하루 마무리. 그래도 필요할때는 나를 채찍질해서 피크까지 밀어붙일 수 있도록 내가 가진 용량은 테스트 해야지.</p>
-
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 2H, 오늘 운동하러 갔다가 너무 몸에 힘이 안들어가서 깜짝 놀랐다. 인터벌도 거의 못하고 평소 3/4을 무게를 헥헥대면서 진행. 평소에 습관적으로 탄수화물 리피드를 해야할듯.</li>
-  <li>습관 일기: 
-나쁜 습관 없애기 Phase 2 - 11일차 잘 진행중</li>
-  <li>생체배터리: 50% -&gt; 20%</li>
-  <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/e10a991604865600e8dcd039f462868fa8379c7a">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[monet style]]></summary></entry></feed>
+</ol>]]></content><author><name>강태훈</name></author><category term="devlog" /><category term="SideProject," /><category term="python," /><category term="bash" /><summary type="html"><![CDATA[안내 BearAutoPublisher(이하 BAP)은 사이드 프로젝트로 만든 배치성 프로그램입니다. 본 포스트는 BAP의 기능을 소개하기 위해 쓰여졌습니다. 프로그램 설치, 구체적인 정보조회, 문의는 다음 링크 GitHub - HibikeQuantum/Bear-Auto-Publisher: Markdown export from Bear sqlite database and publishing at github repository에서 하실 수 있습니다. 왜 만들고 왜 써야했나 베어노트는 맥에서 저렴가격으로 쓸 수 있는 노트앱 중 유려한 UI와 합리적 인터페이스로 인정받는 프로그램입니다. 하지만 노트앱이란 기능에 충실한만큼 유저의 사용경험을 피드백하고 다른 파일의 포맷으로의 변환(베어 PRO버전에서 수동으로 문서 하나하나 할 수는 있습니다.)이나 히스토리 추적, 자동화된 관리기능은 기대하기 어려웠습니다. BAP는 이런 니즈를 채우기 위한(사실은 제가 쓰기위한) 배치성 프로그램입니다. Git으로 메모를 관리하는 분들은 유용하게 쓰실 수 있을거라 생각합니다. 기능 베어앱의 노트를 markdown으로 변환하여 추출 git으로 관리되는 디렉토리로 추출된 파일을 이전하고 commit과 push를 수행합니다. git의 변경 내용을 언어분석 패키지로 분석하여 변화된 내용을 그래프로 시각화합니다. GitHub에서 제공하는 code history 조회 페이지를 열고, 사용자가 Github에 올리지 않겠다고 선언한 문서들은 텍스트 에디터로 보여줍니다. 이 모든 과정은 필요에 따라 on/off 할 수 있게 모듈화 해뒀습니다. 실제 사용 모습 프로그램을 실행하여 추출을 실행하고 그 파일들을 Github에 업로드 할지 물어보는 단계 GitHub에 Push하고 프로세스 완료 변경된 내용을 웹에서 확인 변동되는 텍스트의 양을 보여주는 그래프, 마우스 오버시 상세 데이터 및 주요 키워드가 팝업 저의 사용방법 저는 이렇게 만든 프로그램을 매일 일기장을 쓰기전에 한번 실행하고 있습니다. 메모에 뭐 썼는지 다 나오니까 무슨 일이 있었는지 한눈에 파악이 되죠. alias를 이용하면 더 간편하게 쓸 수 있습니다. echo "" &gt;&gt; ~/.zshrc echo "## BearAutoPublisher Alias" &gt;&gt; ~/.zshrc echo "@ABP="sh /Users/kth/Code/Bear-Auto-Publisher/AutoPublish.sh"" &gt;&gt; ~/.zshrc 저는 Public Repository에서 메모장을 관리하고 있으나 github에 Private repository도 만들 수 있으니 관리하셔도 됩니다. 아니면 그냥 원격저장소 안쓰고 로컬에서만 쓰셔도 되구요. git에 익숙하지 않으신분들은 이번에 한번 배우시는것도 추천합니다. 버전관리툴은 거의 모든 분야에서 지배적인 미래라고 생각합니다. (git 설치와 git init 명령어만 아셔도 충분합니다. 나머진 BAP가 해줍니다.)]]></summary></entry></feed>
