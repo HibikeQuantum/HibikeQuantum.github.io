@@ -12,6 +12,13 @@
         <span class="nav__sub-title">Devops Space</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "JIRA" %}
+                        <li><a href="/categories/jira" class="">JIRA ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "AWS" %}
                         <li><a href="/categories/AWS" class="">AWS ({{category[1].size}})</a></li>
                     {% endif %}
