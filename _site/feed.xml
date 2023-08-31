@@ -1,23 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-04T15:07:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">2022.11.04 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-71" rel="alternate" type="text/html" title="2022.11.04 TIL &amp;amp; Diary" /><published>2022-11-04T00:00:00+09:00</published><updated>2022-11-04T11:15:38+09:00</updated><id>http://localhost:4000/til/P2-TIL-71</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-71"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-10-05 15.17.33 - A picture of Nyan cat and doggy reconciling.png" alt="!!!" class="simg" />
-From dalle</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-31T22:56:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">DevOps와 SE를 위한 리눅스커널 이야기</title><link href="http://localhost:4000/devlog/DevOps%EC%99%80SE%EB%A5%BC%EC%9C%84%ED%95%9C%EB%A6%AC%EB%88%85%EC%8A%A4%EC%BB%A4%EB%84%90%EC%9D%B4%EC%95%BC%EA%B8%B0" rel="alternate" type="text/html" title="DevOps와 SE를 위한 리눅스커널 이야기" /><published>2023-08-31T21:19:49+09:00</published><updated>2023-08-31T21:19:56+09:00</updated><id>http://localhost:4000/devlog/DevOps%EC%99%80SE%EB%A5%BC%EC%9C%84%ED%95%9C%EB%A6%AC%EB%88%85%EC%8A%A4%EC%BB%A4%EB%84%90%EC%9D%B4%EC%95%BC%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/DevOps%EC%99%80SE%EB%A5%BC%EC%9C%84%ED%95%9C%EB%A6%AC%EB%88%85%EC%8A%A4%EC%BB%A4%EB%84%90%EC%9D%B4%EC%95%BC%EA%B8%B0"><![CDATA[<p class="caption"><img src="/assets/img/IMG_4195.jpg" alt="" class="align-center" />
+책표지</p>
 
-<h2 id="language">Language</h2>
-<p>코틀린 프로젝트 블로그 쓰고 파이선 연습문제 4문제를 풀었다.</p>
+<h2 id="책의-핵심">책의 핵심</h2>
+<p>이 책의 핵심은 다음과 같다. 1) 시스템 관리자로서 리눅스 시스템의 자원을 탐색하는 방법을 소개 2) 커널이 자원을 이용하는 방법에 관해 소개 3) 커널의 커스터마이징을 위해 제공되는 매개변수 설명 4) TCP 프로토콜의 특성때문에 생길 수 있는 백엔드의 애로사항 5) 커널 소스를 보면서 디버깅하고 성능 최적화</p>
 
-<h2 id="english">ENGLISH</h2>
-<p>영어회화앱으로 20분 나머지는 문법책을 처리했다. 영어로만 회화하는 모임에 가입해서 토요일에 첫 온라인 모임, 일요일은 오프라인 미팅에 참석할 예정</p>
+<h2 id="책을-읽기-위한-준비">책을 읽기 위한 준비</h2>
+<p>이 책은 초심자를 위한 책은 아니고 컴퓨터의 자원이 뭔지는 이해하는 중급 엔지니어를 위한 책이다. 그렇다고 너무 어려운 것도 아니다. 운영체제 개론을 읽어봤고 리눅스 환경에서 네트워크 문제로 하루 정도 뒹굴어본 경험, C와 파이선 코드의 플로우를 이해할 수준이면 된다.</p>
 
-<h2 id="diary">Diary</h2>
-<p>요즘은 일단 자기자신에 대해 생각하지 않기로해서 다이어리 부분은 한동안 쓰지 않을 예정이다.</p>
+<h2 id="만족스러운-점">만족스러운 점</h2>
+<p>1) 컴퓨터 과학의 기초를 배울 때 이걸 어디다 써먹나 할 때가 많았다. 하지만 이 책에선 그걸 구체적으로 문제해결이나 커스터마이징에서 활용하는걸 잘 보여주어 흥미로웠다. 마지막으로 남은 퍼즐조각이 마침내 맞춰진 느낌. 2) 저자가 수정하는 파라미터가 커널 어디서 동작하는지 알려주기 위해 부단히 코드를 보여주는데 그걸 보고 있으면 응용만 다루느라 신경쓰지 못했던 OS 자원들의 라이프사이클이 적나라하게 느껴지는 게 좋았다. 더 이상 커널의 동작이 미지의 세계가 아니게 된다.</p>
 
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 0.5H</li>
-  <li>습관 일기:<br />
-나쁜 습관 없애기 Phase 1 - 일차</li>
-  <li>생체배터리: 50% -&gt; 0%</li>
-  <li><a href="">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[간만에 쓰는 TIL]]></summary></entry><entry><title type="html">코틀린 튜토리얼 (1) 프로젝트 생성, 빌드, 실행</title><link href="http://localhost:4000/kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC1" rel="alternate" type="text/html" title="코틀린 튜토리얼 (1) 프로젝트 생성, 빌드, 실행" /><published>2022-11-04T00:00:00+09:00</published><updated>2022-11-04T14:46:00+09:00</updated><id>http://localhost:4000/kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC1</id><content type="html" xml:base="http://localhost:4000/kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC1"><![CDATA[<h2 id="시리즈-개요">시리즈 개요</h2>
+<h2 id="어떻게-응용할것인가">어떻게 응용할것인가</h2>
+<p>책에서 자원을 탐색하고 트러블슈팅을 하는 방법은 곧바로 써먹을 수 있으니까 문제가 없다. 그런데 커널 파라미터가 문제다. 기본값이 통상적인 활용에서 최적화된 경우거나 배드케이스에서도 괜찮은 퍼포먼스를 보여주기 때문에 설정되었을텐데 과연 그걸 수정해서 얻는 이익은 얼마나 될까. 
+이 책에서도 그런 염려는 하는지 퍼포먼스를 떨어트릴 위험에 대해 꾸준히 경고하면서 잘 사용하는 방법에 대해 이야기를 하고 있다. 이런 염려가 없이 확실하게 선택할 수 있는 값들도 있다. 예를 들어 I/O 스케쥴러를 데드라인으로 쓸지 cfq로 쓸지는 서버의 기능에 따라 확실하고 쉽게 갈린다. 하지만 그 이상으로 NUMA, SWAPE 이런 것들은 변경에 대한 확실한 리턴이 있을 때 접근해야겠다는게 내 결론이다. (소규모 환경에선 이것까지 건드릴 여유도 없을것이다)</p>]]></content><author><name>강태훈</name></author><category term="Devlog" /><category term="Devops," /><category term="SE," /><category term="Middleware" /><summary type="html"><![CDATA[책표지]]></summary></entry><entry><title type="html">켄트 백, 테스드 주도 개발</title><link href="http://localhost:4000/devlog/TDDbyExample%EB%A6%AC%EB%B7%B0" rel="alternate" type="text/html" title="켄트 백, 테스드 주도 개발" /><published>2022-12-05T14:47:19+09:00</published><updated>2022-12-05T14:47:26+09:00</updated><id>http://localhost:4000/devlog/TDDbyExample%EB%A6%AC%EB%B7%B0</id><content type="html" xml:base="http://localhost:4000/devlog/TDDbyExample%EB%A6%AC%EB%B7%B0"><![CDATA[<p class="caption"><img src="/assets/img/IMG_3629 copy.jpg" alt="" class="align-center" />
+금방 읽을 수 있는 책이다.</p>
+
+<h2 id="책소개">책소개</h2>
+<p>저자가 중얼거리는듯한 내용의 책. 난생처음으로 보는 포맷으로 쓰인 책이다. 저자와 함께 짝 프로그래밍을 하는듯한 구조로 구성된 책이다. 의식의 흐름으로 책을 써 내려가 이상한 소리도 많지만 이상하게 익숙하고 편하게 읽어지는 책이다. 예제의 절반은 자바 절반은 파이선 코드를 사용한다. 책 실제 구현을 함께 해보는 의식의 흐름으로 쓰인 2부까지가 TDD를 이해하는데 핵심이 되는 이야기이며 나머진 ‘디자인 패턴’과 ‘리팩토링’을 둘러싼 TDD 패러다임의 관계에 대한 진술이 주가 되며 관련 경험이 부족하다면 이해하기 힘든 내용이었다.</p>
+
+<h2 id="그저-우리는-스승의-길을-따라가면-될뿐이다">그저 우리는 스승의 길을 따라가면 될뿐이다.</h2>
+<p>TDD는 책만으로 배울 수 있는 이야기가 아니다. 저자도 잘 알고 있기에 그는 이 책 전반에서 이런 방법론을 마치 무술처럼 동양의 사상까지 언급해가며 제자에게 잘 설명해주며 수련을 강조한다. 따라서 이 책을 충실히 읽은 독자들에겐 남은 사명은 TDD 철학의 궁극적 목표 “1년 뒤에 봐도 부끄럽지 않은 코드”, “변경에 대한 두려움이 없는 코드”라는 실천만이 남는다. 너무 많은 실천강령으로 인해 머리가 아파지는 일반적인 방법론 서적과 비교하면 실천의 명령이 명약관화한 책. 테스트를 먼저 만들고 빨리 녹색불이 들어오게 한 다음 중복된 코드를 줄이면 된다.</p>
+
+<p>그렇게 길지 않은 책이므로 아직 TDD의 콘셉트가 익숙하지 않은 사람이라면 볼만한 책이라고 생각한다. 이 책을 보면서 과거에 테스트 코드를 만들어야할때 겨우 이런걸 테스트해야하나 하고 고민했던 내가 바보같이 느껴졌다. ‘겨우 이런것’도 괜찮다. 그 테스트로 인해 더 어려운 테스트를 할 수 있는건데. 빨리 읽었으면 좋았을거란 생각이 너무 들었고 TDD에 대한 많은 의문을 풀게 해준 책이라 기분 좋은 책이었다.</p>]]></content><author><name>강태훈</name></author><category term="Devlog" /><category term="TDD," /><category term="방법론" /><summary type="html"><![CDATA[금방 읽을 수 있는 책이다.]]></summary></entry><entry><title type="html">Jira 프로젝트들을 독립적으로 사용하기 위해 알아야 할 지식</title><link href="http://localhost:4000/jira/JIRA-Scheme-%EC%99%84%EC%A0%84%EB%B6%84%EC%84%9D" rel="alternate" type="text/html" title="Jira 프로젝트들을 독립적으로 사용하기 위해 알아야 할 지식" /><published>2022-11-21T13:16:03+09:00</published><updated>2022-11-21T17:16:12+09:00</updated><id>http://localhost:4000/jira/JIRA-Scheme-%EC%99%84%EC%A0%84%EB%B6%84%EC%84%9D</id><content type="html" xml:base="http://localhost:4000/jira/JIRA-Scheme-%EC%99%84%EC%A0%84%EB%B6%84%EC%84%9D"><![CDATA[<h2 id="무엇을-알려주려고-쓰는-글">무엇을 알려주려고 쓰는 글?</h2>
+<p>Jira에서 각자 프로젝트별로 독립된 스키마를 유지하기 위해서 명심하는건 <code class="language-plaintext highlighter-rouge">개별 Project 메인화면 - Project settings</code>에서 확인가능한 각 스키마를 단독으로 사용하는지 화면 상단에 Alert 박스로 보이는 <code class="language-plaintext highlighter-rouge">Used by n Projects</code> 부분을 잘 확인하면 된다. 단독사용이라면 ‘1’로 보일 것이다. 공통 스키마라면 공통으로 사용중인 프로젝트의 이름이 보일 것이다. 1이 아니라면 스키마를 복제해 독립하면 된다. 하지만 이런 원칙을 지켜도 가끔 프로젝트의 수정이 다른 프로젝트에 영향을 미치기도 하는 게 문제다. <strong>이 글에선 그런 문제를 유발 할 수 있는 지라의 예외적인 케이스와 잘 모르면 오해하기 쉬운 케이스</strong>로 “1. 워크플로 내부의 State, Transition 네임수정 2. Simplified workflow 기능 3. Glbal scheme” 를 소개하려고 한다.</p>
+
+<h2 id="case-1-workflows---state-transition">CASE (1) Workflows - State, Transition</h2>
+<p>명시적으로는 잘 표시가 안되어 있어서 생기는 문제인데. <strong>워크플로의 State와 Transion 이름을 수정할 경우 스키마를 무시하고 해당 이름을 사용중인 모든 Workflowrk에 영향을 미친다.</strong> 예를 들어 A 워크플로에 ‘Backlog’ 란 이름의 State를 만들어 쓰고 있는 상태에서 B 워크플로에서 ‘Backlog’란 이름의 State를 만들어 쓰다가 ‘Todo’라고 이름을 바꿀 경우 A워크플로의 ‘Backlog’ State도 ‘Todo’가 된다. 이때 리눅스 파일 시스템으로 따지자면 State, Transition 파일들은 같은 이름의 ‘원본 오브젝트’를 하드링크한 상태라고 생각하라. 이런 영향을 경고하는 메시지가 수정할 때 뜨긴 하지만 스키마가 독립되어 있다는 생각에 메시지를 무시하기가 쉽다. 따라서 이를 수정하는 것은 예상하지 못한 변경을 일으킨다.<br />
+예를 들어 워크플로 A의 ‘Backlog’갯수를 대시보드에서 JQL를 통해 추적하고 있는데 ‘Backlog’의 이름이 ‘Todo’가 되면 쿼리가 깨지게 된다. 더 나쁜건 없는 상태 값을 찾는 JQL은 값을 0으로 돌려주는게 아니라 완전히 Query를 실패한 것으로 보고 응답을 주지 않아 대시보드 전체를 먹통으로 만든다.<br />
+이런 문제를 피하기 위해서 만약 이름을 바꿀때 <code class="language-plaintext highlighter-rouge">다른 워크플로우에 영향을 끼친다고 경고</code>를 할경우 이름을 바꾸지 않아야한다. 그 대신 워크플로에서 새로운 오브젝트를 만들고 그 이름을 바꿀 이름으로 하는게 안전하다. 대신 지라에선 state가 사용중일땐 state를 지울 수 없으니 임시 Transition을 만들어서 새로운 이름의 Issue로 옮기면 된다. 이렇게 하면 다른 프로젝트에 간섭없이 워크플로를 수정할 수 있다.</p>
+
+<h2 id="case-2-simplifed-workflow">CASE (2) Simplifed workflow</h2>
+<p>프로젝트 생성시 <code class="language-plaintext highlighter-rouge">shared configuration</code> 또는 <code class="language-plaintext highlighter-rouge">project copy</code> 기능을 쓰지 않고 프로젝트를 생성하게 되면 <code class="language-plaintext highlighter-rouge">Software Simplified Workflow for Project &lt;이름&gt;</code>라는 워크플로가 생성되어 할당된다. 이 워크플로는 다음과 같은 description을 기본적으로 가진다. <code class="language-plaintext highlighter-rouge">Generated by JIRA Software version 7.1.9-D20151208T191112. This workflow is managed internally by JIRA Software. Do not manually modify this workflow</code> 뭔가 무서워 보이는데 이걸 수정해보면 정말로 큰일은 안난다. 이것을 수정하게 되면 무엇이 안되는가 하면 simplified workflow 기능을 쓸 수 없게 된다. (만약 수정한 상태에서 simplify workflow 기능을 쓰려고 하면 ERROR가 발생하면서 활성화 시킬 수 없다고 나온다.) 이 기능은 <code class="language-plaintext highlighter-rouge">DASHBOARD-configure-좌측 Columns</code>메뉴로 이동하면 볼 수 있다. 이 기능은 대시보드에서 컬럼과 상태 값을 만들면 그걸 workflow에 바로 반영시켜주는 기능이다. 하지만 이렇게 대시보드와 워크플로를 하나로 만들어버리면 Transition과 상태변화에 조건을 붙이는것과 같은 지라만의 컨셉이 배제된 극소적 기능만 사용하게 된다. 지라는 각 Transition에 대해서도 여러함수를 붙이거나 별도의 스크린을 만드는것도 지원하므로 그런 기능을 사용하지 못하는건 아쉽다. 따라서 프로젝트를 매우 유연하게 관리하려는게 아니라면 무섭게 보이는 이 문구는 지워버려 불필요한 오해는 피하고 수동으로 워크플로를 작성하는게 베스트다.</p>
+
+<h2 id="case-3-default-issue-type-scheme">CASE (3) Default issue type scheme</h2>
+<p><code class="language-plaintext highlighter-rouge">Issue type scheme</code>은 프로젝트가 어떤 issue들을 사용할지 정의하는 스키마다. 예를 들어 ‘A프로젝트는 버그, 이슈, AS를 사용합니다.’할때 버그, 이슈, AS가 바로 이 스키마다. 기본적으로 Jira에서 프로젝트를 생성하게 되면 자동으로 <code class="language-plaintext highlighter-rouge">Issue types scheme</code>을 생성해 프로젝트마다 하나씩 사용하게 해준다. 하지만 관리자 메뉴에서 할당된 스키마를 제거하거나 <code class="language-plaintext highlighter-rouge">Project settings</code>-<code class="language-plaintext highlighter-rouge">Issue Types</code>-<code class="language-plaintext highlighter-rouge">Actions</code>-<code class="language-plaintext highlighter-rouge">Use a different scheme</code> 메뉴를 통해 바꾸게 되면 <code class="language-plaintext highlighter-rouge">Default issue Type Scheme</code>이란 스키마를 사용하게 된다. (이 이름은 설정에 따라 바뀔 수 있다.) <code class="language-plaintext highlighter-rouge">Default issue Type Scheme</code>엔 지라에서 생성된 모든 Issue가 다 담겨 있고 <code class="language-plaintext highlighter-rouge">edit</code>을 통해 Issue를 뺴거나 지울 수 없는 유일한 특징을 가지고 있다. 모종의 글로벌 변수. 이 global 스키마를 쓰게되면 이슈 종류를 고를때 리스트가 너무 길어지고 사용자들도 어떤 이슈를 써야할지 몹시 난감할것이다. 다만 그런 행정적 이슈 말고는 기술적으론 문제가 되지는 않는다. 각 이슈가 가지는 Screen과 Workflow는 같은 이름의 ‘이슈’라도 프로젝트별로 독립적으로 설정이 되기 때문이다. 따라서 글로벌로 변수를 쓴다해도 너무 걱정할 필요는 없다. <code class="language-plaintext highlighter-rouge">issue Type Scheme</code>는 지울 수 있지만 프로젝트를 생성하면 자신의 프로젝트를 명으로 생성되는 <code class="language-plaintext highlighter-rouge">Default Issue Screen</code>과 <code class="language-plaintext highlighter-rouge">Software Simplified Workflow</code>는 지울 수가 없다. 따라서 안정적으로 각자의 스크린과 워크플로를 적용할 수있다. 하지만 나중에 별도의 이슈 type들만 사용하려고 뒤늦게 <code class="language-plaintext highlighter-rouge">Issue type scheme</code>을 설정하려고 할때는 <code class="language-plaintext highlighter-rouge">Scheme Migration</code>을 거쳐야하고 이때 대시보드의 필터가 뭉게지는 등의 사소한 사이드이펙트를 감수해야하니 global 스키마를 사용하지 않도록 관리하는게 베스트다. 더욱이 ‘Issue’는 workflow와 screen 등 조직의 핵심로직을 담아야하니 글로벌로 쓰는것은 옳지않다.</p>]]></content><author><name>강태훈</name></author><category term="Jira" /><category term="Jira" /><summary type="html"><![CDATA[무엇을 알려주려고 쓰는 글? Jira에서 각자 프로젝트별로 독립된 스키마를 유지하기 위해서 명심하는건 개별 Project 메인화면 - Project settings에서 확인가능한 각 스키마를 단독으로 사용하는지 화면 상단에 Alert 박스로 보이는 Used by n Projects 부분을 잘 확인하면 된다. 단독사용이라면 ‘1’로 보일 것이다. 공통 스키마라면 공통으로 사용중인 프로젝트의 이름이 보일 것이다. 1이 아니라면 스키마를 복제해 독립하면 된다. 하지만 이런 원칙을 지켜도 가끔 프로젝트의 수정이 다른 프로젝트에 영향을 미치기도 하는 게 문제다. 이 글에선 그런 문제를 유발 할 수 있는 지라의 예외적인 케이스와 잘 모르면 오해하기 쉬운 케이스로 “1. 워크플로 내부의 State, Transition 네임수정 2. Simplified workflow 기능 3. Glbal scheme” 를 소개하려고 한다.]]></summary></entry><entry><title type="html">코틀린 튜토리얼 (1) 프로젝트 생성, 빌드, 실행</title><link href="http://localhost:4000/kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC1" rel="alternate" type="text/html" title="코틀린 튜토리얼 (1) 프로젝트 생성, 빌드, 실행" /><published>2022-11-04T00:00:00+09:00</published><updated>2022-11-04T14:46:00+09:00</updated><id>http://localhost:4000/kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC1</id><content type="html" xml:base="http://localhost:4000/kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC1"><![CDATA[<h2 id="시리즈-개요">시리즈 개요</h2>
 <p>회사에서 자바 프로젝트를 배포운영하다보니 자주 자바코드를 보는데, 백엔드의 전통이 자바 스프링이라면 다음 시대를 이끌어갈 기술은 뭘까 고민을 하던찰나 코틀린의 여러가지 장점에 대한 설명을 보고 ‘이거다!’ 싶어. 간단한것부터 글로 정리해가고자 시작된 튜토리얼입니다. 문법의 설명은 다른 사이트가 많을테니 목적성을 가지고 글 한나 하나를 적어보려고 합니다. 시리즈 첫번째 주제는 JVM으로 간단한 코틀린 프로그램 실행.</p>
 
 <h2 id="환경구성">환경구성</h2>
@@ -79,7 +95,26 @@ JDK19를 쓰고 싶었지만 Gradle이 지원을 하지 않아서 16을 선택�
 <p class="caption"><img src="/assets/img/SCR-20221104-evo.png" alt="" class="align-center" />
 글에 적진 않았지만 leadln()을 이용해 입력을 받고 출력하는 코드를 추가했다.</p>
 
-<p>이걸로 프로젝트 생성부터 실행까지 진행했다. 다음부터는 자바를 하는 이유인 Spring 을 코틀린으로 작성해서 서비스 해보려고 한다.</p>]]></content><author><name>강태훈</name></author><category term="kotlin" /><category term="kotlin," /><category term="tutorial" /><summary type="html"><![CDATA[시리즈 개요 회사에서 자바 프로젝트를 배포운영하다보니 자주 자바코드를 보는데, 백엔드의 전통이 자바 스프링이라면 다음 시대를 이끌어갈 기술은 뭘까 고민을 하던찰나 코틀린의 여러가지 장점에 대한 설명을 보고 ‘이거다!’ 싶어. 간단한것부터 글로 정리해가고자 시작된 튜토리얼입니다. 문법의 설명은 다른 사이트가 많을테니 목적성을 가지고 글 한나 하나를 적어보려고 합니다. 시리즈 첫번째 주제는 JVM으로 간단한 코틀린 프로그램 실행.]]></summary></entry><entry><title type="html">데브옵스 핸드북을 읽고</title><link href="http://localhost:4000/devlog/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4-%ED%95%B8%EB%93%9C%EB%B6%81-%ED%9B%84%EA%B8%B0" rel="alternate" type="text/html" title="데브옵스 핸드북을 읽고" /><published>2022-10-06T00:00:00+09:00</published><updated>2022-10-06T14:34:41+09:00</updated><id>http://localhost:4000/devlog/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4%20%ED%95%B8%EB%93%9C%EB%B6%81%20%ED%9B%84%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4-%ED%95%B8%EB%93%9C%EB%B6%81-%ED%9B%84%EA%B8%B0"><![CDATA[<p class="caption"><img src="/assets/img/IMG_3023.jpeg" alt="" class="mimg" />
+<p>이걸로 프로젝트 생성부터 실행까지 진행했다. 다음부터는 자바를 하는 이유인 Spring 을 코틀린으로 작성해서 서비스 해보려고 한다.</p>]]></content><author><name>강태훈</name></author><category term="kotlin" /><category term="kotlin," /><category term="tutorial" /><summary type="html"><![CDATA[시리즈 개요 회사에서 자바 프로젝트를 배포운영하다보니 자주 자바코드를 보는데, 백엔드의 전통이 자바 스프링이라면 다음 시대를 이끌어갈 기술은 뭘까 고민을 하던찰나 코틀린의 여러가지 장점에 대한 설명을 보고 ‘이거다!’ 싶어. 간단한것부터 글로 정리해가고자 시작된 튜토리얼입니다. 문법의 설명은 다른 사이트가 많을테니 목적성을 가지고 글 한나 하나를 적어보려고 합니다. 시리즈 첫번째 주제는 JVM으로 간단한 코틀린 프로그램 실행.]]></summary></entry><entry><title type="html">2022.11.04 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-71" rel="alternate" type="text/html" title="2022.11.04 TIL &amp;amp; Diary" /><published>2022-11-04T00:00:00+09:00</published><updated>2022-11-04T11:15:38+09:00</updated><id>http://localhost:4000/til/P2-TIL-71</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-71"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-10-05 15.17.33 - A picture of Nyan cat and doggy reconciling.png" alt="!!!" class="simg" />
+From dalle</p>
+
+<h2 id="language">Language</h2>
+<p>코틀린 프로젝트 블로그 쓰고 파이선 연습문제 4문제를 풀었다.</p>
+
+<h2 id="english">ENGLISH</h2>
+<p>영어회화앱으로 20분 나머지는 문법책을 처리했다. 영어로만 회화하는 모임에 가입해서 토요일에 첫 온라인 모임, 일요일은 오프라인 미팅에 참석할 예정</p>
+
+<h2 id="diary">Diary</h2>
+<p>요즘은 일단 자기자신에 대해 생각하지 않기로해서 다이어리 부분은 한동안 쓰지 않을 예정이다.</p>
+
+<h2 id="life">Life</h2>
+<ul>
+  <li>움직인 시간: 0.5H</li>
+  <li>습관 일기:<br />
+나쁜 습관 없애기 Phase 1 - 일차</li>
+  <li>생체배터리: 50% -&gt; 0%</li>
+  <li><a href="">🔗<strong>일일메모장 커밋</strong></a></li>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[간만에 쓰는 TIL]]></summary></entry><entry><title type="html">데브옵스 핸드북을 읽고</title><link href="http://localhost:4000/devlog/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4-%ED%95%B8%EB%93%9C%EB%B6%81-%ED%9B%84%EA%B8%B0" rel="alternate" type="text/html" title="데브옵스 핸드북을 읽고" /><published>2022-10-06T00:00:00+09:00</published><updated>2022-10-06T14:34:41+09:00</updated><id>http://localhost:4000/devlog/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4%20%ED%95%B8%EB%93%9C%EB%B6%81%20%ED%9B%84%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4-%ED%95%B8%EB%93%9C%EB%B6%81-%ED%9B%84%EA%B8%B0"><![CDATA[<p class="caption"><img src="/assets/img/IMG_3023.jpeg" alt="" class="mimg" />
 책 전면</p>
 
 <h2 id="왜">왜</h2>
@@ -205,82 +240,4 @@ from dalle</p>
 뭉갠시간 3시간. 이제 줄이면 되!</li>
   <li>생체배터리: 60% -&gt; 25%</li>
   <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/3d3b3a77c1d4fa0ebf7f57d391b29dc9d79db1b3">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[from dalle Devops 데브옵스 핸드북. 오늘 읽은 내용은 비교적 실무에 적용가능한 지침에 대한 내용들이었다. Single one truth에 대한 고집, 복구보단 재구축에 대한 선호. 성능 테스트를 단위테스트에서 수행하는 등 예전에 CTO분께서 강조했던 점들을 조금씩 납득해가는중. 중요한건 당장 코드를 쓰는게 아니라 규율있는 조직의 시스템이었던것. 그런 와중에 뭔가 머리를 띵하고 충격을 줬던게 Trunk기반 개발에 대한 극찬. 당연히 그게 열등해서 git flow가 탄생한것으로 알고 있었는데 반대로 그걸 trunk를 기반으로 병합에 들어갈 에너지를 다 쳐내 더 많은 릴리즈를 지향하는 조직이 있다니. 그리고 그게 더 좋다고 이 책은 증언하고 있다니. 회사의 trunk 배포시스템을 다시 해석해볼 필요가 생겼다.]]></summary></entry><entry><title type="html">2022.09.02 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-66" rel="alternate" type="text/html" title="2022.09.02 TIL &amp;amp; Diary" /><published>2022-09-02T23:45:08+09:00</published><updated>2022-09-02T23:45:11+09:00</updated><id>http://localhost:4000/til/P2-TIL-66</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-66"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-31 23.11.29 - A boy who travels to the New World, in Pablo Picasso style.png" alt="!!!" class="simg" />
-from dalle</p>
-
-<h2 id="language">Language</h2>
-<p>코트린 스프링 조금씩 진행중. 어디서 어떻게 설정하고 어디서 근거해서 빌드하는지 정확히 아는게 보람차고 재밌다. 지금까지 좀 대충 추측하면서 하고 있었는데 차근차근 베이스를 밟아가고 있다.</p>
-
-<h2 id="diary">Diary</h2>
-<p>기분이 상당히 좋아졌다. 탄수화물 부족에 따른 무기력감이 원인이 맞나보다. 그래도 너무 긴장이 풀려서 시간을 좀 뭉겐게 아쉽다. 내일 부터는 뭉게는 시간을 다시 조여봐야지.</p>
-
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 0.5H</li>
-  <li>습관 일기:<br />
-나쁜 습관 없애기 FROM SEP-2</li>
-  <li>생체배터리: 50 % -&gt; 40%</li>
-  <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/4e3ceef5aa771b4b79777091a2d50087e7f79cc0">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[from dalle]]></summary></entry><entry><title type="html">2022.09.01 TIL &amp;amp; Diary</title><link href="http://localhost:4000/til/P2-TIL-65" rel="alternate" type="text/html" title="2022.09.01 TIL &amp;amp; Diary" /><published>2022-09-01T23:57:40+09:00</published><updated>2022-09-01T23:57:44+09:00</updated><id>http://localhost:4000/til/P2-TIL-65</id><content type="html" xml:base="http://localhost:4000/til/P2-TIL-65"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-31 23.09.46 - a dog who concentrates passionately with red light, Alicia Baladan style.png" alt="!!!" class="simg" />
-painting from dalle</p>
-
-<h2 id="language">Language</h2>
-<p>사이드 프로젝트 READ.me를 좀 고치고 소개하는 글을 썼다. 이후엔 Spring 프로젝트를 기반으로 CICD를 구축하려고 IDE, 환경설정을 하고 java gradle에 대한 문서를 읽었다.</p>
-
-<h2 id="devops">Devops</h2>
-<p><code class="language-plaintext highlighter-rouge">온-디맨드 방식으로 개발, 테스트, 프로덕션 환경을 생성할 수 있도록 하라</code> 이걸 하루만에 할 수 있도록 시스템을 짜라고 한다. 어떻게 하는거지 그걸..? 궁금해</p>
-
-<h2 id="english">ENGLISH</h2>
-<p>행동주의자들이 고안한 영어학습방법에 대한 비판, 시제(단순과거vs과거진행). 오늘 읽은 아티클이 정말 재밌었던게 우리가 알고 있는 학습 방법이 얼마나 잘못된 전제에 있었는지 보면서 내가 잘못알고 있는 상식을 상상할수도 없겠다는 생각에 들었기 때문이다. 노암 촘스키 선생님이 그렇게 인기있었던 이유가 언어습득장치란 아이디어란 것도 이번에 처음 알았다.</p>
-
-<h2 id="diary">Diary</h2>
-<p>일주일 정도 탄수화물을 맘껏 먹으며 다이어트 브레이크하기로 했다. 그동안 먹는거 대비 운동을 과하게 했던것 같다. 매일하는것도 아니라 내가 오버트레이닝은 관련없는 이야기려니 했는데 다이어트를 시작할 시점의 퍼포먼스가 30% 이하로 떨어지는 정도니까 쉴때가 된것 같다.</p>
-
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 0.5H</li>
-  <li>습관 일기:<br />
-나쁜 습관 없애기 Phase 2 - 13일차<br />
-컨디션이 점점 정상궤도로 올라오고 뭉게는 시간은 오늘부로 거의 없어졌다. 굿잡</li>
-  <li>생체배터리: 30% -&gt; 10%</li>
-  <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/877a737dc1c8923119d98dd2858a865bbbe3f313">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[Spring boot, 온-디맨드 환경구축, 다이어트 브레이크, 행동주의자들의 잘못된 영어학습방법]]></summary></entry><entry><title type="html">베어노트를 더 스마트하게 쓰자 BearAutoPublisher (v1.0.1 ) 릴리즈</title><link href="http://localhost:4000/devlog/SideProject-1" rel="alternate" type="text/html" title="베어노트를 더 스마트하게 쓰자 BearAutoPublisher (v1.0.1 ) 릴리즈" /><published>2022-09-01T09:35:20+09:00</published><updated>2022-09-01T09:35:22+09:00</updated><id>http://localhost:4000/devlog/SideProject-1</id><content type="html" xml:base="http://localhost:4000/devlog/SideProject-1"><![CDATA[<h2 id="안내">안내</h2>
-<p>BearAutoPublisher(이하 BAP)은 사이드 프로젝트로 만든 배치성 프로그램입니다. 본 포스트는 BAP의 기능을 소개하기 위해 쓰여졌습니다. 프로그램 설치, 구체적인 정보조회, 문의는 다음 링크 <a href="https://github.com/HibikeQuantum/Bear-Auto-Publisher">GitHub - HibikeQuantum/Bear-Auto-Publisher: Markdown export from Bear sqlite database and publishing at github repository</a>에서 하실 수 있습니다.</p>
-
-<h2 id="왜-만들고-왜-써야했나">왜 만들고 왜 써야했나</h2>
-<p>베어노트는 맥에서 저렴가격으로 쓸 수 있는 노트앱 중 유려한 UI와 합리적 인터페이스로 인정받는 프로그램입니다. 하지만 노트앱이란 기능에 충실한만큼 유저의 사용경험을 피드백하고 다른 파일의 포맷으로의 변환(베어 PRO버전에서 수동으로 문서 하나하나 할 수는 있습니다.)이나 히스토리 추적, 자동화된 관리기능은 기대하기 어려웠습니다.<br />
-BAP는 이런 니즈를 채우기 위한(사실은 제가 쓰기위한) 배치성 프로그램입니다. Git으로 메모를 관리하는 분들은 유용하게 쓰실 수 있을거라 생각합니다.</p>
-
-<h2 id="기능">기능</h2>
-<ol>
-  <li>베어앱의 노트를 markdown으로 변환하여 추출</li>
-  <li>git으로 관리되는 디렉토리로 추출된 파일을 이전하고 commit과 push를 수행합니다.</li>
-  <li>git의 변경 내용을 언어분석 패키지로 분석하여 변화된 내용을 그래프로 시각화합니다.</li>
-  <li>GitHub에서 제공하는 code history 조회 페이지를 열고, 사용자가 Github에 올리지 않겠다고 선언한 문서들은 텍스트 에디터로 보여줍니다.</li>
-  <li>이 모든 과정은 필요에 따라 on/off 할 수 있게 모듈화 해뒀습니다.</li>
-</ol>
-
-<h2 id="실제-사용-모습">실제 사용 모습</h2>
-<p class="caption"><img src="/assets/img/SCR-20220901-dro.png" alt="!!!" />
-프로그램을 실행하여 추출을 실행하고 그 파일들을 Github에 업로드 할지 물어보는 단계</p>
-
-<p class="caption"><img src="/assets/img/SCR-20220901-er4.png" alt="!!!" />
-GitHub에 Push하고 프로세스 완료</p>
-
-<p class="caption"><img src="/assets/img/SCR-20220901-etc.png" alt="!!!" />
-변경된 내용을 웹에서 확인</p>
-
-<p class="caption"><img src="/assets/img/SCR-20220901-j5q.png" alt="!!!" />
-변동되는 텍스트의 양을 보여주는 그래프, 마우스 오버시 상세 데이터 및 주요 키워드가 팝업</p>
-
-<h2 id="저의-사용방법">저의 사용방법</h2>
-<ol>
-  <li>저는 이렇게 만든 프로그램을 매일 일기장을 쓰기전에 한번 실행하고 있습니다. 메모에 뭐 썼는지 다 나오니까 무슨 일이 있었는지 한눈에 파악이 되죠.</li>
-  <li>alias를 이용하면 더 간편하게 쓸 수 있습니다.
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo "" &gt;&gt; ~/.zshrc
-echo "## BearAutoPublisher Alias" &gt;&gt; ~/.zshrc
-echo "@ABP="sh /Users/kth/Code/Bear-Auto-Publisher/AutoPublish.sh"" &gt;&gt; ~/.zshrc
-</code></pre></div>    </div>
-  </li>
-  <li>저는 Public Repository에서 메모장을 관리하고 있으나 github에 Private repository도 만들 수 있으니 관리하셔도 됩니다. 아니면 그냥 원격저장소 안쓰고 로컬에서만 쓰셔도 되구요. git에 익숙하지 않으신분들은 이번에 한번 배우시는것도 추천합니다. 버전관리툴은 거의 모든 분야에서 지배적인 미래라고 생각합니다. (git 설치와 git init 명령어만 아셔도 충분합니다. 나머진 BAP가 해줍니다.)</li>
-</ol>]]></content><author><name>강태훈</name></author><category term="devlog" /><category term="SideProject," /><category term="python," /><category term="bash" /><summary type="html"><![CDATA[안내 BearAutoPublisher(이하 BAP)은 사이드 프로젝트로 만든 배치성 프로그램입니다. 본 포스트는 BAP의 기능을 소개하기 위해 쓰여졌습니다. 프로그램 설치, 구체적인 정보조회, 문의는 다음 링크 GitHub - HibikeQuantum/Bear-Auto-Publisher: Markdown export from Bear sqlite database and publishing at github repository에서 하실 수 있습니다. 왜 만들고 왜 써야했나 베어노트는 맥에서 저렴가격으로 쓸 수 있는 노트앱 중 유려한 UI와 합리적 인터페이스로 인정받는 프로그램입니다. 하지만 노트앱이란 기능에 충실한만큼 유저의 사용경험을 피드백하고 다른 파일의 포맷으로의 변환(베어 PRO버전에서 수동으로 문서 하나하나 할 수는 있습니다.)이나 히스토리 추적, 자동화된 관리기능은 기대하기 어려웠습니다. BAP는 이런 니즈를 채우기 위한(사실은 제가 쓰기위한) 배치성 프로그램입니다. Git으로 메모를 관리하는 분들은 유용하게 쓰실 수 있을거라 생각합니다. 기능 베어앱의 노트를 markdown으로 변환하여 추출 git으로 관리되는 디렉토리로 추출된 파일을 이전하고 commit과 push를 수행합니다. git의 변경 내용을 언어분석 패키지로 분석하여 변화된 내용을 그래프로 시각화합니다. GitHub에서 제공하는 code history 조회 페이지를 열고, 사용자가 Github에 올리지 않겠다고 선언한 문서들은 텍스트 에디터로 보여줍니다. 이 모든 과정은 필요에 따라 on/off 할 수 있게 모듈화 해뒀습니다. 실제 사용 모습 프로그램을 실행하여 추출을 실행하고 그 파일들을 Github에 업로드 할지 물어보는 단계 GitHub에 Push하고 프로세스 완료 변경된 내용을 웹에서 확인 변동되는 텍스트의 양을 보여주는 그래프, 마우스 오버시 상세 데이터 및 주요 키워드가 팝업 저의 사용방법 저는 이렇게 만든 프로그램을 매일 일기장을 쓰기전에 한번 실행하고 있습니다. 메모에 뭐 썼는지 다 나오니까 무슨 일이 있었는지 한눈에 파악이 되죠. alias를 이용하면 더 간편하게 쓸 수 있습니다. echo "" &gt;&gt; ~/.zshrc echo "## BearAutoPublisher Alias" &gt;&gt; ~/.zshrc echo "@ABP="sh /Users/kth/Code/Bear-Auto-Publisher/AutoPublish.sh"" &gt;&gt; ~/.zshrc 저는 Public Repository에서 메모장을 관리하고 있으나 github에 Private repository도 만들 수 있으니 관리하셔도 됩니다. 아니면 그냥 원격저장소 안쓰고 로컬에서만 쓰셔도 되구요. git에 익숙하지 않으신분들은 이번에 한번 배우시는것도 추천합니다. 버전관리툴은 거의 모든 분야에서 지배적인 미래라고 생각합니다. (git 설치와 git init 명령어만 아셔도 충분합니다. 나머진 BAP가 해줍니다.)]]></summary></entry></feed>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[from dalle Devops 데브옵스 핸드북. 오늘 읽은 내용은 비교적 실무에 적용가능한 지침에 대한 내용들이었다. Single one truth에 대한 고집, 복구보단 재구축에 대한 선호. 성능 테스트를 단위테스트에서 수행하는 등 예전에 CTO분께서 강조했던 점들을 조금씩 납득해가는중. 중요한건 당장 코드를 쓰는게 아니라 규율있는 조직의 시스템이었던것. 그런 와중에 뭔가 머리를 띵하고 충격을 줬던게 Trunk기반 개발에 대한 극찬. 당연히 그게 열등해서 git flow가 탄생한것으로 알고 있었는데 반대로 그걸 trunk를 기반으로 병합에 들어갈 에너지를 다 쳐내 더 많은 릴리즈를 지향하는 조직이 있다니. 그리고 그게 더 좋다고 이 책은 증언하고 있다니. 회사의 trunk 배포시스템을 다시 해석해볼 필요가 생겼다.]]></summary></entry></feed>
