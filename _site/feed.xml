@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2023-08-31T23:08:35+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">DevOps와 SE를 위한 리눅스커널 이야기</title><link href="https://hibikequantum.github.io/devlog/DevOps%EC%99%80SE%EB%A5%BC%EC%9C%84%ED%95%9C%EB%A6%AC%EB%88%85%EC%8A%A4%EC%BB%A4%EB%84%90%EC%9D%B4%EC%95%BC%EA%B8%B0" rel="alternate" type="text/html" title="DevOps와 SE를 위한 리눅스커널 이야기" /><published>2023-08-31T21:19:49+09:00</published><updated>2023-08-31T21:19:56+09:00</updated><id>https://hibikequantum.github.io/devlog/DevOps%EC%99%80SE%EB%A5%BC%EC%9C%84%ED%95%9C%EB%A6%AC%EB%88%85%EC%8A%A4%EC%BB%A4%EB%84%90%EC%9D%B4%EC%95%BC%EA%B8%B0</id><content type="html" xml:base="https://hibikequantum.github.io/devlog/DevOps%EC%99%80SE%EB%A5%BC%EC%9C%84%ED%95%9C%EB%A6%AC%EB%88%85%EC%8A%A4%EC%BB%A4%EB%84%90%EC%9D%B4%EC%95%BC%EA%B8%B0"><![CDATA[<p class="caption"><img src="/assets/img/IMG_4195.jpg" alt="" class="align-center" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://hibikequantum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hibikequantum.github.io/" rel="alternate" type="text/html" /><updated>2023-09-08T11:28:14+09:00</updated><id>https://hibikequantum.github.io/feed.xml</id><title type="html">Hibike! Quantum tech blog</title><subtitle>백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요.</subtitle><author><name>강태훈</name></author><entry><title type="html">Design Patterns for Cloud Native Application 클라우드 애플리케이션을 위한 디자인 패턴</title><link href="https://hibikequantum.github.io/devlog/Design-Patterns-for-Cloud-Native-Application" rel="alternate" type="text/html" title="Design Patterns for Cloud Native Application 클라우드 애플리케이션을 위한 디자인 패턴" /><published>2023-09-08T11:26:05+09:00</published><updated>2023-09-08T11:26:10+09:00</updated><id>https://hibikequantum.github.io/devlog/Design-Patterns-for-Cloud-Native-Application</id><content type="html" xml:base="https://hibikequantum.github.io/devlog/Design-Patterns-for-Cloud-Native-Application"><![CDATA[<p class="caption"><img src="/assets/img/IMG-20230908.jpeg" alt="" class="align-center" />
+책표지</p>
+
+<h2 id="책의-핵심">책의 핵심</h2>
+<ol>
+  <li>온프로미스에서 클라우드로 패러다임 전환에 있어서 설계특징 변화</li>
+  <li>통신, 서비스, 데이터의 관점에서 설계포인트 설명 (개념 설명도 들어가 있음)</li>
+  <li>패턴의 주안점과 다른 패턴과의 비교</li>
+  <li>네이티브로 만들지 않는다면 사용 가능한 스택소개(관리형 서비스 포함)</li>
+</ol>
+
+<h2 id="책을-읽기-위한-준비">책을 읽기 위한 준비</h2>
+<ol>
+  <li>IT 서비스의 플로우에 대한 기초적인 이해 (프런트와 백엔드 한 번씩 다 해본 정도면 된다)</li>
+  <li>SaaS 중 뭐든 요금청구서를 받아본 경험</li>
+  <li>서비스를 했을 때 어디가 부하가 걸릴까 어디가 크리티컬 한 지점이 될까 이런 고민과 문제해결의 열망</li>
+</ol>
+
+<h2 id="만족스러운-점">만족스러운 점</h2>
+<p>서비스가 실제론 여러 분야로 나눠져 있다 보니 다 알 수가 없는데, 익숙하지 않은 분야에 대해 전반적으로 이런저런 이슈가 있다는 걸 잘 설명하고 있고 각 챕터마다 문제를 해결하기 위한 패턴(또는 설루션)의 장단점을 부분이 있어서 나중에 참고하면 될 것 같음.</p>
+
+<h2 id="어떻게-응용할-것인가">어떻게 응용할 것인가</h2>
+<p>패턴을 설명할 때 구체적인 스택도 소개한다. 익숙하지 않은 부분이 있다면 하나하나 다 정복하면 소프트웨어 개발에 있어 판단의 소중한 근거가 될 거라 생각함. 특히나 이런 모든 클라우드 구성의 중심에 있는 쿠버네티스는 충격적으로 빠르고 쉽게 목표를 달성하도록 도와준다.
+다만 위험요소가 있다 오버엔지니어링. 모놀리틱에서 마이크로서비스로 간 것만으로도 이미 충분히 기능이 분산됐을 수도 있는데 어떤 패턴들은 패턴을 위해 기능을 더 분산시키기도 한다. 이익 대비 비용이 더 클 수 있다. 데브옵스적 관점에선 문제가 있는 소를 쏴 죽여서 해결할 수 있다면 더 복잡한 패턴보다 낫다.</p>]]></content><author><name>강태훈</name></author><category term="Devlog" /><category term="Devops," /><category term="Middleware," /><category term="Backend" /><summary type="html"><![CDATA[책표지]]></summary></entry><entry><title type="html">DevOps와 SE를 위한 리눅스커널 이야기</title><link href="https://hibikequantum.github.io/devlog/DevOps%EC%99%80SE%EB%A5%BC%EC%9C%84%ED%95%9C%EB%A6%AC%EB%88%85%EC%8A%A4%EC%BB%A4%EB%84%90%EC%9D%B4%EC%95%BC%EA%B8%B0" rel="alternate" type="text/html" title="DevOps와 SE를 위한 리눅스커널 이야기" /><published>2023-08-31T21:19:49+09:00</published><updated>2023-08-31T21:19:56+09:00</updated><id>https://hibikequantum.github.io/devlog/DevOps%EC%99%80SE%EB%A5%BC%EC%9C%84%ED%95%9C%EB%A6%AC%EB%88%85%EC%8A%A4%EC%BB%A4%EB%84%90%EC%9D%B4%EC%95%BC%EA%B8%B0</id><content type="html" xml:base="https://hibikequantum.github.io/devlog/DevOps%EC%99%80SE%EB%A5%BC%EC%9C%84%ED%95%9C%EB%A6%AC%EB%88%85%EC%8A%A4%EC%BB%A4%EB%84%90%EC%9D%B4%EC%95%BC%EA%B8%B0"><![CDATA[<p class="caption"><img src="/assets/img/IMG_4195.jpg" alt="" class="align-center" />
 책표지</p>
 
 <h2 id="책의-핵심">책의 핵심</h2>
@@ -230,24 +253,4 @@ from dalle</p>
 나쁜 습관 없애기 Phase 3 - 일차</li>
   <li>생체배터리: 40% -&gt; 20%</li>
   <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/7c6cf26a44d7e7135086906dc5a9ff8295925ed2">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[거대한 전환, Solasta]]></summary></entry><entry><title type="html">2022.09.03 TIL &amp;amp; Diary</title><link href="https://hibikequantum.github.io/til/P2-TIL-67" rel="alternate" type="text/html" title="2022.09.03 TIL &amp;amp; Diary" /><published>2022-09-03T23:56:15+09:00</published><updated>2022-09-03T23:56:18+09:00</updated><id>https://hibikequantum.github.io/til/P2-TIL-67</id><content type="html" xml:base="https://hibikequantum.github.io/til/P2-TIL-67"><![CDATA[<p class="caption"><img src="/assets/img/DALL·E 2022-08-28 21.56.03 - excess rome people, Botticelli syle. .png" alt="!!!" class="simg" />
-from dalle</p>
-<h2 id="devops">Devops</h2>
-<p>데브옵스 핸드북. 오늘 읽은 내용은 비교적 실무에 적용가능한 지침에 대한 내용들이었다. Single one truth에 대한 고집, 복구보단 재구축에 대한 선호. 성능 테스트를 단위테스트에서 수행하는 등 예전에 CTO분께서 강조했던 점들을 조금씩 납득해가는중. 중요한건 당장 코드를 쓰는게 아니라 규율있는 조직의 시스템이었던것.<br />
-그런 와중에 뭔가 머리를 띵하고 충격을 줬던게 Trunk기반 개발에 대한 극찬. 당연히 그게 열등해서 git flow가 탄생한것으로 알고 있었는데 반대로 그걸 trunk를 기반으로 병합에 들어갈 에너지를 다 쳐내 더 많은 릴리즈를 지향하는 조직이 있다니. 그리고 그게 더 좋다고 이 책은 증언하고 있다니. 회사의 trunk 배포시스템을 다시 해석해볼 필요가 생겼다.</p>
-
-<h2 id="philosophy">Philosophy</h2>
-<p>거대한 전환, 오늘은 기계도입이 사회의 속성을 결정 지었다는 저자의 주자으로 시작. 4장에서 그 주장을 증명하기 전에 시장경제라는 것이 절대로 인류의 보편적 욕망과 이해가 아니었음을 설명하는 내용을 읽었다. 그 중에 쿨라 무역에 대한 이야기를 했는데 거기 대한 내 잡생각은 트위터에 <a href="https://twitter.com/Hibike_Quantum/status/1566073825590095873">링크</a></p>
-
-<h2 id="diary">diary</h2>
-<p>주말 아침은 청소도 하고 병원도 가고 다 마무리하고 집에와서 씻고 책을 보면 그렇게 좋을 수가 없는데 오늘은 점뺏다고 세수도 못하고 찝찝하게 책만 봤다. 대신 물에 젖은 수건으로 살살 세수를 했는데. 뭔가 5살인가.. 천식 때문에 고생하던 시절에 병원에서 어머니가 해준것 같기도해서 아련하다.</p>
-
-<h2 id="life">Life</h2>
-<ul>
-  <li>움직인 시간: 1H</li>
-  <li>습관 일기:<br />
-나쁜 습관 없애기 Phase 2 - 일차<br />
-뭉갠시간 3시간. 이제 줄이면 되!</li>
-  <li>생체배터리: 60% -&gt; 25%</li>
-  <li><a href="https://github.com/HibikeQuantum/PlayGround/commit/3d3b3a77c1d4fa0ebf7f57d391b29dc9d79db1b3">🔗<strong>일일메모장 커밋</strong></a></li>
-</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[from dalle Devops 데브옵스 핸드북. 오늘 읽은 내용은 비교적 실무에 적용가능한 지침에 대한 내용들이었다. Single one truth에 대한 고집, 복구보단 재구축에 대한 선호. 성능 테스트를 단위테스트에서 수행하는 등 예전에 CTO분께서 강조했던 점들을 조금씩 납득해가는중. 중요한건 당장 코드를 쓰는게 아니라 규율있는 조직의 시스템이었던것. 그런 와중에 뭔가 머리를 띵하고 충격을 줬던게 Trunk기반 개발에 대한 극찬. 당연히 그게 열등해서 git flow가 탄생한것으로 알고 있었는데 반대로 그걸 trunk를 기반으로 병합에 들어갈 에너지를 다 쳐내 더 많은 릴리즈를 지향하는 조직이 있다니. 그리고 그게 더 좋다고 이 책은 증언하고 있다니. 회사의 trunk 배포시스템을 다시 해석해볼 필요가 생겼다.]]></summary></entry></feed>
+</ul>]]></content><author><name>강태훈</name></author><category term="TIL" /><category term="TIL,DAIRY" /><summary type="html"><![CDATA[거대한 전환, Solasta]]></summary></entry></feed>
