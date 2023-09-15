@@ -20,7 +20,7 @@ title                    : "Hibike! Quantum tech blog"
 title_separator          : "|"
 subtitle                 : # "나는 양자처럼 살기로 했다." # site tagline that appears below site title in masthead
 name                     : "Kang Taehun"
-description              : "백엔드 개발자였다가 지금은 데브옵스. 장인의 삶을 희망. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요."
+description              : "백엔드개발, 지금은 데브옵스. 엔지니어링이든 사업이든 사물의 가치를 알아보는 멋진 사람이 되고 싶어요."
 url                      : https://hibikequantum.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hibikequantum.github.io"
